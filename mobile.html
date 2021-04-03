@@ -3,10 +3,13 @@
 <head>
 <title>TermiNateVader</title>
 <link rel="stylesheet" href="mobile.css">
- var isComputer = window.screenX != 0 && !isTouchDevice() ? true : false;
- if(isComputer){
-        location.href = "https://terminatevader.github.io/";
+ var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent
+ if(isMobile){
+        Alert("Go to this website on a computer to get the full experience");
       }
+ else{
+  
+ }
 </script>
 </head>
 <body>
@@ -35,6 +38,5 @@
   <h1> Thank you Patrons! </h1>
   <h1> Amy Good </h1>
   
-  <p> Go to this website on a computer to get the full experience </p>
 </body>
 </html> 
