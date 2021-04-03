@@ -3,10 +3,13 @@
 <head>
 <title>TermiNateVader</title>
 <link rel="stylesheet" href="mobile.css">
-var isComputer = !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
- if(isComputer){
-         document.location = "index.html";
+var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+ if(isMobile){
+        
       }
+ else{
+   document.location = "index.html";
+ }
 </script>
 </head>
 <body>
