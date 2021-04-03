@@ -2,9 +2,16 @@
 <html>
 <head>
 <title>TermiNateVader</title>
+ <script language="javascript"> 
+  if(!window.location.search.substring(1) == "full=true") {  
+    if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/Android/i)) { // detect mobile browser
+      window.location.replace("http://m.terminatevader.github.io");  
+    }
+  }
+</script>
 </head>
 <body>
- <script src="index.js"></script>
+
 
 <p>Thank you Patrons!</p>
 <p>Amy Good</p>
