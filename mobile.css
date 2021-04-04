@@ -1,15 +1,4 @@
-a {font-size: 50px}
-body {
-  background-color: black;
-}
-h1 {
-  color: white;
-  text-align: center;
-}
-p{
-  color: white;
-  text-align: center;
-}
-a{
-  text-alight: center;
-}
+a{font-size: 50px}
+body{background-color: black;}
+h1{color: white;text-align: center;}
+p{color: white;text-align: center;}
