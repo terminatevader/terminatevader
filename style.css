@@ -2,7 +2,8 @@ a{font-size: 50px}
 body{background-color: black;}
 h1{color: white;text-align: center; font-size: 50px}
 p{color: white;text-align: center; font-size: 25px}
-a:link { text-decoration: none;}
-a:visited { text-decoration: none;}
-a:hover { text-decoration: none;}
-a:active { text-decoration: none;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+iframe {margin-left: auto; margin-right: auto;}  
