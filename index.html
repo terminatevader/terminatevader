@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+    <!-- <title>Warning Alert Notification | CodingNepal</title> -->
+    <link rel="stylesheet" href="notifications.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <title>TermiNateVader</title>
 <link rel="stylesheet" href="style.css">
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -25,5 +30,28 @@
   <h1> Buy Some Merch </h1>
   <a href="https://store.terminatevader.com/"><img src="buysomemerch.png" class="center"></a>
   <p>I decided to create some merch. If you become a Patron you get a discount. </p>
+    <button>New Blog Post</button>
+    <div class="alert hide">
+        <span class="fas fa-exclamation-circle"></span>
+        <span class="msg">https://www.terminatevader.com/</span>
+        <div class="close-btn">
+          <span class="fas fa-times"></span>
+        </div>
+</div>
+<script>
+      $('button').click(function(){
+        $('.alert').addClass("show");
+        $('.alert').removeClass("hide");
+        $('.alert').addClass("showAlert");
+        setTimeout(function(){
+          $('.alert').removeClass("show");
+          $('.alert').addClass("hide");
+        },5000);
+      });
+      $('.close-btn').click(function(){
+        $('.alert').removeClass("show");
+        $('.alert').addClass("hide");
+      });
+    </script>
 </body>
 </html>
