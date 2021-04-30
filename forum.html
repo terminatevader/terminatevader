@@ -1,20 +1,55 @@
-<?php
-$action = $_GET["action"];
-$myText = $_POST["mytext"];
-
-if($action = "save") {
-  $targetFolder = "/path/to/folder";
-  file_put_contents($targetFolder."forum.txt", $myText);
-}
-?>   
+<!DOCTYPE html>
 <html>
 <head>
- <title>myform</title>
+    <title>Save form Data in a Text File using JavaScript</title>
 </head>
 <body>
-  <form action="?action=save" name="myform" method="post">
-    <input type=text name="mytext">
-    <input type="submit" value="save">
-  </form>
+    <div>
+        
+        <!--Add few elements to the form-->
+
+        <div>
+            <input type="text" id="Comment" placeholder="Name" />
+        </div>
+        <div>
+            <textarea id="comment" name="comment" placeholder="Comment"></textarea>
+        </div>
+
+        <!--Add to button to save the data.-->
+        <div>
+            <input type="button" id="bt" value="Save data to file" onclick="saveFile()" />
+        </div>
+    </div>
 </body>
+<script>
+    let saveFile = ("forum.txt") => {
+    	
+        // Get the data from each element on the form.
+    	const name = document.getElementById('name');
+        const comment = document.getElementById('comment');
+        
+        // This variable stores all the data.
+        let data = 
+            name.value + ' \r\n ' + 
+            comment.value + ' \r\n ' + 
+        
+        // Convert the text to BLOB.
+        const textToBLOB = new Blob([data], { type: 'text/plain' });
+        const sFileName = 'formData.txt';	   // The file to save the data.
+
+        let newLink = document.createElement("a");
+        newLink.download = sFileName;
+
+        if (window.webkitURL != null) {
+            newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+        }
+        else {
+            newLink.href = window.URL.createObjectURL(textToBLOB);
+            newLink.style.display = "none";
+            document.body.appendChild(newLink);
+        }
+
+        newLink.click(); 
+    }
+</script>
 </html>
