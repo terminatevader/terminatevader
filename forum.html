@@ -48,12 +48,12 @@
     	
         // Get the data from each element on the form.
     	const name = document.getElementById('name');
-        const commnet = document.getElementById('comment');
+        const comment = document.getElementById('comment');
         
         // This variable stores all the data.
         let data = 
-            '\r'name.value + ' \r\n ' + 
-            comment.value;
+            '\r Name: ' + name.value + ' \r\n ' + 
+            'Comment: ' + comment.value;
         
         // Convert the text to BLOB.
         const textToBLOB = new Blob([data], { type: 'text/plain' });
@@ -74,4 +74,5 @@
         newLink.click(); 
     }
 </script>
+</html>
 </html>
