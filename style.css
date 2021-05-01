@@ -13,3 +13,7 @@ a:active {text-decoration: none;}
   margin-right: auto;
   width: 50%;
 } 
+.fullscreen{
+  min-width: 100%;
+  min-height: 100%;
+}
