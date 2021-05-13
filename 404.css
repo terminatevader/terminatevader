@@ -8,16 +8,18 @@ a:active {text-decoration: none;}
 .topnav {
   background-color: rgb(50,12,82);
   overflow: hidden;
+  top: 0;
+  width: 100%
 }
 
 .topnav a {
   float: left;
-  padding: 10px 10px;
+  padding: 50px 50px;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  font-size: 15px;
-  top: 0;
+  font-size: 50px;
+  display: block
 }
 
 .bottomnav{
@@ -31,5 +33,5 @@ a:active {text-decoration: none;}
 .bottomnav a{
    float: left;
   display: block;
-  padding: 0px 10px;
+  padding: 0px 50px;
 }
