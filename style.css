@@ -34,9 +34,13 @@ a:active {text-decoration: none;}
 .bottomnav{
   background-color: rgb(50,12,82);
   overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .bottomnav a{
-  float: left;
+   float: left;
+  display: block;
   padding: 0px 10px;
 }
