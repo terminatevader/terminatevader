@@ -15,7 +15,7 @@ a:active {text-decoration: none;}
 
 .topnav a {
   float: left;
-  padding: 0px 25px;
+  padding: 0px 10px;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
@@ -34,5 +34,5 @@ a:active {text-decoration: none;}
 .bottomnav a{
    float: left;
   display: block;
-  padding: 0px 25px;
+  padding: 0px 10px;
 }
