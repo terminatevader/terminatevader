@@ -32,12 +32,12 @@ a:active {text-decoration: none;}
 }
 
 
-.topnav1{
+.bottomnav{
   background-color: rgb(50,12,82);
   overflow: hidden;
 }
 
-.topnav1 a{
+.bottomnav a{
   float: right;
-  padding: 12px 14px;
+  padding: 0px 14px;
 }
