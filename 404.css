@@ -10,11 +10,12 @@ a:active {text-decoration: none;}
   overflow: hidden;
   top: 0;
   width: 100%
+   position: fixed;
 }
 
 .topnav a {
   float: left;
-  padding: 0px 50px;
+  padding: 0px 25px;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
@@ -33,5 +34,5 @@ a:active {text-decoration: none;}
 .bottomnav a{
    float: left;
   display: block;
-  padding: 0px 50px;
+  padding: 0px 25px;
 }
