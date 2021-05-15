@@ -49,3 +49,7 @@ a:active {text-decoration: none;}
   display: block;
   padding: 0px 10px;
 }
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
