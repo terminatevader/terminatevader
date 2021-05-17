@@ -34,14 +34,13 @@
    <script>
     var alerted = localStorage.getItem('alerted') || '';
     if (alerted != 'yes') {
-     alert("My alert.");
-     localStorage.setItem('alerted','yes');
      if (confirm("Go Check Out My Store")==true) {
   location.href = "http://store.terminatevader.com/";
 } 
     else{
      alert("Understandable, Have A Great Day")
     }
+      localStorage.setItem('alerted','yes');
     }
  </script>
 </body>
