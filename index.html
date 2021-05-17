@@ -32,11 +32,16 @@
  <a href="https://www.tiktok.com/@terminatevader"><img src="iconfinder_Social-media_Tiktok_4362958.png" width="25" height="25"></a>
   </div>
    <script>
- if (confirm("Go Check Out My Store")==true) {
+    var alerted = localStorage.getItem('alerted') || '';
+    if (alerted != 'yes') {
+     alert("My alert.");
+     localStorage.setItem('alerted','yes');
+     if (confirm("Go Check Out My Store")==true) {
   location.href = "http://store.terminatevader.com/";
 } 
     else{
      alert("Understandable, Have A Great Day")
+    }
     }
  </script>
 </body>
