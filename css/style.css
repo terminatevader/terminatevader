@@ -58,7 +58,6 @@ a:active {text-decoration: none;}
   background-color: rgb(255,255,255);
   overflow: hidden;
   top: 0;
-  width: 100%;
   position: fixed;
 }
 .topnav1 a {
