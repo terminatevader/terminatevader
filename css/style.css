@@ -54,4 +54,13 @@ a:active {text-decoration: none;}
   color: white;
 }
 
-
+.topnav1 {
+  background-color: rgb(255,255,255);
+  overflow: hidden;
+  top: 0;
+  position: fixed;
+}
+.topnav1 a {
+  float: left;
+  padding: 0px 10px;
+}
