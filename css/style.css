@@ -50,7 +50,7 @@ a:active {text-decoration: none;}
   padding: 0px 10px;
 }
 .topnav a.active {
-  background-color: white;
+  background-color: rgb(206, 236, 180);
   color: rgb(50,12,82);;
 }
 
