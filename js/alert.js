@@ -1,4 +1,5 @@
- var twentyone = localStorage.getItem('twentyone') || '';
+ function alert(){
+var twentyone = localStorage.getItem('twentyone') || '';
     if (twentyone != 'yes') {
      if (confirm("New Blog Entry")==true) {
   location.href = "https://www.terminatevader.com/blog";
@@ -9,3 +10,4 @@
       localStorage.setItem('twentyone','yes');
       localStorage.removeItem("twenty");
     }
+ }
