@@ -1,4 +1,4 @@
- function alert(){
+
 var twentyone = localStorage.getItem('twentyone') || '';
     if (twentyone != 'yes') {
      if (confirm("New Blog Entry")==true) {
@@ -10,4 +10,3 @@ var twentyone = localStorage.getItem('twentyone') || '';
       localStorage.setItem('twentyone','yes');
       localStorage.removeItem("twenty");
     }
- }
