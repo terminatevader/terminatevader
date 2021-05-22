@@ -1,7 +1,7 @@
 a{font-size: 50px}
 body{background-color: rgb(50,12,82);padding-top: 50px; padding-bottom: 50px;}
-h1{color: white;text-align: center; font-size: 50px}
-p{color: white;text-align: center; font-size: 25px}
+h1{color: rgb(206, 236, 180);text-align: center; font-size: 50px}
+p{color: rgb(206, 236, 180);text-align: center; font-size: 25px}
 a:link {text-decoration: none;}
 a:visited {text-decoration: none;}
 a:hover {text-decoration: none;}
@@ -37,7 +37,7 @@ a:active {text-decoration: none;}
 
 
 .bottomnav{
-  background-color: rgb(255,255,255);
+  background-color: rgb(206, 236, 180);
   overflow: hidden;
   position: fixed;
   bottom: 0;
