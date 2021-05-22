@@ -14,9 +14,9 @@ a:active {text-decoration: none;}
 }
 
 .topnav a {
-  float: left;
+  float: right;
   padding: 0px 10px;
-  color: black;
+  color: rgb(206, 236, 180);
   text-align: center;
   text-decoration: none;
   font-size: 25px;
