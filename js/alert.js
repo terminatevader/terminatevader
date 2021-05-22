@@ -7,5 +7,5 @@
      alert("Understandable, Have A Great Day")
     }
       localStorage.setItem('twentyone','yes');
-      localStorage.removeItem("twenty);
+      localStorage.removeItem("twenty");
     }
