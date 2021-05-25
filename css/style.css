@@ -45,6 +45,7 @@ a:active {text-decoration: none;}
 }
 
 .bottomnav a{
+  color: white;
    float: left;
   display: block;
   padding: 0px 10px;
