@@ -1,4 +1,4 @@
-h1{color: rgb(206, 236, 180);text-align: center; font-size: 300px;}
+h1{color: white;text-align: center; font-size: 300px;}
 body{background-color: rgb(50,12,82);}
 a{font-size: 50px}
 a:link {text-decoration: none;}
@@ -6,7 +6,7 @@ a:visited {text-decoration: none;}
 a:hover {text-decoration: none;}
 a:active {text-decoration: none;}
 .topnav {
-  background-color: rgb(206, 236, 180);
+  background-color: rgb(50,12,82);
   overflow: hidden;
   top: 0;
   width: 100%;
@@ -16,7 +16,7 @@ a:active {text-decoration: none;}
 .topnav a {
   float: right;
   padding: 0px 10px;
-  color: rgb(206, 236, 180);
+  color: qhite;
   text-align: center;
   text-decoration: none;
   font-size: 25px;
@@ -25,7 +25,7 @@ a:active {text-decoration: none;}
 
 
 .bottomnav{
-  background-color: rgb(206, 236, 180);
+  background-color: rgb(50,12,82);
   overflow: hidden;
   position: fixed;
   bottom: 0;
@@ -38,7 +38,7 @@ a:active {text-decoration: none;}
   padding: 0px 10px;
 }
 .topnav a.active {
-  background-color: rgb(206, 236, 180);
+  background-color: white;
   color: rgb(50,12,82);
 }
 
