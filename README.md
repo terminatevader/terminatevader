@@ -3,7 +3,7 @@ Shout Out
 https://docs.google.com/forms/d/e/1FAIpQLSfeVwONmUYtoQ4w0gOtdPwdtivaVZlgZur9vBni8orXNiLwrA/viewform?usp=sf_link
 
 Patreon
-https://www.patreon.com/TermiNateVader 
+#https://www.patreon.com/TermiNateVader 
 
 Facebook
 https://www.facebook.com/terminatevader 
