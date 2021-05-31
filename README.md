@@ -1,2 +1,2 @@
-Happy Memorial Day
-"images/memorialday.jpg"
+<h1>Happy Memorial Day</h1>
+  <a href=><img src="images/memorialday.jpg" class="center"></a>
