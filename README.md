@@ -1,37 +1,4 @@
 # terminatevader.github.io
-Shout Out
-https://docs.google.com/forms/d/e/1FAIpQLSfeVwONmUYtoQ4w0gOtdPwdtivaVZlgZur9vBni8orXNiLwrA/viewform?usp=sf_link
-
-Patreon
-https://www.patreon.com/TermiNateVader 
-
-Facebook
-https://www.facebook.com/terminatevader 
-
-Instagram 
-https://www.instagram.com/terminatevader
-
-Twitter
-https://www.twitter.com/terminatevader
-
-GitHub 
-https://www.github.com/terminatevader
-
-Discord 
-https://discord.gg/DVNUcqe
-
-Merch
-https://store.terminatevader.com/
-
-YouTube
-https://www.youtube.com/channel/UCCMv0CD6mDG49d04chkxtYg
-
-Website
-https://www.terminatevader.com/
-
-TikTok
-https://www.tiktok.com/@terminatevader
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,11 +15,8 @@ https://www.tiktok.com/@terminatevader
    <a class="active" href="https://www.terminatevader.com/">Home</a>
   </div>
   <a href="https://www.terminatevader.com/"><img src="images/TNV.jpg" width="29" height="29" class="topnav1"></a>
-  <h1>You Just Got Rickrolled</h1>
-  <!--<a href=><img src="images/Eric Tiu.png" class="center"></a>-->
-   <video controls autoplay class="center">
-  <source src="videos/Blank[1].mp4" type="video/mp4">
-</video> 
+  <h1>Happy Memorial Day</h1>
+  <a href=><img src="images/memorialday.jpg" class="center"></a>
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
   new Crate({
     server: '755475035342504029', // TNV Community
@@ -68,5 +32,6 @@ https://www.tiktok.com/@terminatevader
   
   </div>
    <script src="js/alert.js"> </script>
+ <script src="js/random.js"></script>
 </body>
 </html>
