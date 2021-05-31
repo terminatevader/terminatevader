@@ -1,4 +1,3 @@
-# terminatevader.github.io
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,6 +16,7 @@
   <a href="https://www.terminatevader.com/"><img src="images/TNV.jpg" width="29" height="29" class="topnav1"></a>
   <h1>Happy Memorial Day</h1>
   <a href=><img src="images/memorialday.jpg" class="center"></a>
+</video> 
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
   new Crate({
     server: '755475035342504029', // TNV Community
