@@ -1,7 +1,7 @@
  var randomtitle = Math.random() // pick random item
   if (randomtitle = 0.9)
   {
-    title = "TermiNateVader
+    title = "TermiNateVader"
   }
 else if (randomtitle = 0.1)
 {
