@@ -1,9 +1,9 @@
- var randomtitle = Math.random() // pick random item
-  if (randomtitle = 0.9)
+ randomtitle = Math.floor(Math.random() * 101);
+  if ((randomtitle != 100))
   {
     title = "TermiNateVader"
   }
-else if (randomtitle = 0.1)
+else if ((randomtitle = 100))
 {
   title = "TermiNaterVader"
 }
