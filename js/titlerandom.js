@@ -1,3 +1,10 @@
-var titles = ['TermiNaterVader' 'TermiNateVader' 'TermiNateVader' 'TermiNateVader' 'TermiNateVader' 'TermiNateVader' 'TermiNateVader' 'TermiNateVader' 'TermiNateVader']
-  var title = titles[Math.floor(Math.random() * titles.length)] // pick random item
+ var randomtitle = Math.random() // pick random item
+  if (randomtitle = 0.9)
+  {
+    title = "TermiNateVader
+  }
+else if (randomtitle = 0.1)
+{
+  title = "TermiNaterVader"
+}
   document.title = title
