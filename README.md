@@ -1,2 +1,2 @@
-<h1>Happy Memorial Day</h1>
-  <a href=><img src="images/memorialday.jpg" class="center"></a>
+<h1>Go Check Out Eric Tiu's Website</h1>
+  <a href="https://erictiu.com/"><img src="images/Eric Tiu.png" class="center"></a>
