@@ -1,10 +1,10 @@
  randomtitle = Math.floor(Math.random() * 101);
-  if ((randomtitle != 100))
+  if ((randomtitle = 100))
   {
-    title = "TermiNateVader"
+    title = "TermiNateVader";
   }
-else if ((randomtitle = 100))
+else if ((randomtitle = 1))
 {
-  title = "TermiNaterVader"
+  title = "TermiNaterVader";
 }
-  document.title = title
+  document.title = title;
