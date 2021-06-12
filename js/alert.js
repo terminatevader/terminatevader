@@ -1,5 +1,5 @@
 var eleven = localStorage.getItem('eleven') || '';
-    if (eleven != 'eleven') {
+    if (eleven != 'yes') {
      if (confirm("New Blog Entry")==true) {
   location.href = "https://www.terminatevader.com/blog";
 } 
