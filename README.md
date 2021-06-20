@@ -1,2 +1,2 @@
-<h1>Become A Patron</h1>
- <a href="https://www.patreon.com/TermiNateVader"><img src="images/becomepatron.png" class="center" target="_blank"></a>
+<h1>Happy Father's Day</h1>
+ <a href=""><img src="images/fathersday.jpg" class="center" target="_blank"></a>
