@@ -1,2 +1,2 @@
-<h1>Happy Father's Day</h1>
- <a href=""><img src="images/fathersday.jpg" class="center" target="_blank"></a>
+<h1>Go Check Out Eric Tiu's Website</h1>
+ <a href="https://Erictiu.com/"><img src="images/Eric Tiu.png" class="center" target="_blank"></a>
