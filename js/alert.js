@@ -1,11 +1,11 @@
-var nineteen = localStorage.getItem('nineeen') || '';
-    if (nineeen != 'yes') {
+var twenty = localStorage.getItem('twenty') || '';
+    if (twenty != 'yes') {
      if (confirm("New Blog Entry")==true) {
   location.href = "https://www.terminatevader.com/blog";
 } 
     else{
      alert("Understandable, Have A Great Day")
     }
-      localStorage.setItem('nineteen,'yes');
-      localStorage.removeItem("eighteen");
+      localStorage.setItem('twenty,'yes');
+      localStorage.removeItem("nineteen");
     }
