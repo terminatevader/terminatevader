@@ -39,8 +39,21 @@ a:active {text-decoration: none;}
   bottom: 0;
   width: 100%;
 }
+.bottomnavmobile{
+  background-color: rgb(50,12,82);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
 .bottomnav a{
+  color: white;
+   float: left;
+  display: block;
+  padding: 0px 10px;
+}
+.bottomnavmobile a{
   color: white;
    float: left;
   display: block;
@@ -67,13 +80,19 @@ a:active {text-decoration: none;}
       display: none;
    }
    .topnav1{
-      display:none;
+      float:none;
    }
    .topnav a{
       display:none;
    }
    .topnav1 a{
       display:none;
+   }
+      .bottomnav{
+      display:none; 
+   }
+   .bottomnav a{
+      display: none;
    }
 }
 .dropdown {
@@ -142,10 +161,10 @@ font-size: 50px;
    .dropbtn{
       display: none;
    }
-}
-.center{
-   display:block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 50%;
+     .bottomnavmobile{
+      display:none;
+   }
+   .bottomnavmobile a{
+      display:none;
+   }
 }
