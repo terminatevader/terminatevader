@@ -99,7 +99,6 @@ a:active {text-decoration: none;}
    }
 }
 .dropdown {
-   float: right
   position: fixed;
    top:0;
 }
@@ -117,7 +116,7 @@ font-size: 50px;
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+a:hover, .dropdown:hover .dropbtn {
   background-color: white;
    color: black;
 }
