@@ -44,6 +44,7 @@ a:active {text-decoration: none;}
   position: fixed;
   bottom: 0;
   width: 100%;
+   padding-top: 10px;
 }
 .bottomnavmobile{
   background-color: rgb(50,12,82);
@@ -51,6 +52,7 @@ a:active {text-decoration: none;}
   position: fixed;
   bottom: 0;
   width: 100%;
+   padding-top: 10px;
 }
 
 .bottomnav a{
