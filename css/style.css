@@ -67,7 +67,7 @@ a:active {text-decoration: none;}
       display: none;
    }
    .topnav1{
-      float:none;
+      display:none;
    }
    .topnav a{
       display:none;
