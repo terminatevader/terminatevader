@@ -3,16 +3,16 @@ if(visited != 'yes'){
     localStorage.setItem('visited','yes');
     localStorage.setItem('c','yes');
 }
-var nine = localStorage.getItem('nine') || '';
-    if (nine != 'yes') {
+var ten = localStorage.getItem('ten') || '';
+    if (ten != 'yes') {
      if (confirm("There's a new blog entry!")==true) {
   location.href = "http://www.terminatevader.com/blog";
 } 
     else{
       alert("Understandable, have a great day!");
     }
-      localStorage.setItem('nine','yes');
-      localStorage.removeItem("seventeen");
+      localStorage.setItem('ten','yes');
+      localStorage.removeItem("nine");
 }
 
 var c = localStorage.getItem('c') || '';
