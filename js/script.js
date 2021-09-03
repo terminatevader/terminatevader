@@ -15,14 +15,14 @@ var five = localStorage.getItem('five') || '';
       localStorage.removeItem("four");
 }
 
-var c = localStorage.getItem('c') || '';
-    if ((c != 'yes')&&(visited == 'yes')) {
+var d = localStorage.getItem('d') || '';
+    if ((d != 'yes')&&(visited == 'yes')) {
      if (confirm("There's a new update!")==true) {
         location.href="https://github.com/terminatevader/terminatevader.github.io/blob/main/patchnotes.txt";
 } 
         else{
      alert("Understandable, have a great day!");
     }
-      localStorage.setItem('c','yes');
-      localStorage.removeItem("b");
+      localStorage.setItem('d','yes');
+      localStorage.removeItem("c");
 }
