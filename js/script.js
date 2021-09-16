@@ -4,16 +4,16 @@ if(visited != 'yes'){
     localStorage.setItem('d','yes');
     local.setItem('eight','yes')
 }
-var eight = localStorage.getItem('eight') || '';
-    if ((eight != 'yes') &&(visited=='yes')){
+var nine = localStorage.getItem('nine') || '';
+    if ((nine != 'yes') &&(visited=='yes')){
      if (confirm("There's a new blog entry!")==true) {
   location.href = "http://beta.terminatevader.com/blog";
 } 
     else{
       alert("Understandable, have a great day!");
     }
-      localStorage.setItem('eight','yes');
-      localStorage.removeItem("seven");
+      localStorage.setItem('nine','yes');
+      localStorage.removeItem("eight");
 }
 
 var e = localStorage.getItem('e') || '';
