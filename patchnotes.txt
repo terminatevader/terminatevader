@@ -17,3 +17,6 @@
 
 9/11/2021
 -removed map
+
+9/25/2021
+-added link preview
