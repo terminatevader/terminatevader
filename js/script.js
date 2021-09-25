@@ -1,8 +1,8 @@
 var visited = localStorage.getItem('visited') || '';
 if(visited != 'yes'){
     localStorage.setItem('visited','yes');
-    localStorage.setItem('d','yes');
-    local.setItem('eight','yes')
+    localStorage.setItem('f','yes');
+    local.setItem('one','yes')
 }
 var one = localStorage.getItem('one') || '';
     if ((one != 'yes') &&(visited=='yes')){
@@ -16,14 +16,14 @@ var one = localStorage.getItem('one') || '';
       localStorage.removeItem("ten");
 }
 
-var e = localStorage.getItem('e') || '';
-    if ((e != 'yes')&&(visited == 'yes')) {
+var f = localStorage.getItem('f') || '';
+    if ((f != 'yes')&&(visited == 'yes')) {
      if (confirm("There's a new update!")==true) {
         location.href="https://github.com/terminatevader/terminatevader.github.io/blob/main/patchnotes.txt";
 } 
         else{
      alert("Understandable, have a great day!");
     }
-      localStorage.setItem('e','yes');
-      localStorage.removeItem("d");
+      localStorage.setItem('f','yes');
+      localStorage.removeItem("e");
 }
