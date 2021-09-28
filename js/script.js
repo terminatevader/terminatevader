@@ -19,7 +19,7 @@ var one = localStorage.getItem('one') || '';
 var f = localStorage.getItem('f') || '';
     if ((f != 'yes')&&(visited == 'yes')) {
      if (confirm("There's a new update!")==true) {
-        location.href="https://github.com/terminatevader/terminatevader.github.io/blob/main/patchnotes.txt";
+        location.href="https://www.terminatevader.com/patchnotes.txt";
 } 
         else{
      alert("Understandable, have a great day!");
