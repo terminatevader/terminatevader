@@ -7,7 +7,7 @@ if(visited != 'yes'){
 var three = localStorage.getItem('three') || '';
     if ((three != 'yes') &&(visited=='yes')){
      if (confirm("There's a new blog entry!")==true) {
-  location.href = "http://beta.terminatevader.com/blog";
+  location.href = "https://www.terminatevader.com/blog";
 } 
     else{
       alert("Understandable, have a great day!");
