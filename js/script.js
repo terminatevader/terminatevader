@@ -2,7 +2,7 @@ var visited = localStorage.getItem('visited') || '';
 if(visited != 'yes'){
     localStorage.setItem('visited','yes');
     localStorage.setItem('f','yes');
-    local.setItem('four','yes')
+    localStorage.setItem('four','yes')
 }
 var four = localStorage.getItem('four') || '';
     if ((four != 'yes') &&(visited=='yes')){
