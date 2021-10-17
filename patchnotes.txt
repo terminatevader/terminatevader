@@ -20,3 +20,6 @@
 
 9/25/2021
 -added link preview
+
+10/17/2021
+-made changes to navigation
