@@ -1,7 +1,7 @@
 var visited = localStorage.getItem('visited') || '';
 if(visited != 'yes'){
     localStorage.setItem('visited','yes');
-    localStorage.setItem('g','yes');
+    localStorage.setItem('h','yes');
     localStorage.setItem('five','yes')
 }
 var five = localStorage.getItem('five') || '';
@@ -16,14 +16,14 @@ var five = localStorage.getItem('five') || '';
       localStorage.removeItem("four");
 }
 
-var g = localStorage.getItem('g') || '';
-    if ((g != 'yes')&&(visited == 'yes')) {
+var h = localStorage.getItem('h') || '';
+    if ((h != 'yes')&&(visited == 'yes')) {
      if (confirm("There's a new update!")==true) {
         location.href="https://www.terminatevader.com/patchnotes.txt";
 } 
         else{
      alert("Understandable, have a great day!");
     }
-      localStorage.setItem('g','yes');
-      localStorage.removeItem("f");
+      localStorage.setItem('h','yes');
+      localStorage.removeItem("g");
 }
