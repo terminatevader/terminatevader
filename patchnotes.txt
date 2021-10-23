@@ -23,3 +23,7 @@
 
 10/17/2021
 -made changes to navigation
+
+10/23/2021
+-replaced Discord button
+-made changes to navigation
