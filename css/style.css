@@ -12,12 +12,7 @@ a:active {text-decoration: none;}
   margin-right: auto;
   width: 50%;
 }
-.news{
-   color: #808080;
-    background-color: rgb(50,12,82);
-    font-size: 20px;
-    position: fixed;
-}
+
 
 .topnav {
   background-color: rgb(50,12,82);
@@ -44,13 +39,7 @@ a:active {text-decoration: none;}
   position: fixed;
   bottom: 0;
   width: 100%;
-}
-.bottomnavmobile{
-  background-color: rgb(50,12,82);
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+
 }
 
 .bottomnav a{
@@ -58,14 +47,10 @@ a:active {text-decoration: none;}
    float: left;
   display: block;
   padding: 0px 10px;
+   
 }
 
-.bottomnavmobile a{
-  color: #808080;
-   float: left;
-  display: block;
-  padding: 0px 10px;
-}
+
 .topnav a.active {
   background-color: #808080;
   color: rgb(50,12,82);
@@ -95,12 +80,14 @@ a:active {text-decoration: none;}
    .topnav1 a{
       display:none;
    }
-   .bottomnav{
-      display:none; 
-   }
-   .bottomnav a{
-      display: none;
-   }
+  .bottomnav{
+    display: none;
+  }
+  bottomnav a{
+    display: none;
+  }
+
+
 }
 .dropdown {
   position: fixed;
@@ -117,6 +104,7 @@ font-size: 75px;
   background-color:rgb(50,12,82) ;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+   
 }
 
 /* Add a red background color to navbar links on hover */
@@ -130,6 +118,7 @@ font-size: 75px;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  
 }
 
 /* Links inside the dropdown */
@@ -161,10 +150,5 @@ font-size: 75px;
    .dropbtn{
       display: none;
    }
-   .bottomnavmobile{
-      display:none;
-   }
-   .bottomnavmobile a{
-      display:none;
-   }
+  
 }
