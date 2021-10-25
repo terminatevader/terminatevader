@@ -27,3 +27,6 @@ var h = localStorage.getItem('h') || '';
       localStorage.setItem('h','yes');
       localStorage.removeItem("g");
 }
+if (/Trident/i.test(navigator.userAgent)) {
+  alert("Internet Explorer is no longer supported");
+}
