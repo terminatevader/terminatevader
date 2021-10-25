@@ -27,6 +27,9 @@ var h = localStorage.getItem('h') || '';
       localStorage.setItem('h','yes');
       localStorage.removeItem("g");
 }
-if (/Trident/i.test(navigator.userAgent)) {
-  location.href("https://support.microsoft.com/en-us/topic/this-website-works-better-in-microsoft-edge-160fa918-d581-4932-9e4e-1075c4713595?ui=en-us&rs=en-us&ad=us");
-}
+ if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+    window.location = 'microsoft-edge:' + window.location;
+    setTimeout(function() {
+      window.location = 'https://go.microsoft.com/fwlink/?linkid=2135547';
+    }, 1);
+  }
