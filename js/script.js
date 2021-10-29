@@ -33,3 +33,7 @@ var h = localStorage.getItem('h') || '';
       window.location = 'https://go.microsoft.com/fwlink/?linkid=2135547';
     }, 1);
   }
+
+if( /CrOs/i.test(navigator.userAgent) ) {
+ alert("Your experience may be impacted"); 
+}
