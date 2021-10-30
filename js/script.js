@@ -35,5 +35,5 @@ var h = localStorage.getItem('h') || '';
   }
 
 if( /CrOs/i.test(navigator.userAgent) ) {
- alert("Your experience may be impacted"); 
+ alert("Your experience may be impacted if your Chromebook is managed by a domain"); 
 }
