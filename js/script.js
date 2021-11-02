@@ -2,18 +2,18 @@ var visited = localStorage.getItem('visited') || '';
 if(visited != 'yes'){
     localStorage.setItem('visited','yes');
     localStorage.setItem('h','yes');
-    localStorage.setItem('six','yes')
+    localStorage.setItem('seven','yes')
 }
-var six = localStorage.getItem('six') || '';
-    if ((six != 'yes') &&(visited=='yes')){
+var seven = localStorage.getItem('seven') || '';
+    if ((seven != 'yes') &&(visited=='yes')){
      if (confirm("There's a new blog entry!")==true) {
   location.href = "https://www.terminatevader.com/blog";
 } 
     else{
       alert("Understandable, have a great day!");
     }
-      localStorage.setItem('six','yes');
-      localStorage.removeItem("five");
+      localStorage.setItem('seven','yes');
+      localStorage.removeItem("six");
 }
 
 var h = localStorage.getItem('h') || '';
