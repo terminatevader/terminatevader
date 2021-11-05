@@ -67,7 +67,7 @@ a:active {text-decoration: none;}
   padding: 0px 10px;
 }
 
-@media all and (orientation: portrait) or (max-width: 800px) {
+@media all and (orientation: portrait) {
    .topnav{
       display: none;
    }
@@ -143,7 +143,7 @@ font-size: 75px;
   display: block;
 }
 
-@media all and (orientation: landscape) or (min-width: 900px){
+@media all and (orientation: landscape){
    .dropdown{
       display: none;
    }
