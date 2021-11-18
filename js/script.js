@@ -7,7 +7,7 @@ var i = localStorage.getItem('i')
 
     if ((i != 'yes')&&(visited == 'yes')) {
      if (confirm("There's a new update!")==true) {
-        location.href="https://www.terminatevader.com/patchnotes.txt";
+         window.open("https://www.terminatevader.com/patchnotes.txt", '_blank').focus();
 } 
         else{
      alert("Understandable, have a great day!");
