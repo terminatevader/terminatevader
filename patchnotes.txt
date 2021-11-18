@@ -27,3 +27,6 @@
 10/23/2021
 -replaced Discord button
 -made changes to navigation
+
+11/18/2021
+-removed blog
