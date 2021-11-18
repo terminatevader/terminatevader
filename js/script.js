@@ -1,31 +1,19 @@
 var visited = localStorage.getItem('visited') || '';
 if(visited != 'yes'){
     localStorage.setItem('visited','yes');
-    localStorage.setItem('h','yes');
-    localStorage.setItem('eight','yes')
-}
-var eight = localStorage.getItem('eight') || '';
-    if ((eight != 'yes') &&(visited=='yes')){
-     if (confirm("There's a new blog entry!")==true) {
-  location.href = "https://www.terminatevader.com/blog";
-} 
-    else{
-      alert("Understandable, have a great day!");
-    }
-      localStorage.setItem('eight','yes');
-      localStorage.removeItem("seven");
+var i = localStorage.getItem('i')
 }
 
-var h = localStorage.getItem('h') || '';
-    if ((h != 'yes')&&(visited == 'yes')) {
+
+    if ((i != 'yes')&&(visited == 'yes')) {
      if (confirm("There's a new update!")==true) {
         location.href="https://www.terminatevader.com/patchnotes.txt";
 } 
         else{
      alert("Understandable, have a great day!");
     }
-      localStorage.setItem('h','yes');
-      localStorage.removeItem("g");
+      localStorage.setItem('i','yes');
+      localStorage.removeItem("h");
 }
  if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
     window.location = 'microsoft-edge:' + window.location;
