@@ -67,7 +67,7 @@ a:active {text-decoration: none;}
   padding: 0px 10px;
 }
 
-@media screen and (max-width:999px){
+@media screen and (max-width:700px){
    .topnav{
       display: none;
    }
@@ -143,7 +143,7 @@ font-size: 75px;
   display: block;
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:701px){
    .dropdown{
       display: none;
    }
