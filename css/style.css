@@ -83,7 +83,7 @@ a:active {text-decoration: none;}
   .bottomnav{
     display: none;
   }
-  bottomnav a{
+  .bottomnav a{
     display: none;
   }
 
