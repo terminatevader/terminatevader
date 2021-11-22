@@ -16,7 +16,7 @@ a:active {text-decoration: none;}
 
 .topnav {
   background-color: rgb(50,12,82);
-  overflow: hidden;
+  overflow: auto;
   top: 0;
   width: 100%;
   position: fixed;
@@ -58,7 +58,7 @@ a:active {text-decoration: none;}
 
 .topnav1 {
   background-color: rgb(50,12,82);
-  overflow: hidden;
+  overflow: auto;
   top: 0;
   position: fixed;
 }
@@ -67,8 +67,8 @@ a:active {text-decoration: none;}
   padding: 0px 10px;
 }
 
-@media screen and (max-width:600px){
-   .topnav{
+@media screen and (max-width:800px){
+  .topnav{
       display: none;
    }
    .topnav1{
@@ -88,10 +88,13 @@ a:active {text-decoration: none;}
   }
 
 
+
+
 }
 .dropdown {
   position: fixed;
    top:0;
+   overflow:auto;
 }
 
 /* Dropdown button */
@@ -104,7 +107,6 @@ font-size: 75px;
   background-color:rgb(50,12,82) ;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
-   
 }
 
 /* Add a red background color to navbar links on hover */
@@ -143,7 +145,7 @@ font-size: 75px;
   display: block;
 }
 
-@media screen and (min-width:601px){
+@media screen and (min-width:801px){
    .dropdown{
       display: none;
    }
