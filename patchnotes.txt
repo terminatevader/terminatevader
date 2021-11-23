@@ -34,3 +34,6 @@
 11/22/2021
 -added Facebook Messenger plugin
 -fixed TNV-4
+
+11/23/2021
+-text is now in Open Sans
