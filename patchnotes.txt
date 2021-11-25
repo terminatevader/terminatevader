@@ -37,3 +37,7 @@
 
 11/23/2021
 -text is now in Open Sans
+
+11/25/2021
+-removed videos page
+-removed downloads page
