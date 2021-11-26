@@ -1,0 +1,15 @@
+{
+  "short_name": "TermiNateVader",
+  "name": "TermiNateVader",
+  "icons": [
+  {
+  "src":"https://www.terminatevader.com/images/TNV.png",
+  "sizes": "800x800",
+  "type": "image/png"
+  }
+  ],
+  "start_url": "https://www.terminatevader.com/",
+  "background_color": "#320c52",
+  "theme_color": "#320c52",
+  "display": "standalone"
+}
