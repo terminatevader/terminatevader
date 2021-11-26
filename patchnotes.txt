@@ -1,43 +1,43 @@
-8/10/2021
+8.10.2021
 -added patch notes
 -fixed TNV-1
 
-8/11/2021
+8.11.2021
 -fixed TNV-2
 
-8/11/2021
+8.11.2021
 -new update alert now only shows up for returning visitors
 
-8/18/2021
+8.18.2021
 -fixed TNV-3
 -replaced the color white with the color gray
 
-9/3/2021
+9.3.2021
 -added map
 
-9/11/2021
+9.11.2021
 -removed map
 
-9/25/2021
+9.25.2021
 -added link preview
 
-10/17/2021
+10.17.2021
 -made changes to navigation
 
-10/23/2021
+10.23.2021
 -replaced Discord button
 -made changes to navigation
 
-11/18/2021
+11.18.2021
 -removed blog
 
-11/22/2021
+11.22.2021
 -added Facebook Messenger plugin
 -fixed TNV-4
 
-11/23/2021
+11.23.2021
 -text is now in Open Sans
 
-11/25/2021
+11.25.2021
 -removed videos page
 -removed downloads page
