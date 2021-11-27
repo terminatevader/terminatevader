@@ -10,6 +10,9 @@ code{
   text-align: center;
   color: #808080;
 }
+pre{
+  text-align: center;
+}
 img {
   max-width:100vw;
   max-height:100vh;
