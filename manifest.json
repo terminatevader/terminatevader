@@ -11,5 +11,5 @@
   "start_url": "https://www.terminatevader.com/",
   "background_color": "#320c52",
   "theme_color": "#320c52",
-  "display": "standalone",
+  "display": "standalone"
 }
