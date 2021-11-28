@@ -41,3 +41,6 @@
 11.25.2021
 -removed videos page
 -removed downloads page
+
+11.26.2021
+-made changes to 404 page
