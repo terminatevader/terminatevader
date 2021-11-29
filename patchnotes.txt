@@ -44,3 +44,6 @@
 
 1.13
 -made changes to 404 page
+
+1.14
+-version number is now displayed in tab and in link preview
