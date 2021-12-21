@@ -47,3 +47,7 @@
 
 1.14
 -version number is now displayed in tab and in link preview
+
+1.15
+-improved performance
+-made changes to navigation
