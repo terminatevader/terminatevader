@@ -1,4 +1,4 @@
-if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+if(/trident/.test(navigator.userAgent)) {
     alert("Internet Explorer is no longer supported");
     window.location = 'microsoft-edge:' + window.location;
     setTimeout(function() {
