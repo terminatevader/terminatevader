@@ -76,7 +76,7 @@ code{
   padding: 0px 10px;
 }
 
-@media screen and (max-width:1050px){
+@media screen and (max-width:1000px){
   .topnav{
       display: none;
    }
@@ -154,7 +154,7 @@ font-size: 75px;
   display: block;
 }
 
-@media screen and (min-width:1051px){
+@media screen and (min-width:1001px){
    .dropdown{
       display: none;
    }
