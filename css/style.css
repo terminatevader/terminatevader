@@ -138,6 +138,10 @@ font-size: 75px;
   background-color:rgb(50,12,82) ;
   font-family: 'Open Sans';/* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* Add a red background color to navbar links on hover */
@@ -176,6 +180,9 @@ font-size: 75px;
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 @media screen and (min-width:1000px){
