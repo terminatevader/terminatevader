@@ -6,6 +6,29 @@ a:link {text-decoration: none;}
 a:visited {text-decoration: none;}
 a:hover {text-decoration: none;}
 a:active {text-decoration: none;}
+a
+{
+  text-align:center;
+}
+
+html
+{
+  scrollbar-width:thin;
+  scrollbar-color:#808080 rgb(50,12,82);
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(50,12,82); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #808080; 
+}
 pre{
   text-align: center;
 }
@@ -64,6 +87,7 @@ code{
   background-color: #808080;
   color: rgb(50,12,82);
 }
+
 
 .topnav1 {
   background-color: rgb(50,12,82);
@@ -139,7 +163,7 @@ font-size: 75px;
   text-decoration: none;
   display: block;
   text-align: left;
-   font-size: 30px;
+   font-size: 20px;
   font-family: 'Open Sans';
 }
 
@@ -154,7 +178,7 @@ font-size: 75px;
   display: block;
 }
 
-@media screen and (min-width:1001px){
+@media screen and (min-width:1000px){
    .dropdown{
       display: none;
    }
@@ -163,4 +187,3 @@ font-size: 75px;
    }
   
 }
-
