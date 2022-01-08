@@ -55,3 +55,4 @@
 1.16
 -made changes to projects page
 -added articles page
+-made changes to scrollbar
