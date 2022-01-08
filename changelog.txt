@@ -51,3 +51,7 @@
 1.15
 -improved performance
 -made changes to navigation
+
+1.16
+-made changes to projects page
+-added articles page
