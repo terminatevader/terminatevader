@@ -56,3 +56,6 @@
 -made changes to projects page
 -added articles page
 -made changes to scrollbar
+
+1.17
+-renamed articles to blogs
