@@ -1,8 +1,8 @@
 const cacheName = 'TermiNateVader';
 const appShellFiles = [
   'https://www.terminatevader.com/images/gatlinburg.png',
-  'https://www.terminatevader.com/articles/myfirsttimeingatlinburgandpigeonforge.html'
-  'https://www.terminatevader.com/articles.html',
+  'https://www.terminatevader.com/blogs/myfirsttimeingatlinburgandpigeonforge.html'
+  'https://www.terminatevader.com/blogs.html',
   'https://www.terminatevader.com/projects/dancingchristmaslights.html',
   'https://www.terminatevader.com/images/DCL.jpg',
   'https://www.terminatevader.com/404.html',
