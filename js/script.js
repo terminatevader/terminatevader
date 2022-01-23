@@ -13,9 +13,9 @@ navigator.serviceWorker.register('/service-worker.js')
 }
 
 if( !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-var r = Math.floor(Math.random() * 101);
+var r = Math.floor((Math.random() * 101)+1);
 
-if (r = 1)
+if (r == 1)
 {
     window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 }
