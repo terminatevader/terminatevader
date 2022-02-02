@@ -1,9 +1,10 @@
-if(/trident/.test(navigator.userAgent)) {
+if (window.document.documentMode) {
     alert("Internet Explorer is no longer supported");
+    document.getElementById("TNV").style.display = "none";
     window.location = 'microsoft-edge:' + window.location;
     setTimeout(function() {
       window.location = 'https://go.microsoft.com/fwlink/?linkid=2135547';
-    }, 1);
+    }, );
   }
 
 if ('serviceWorker' in navigator){
