@@ -15,11 +15,13 @@ if (r == 1)
 }
 }
 
-if (document.readyState == "complete" || "loading")
-{
+
 if(/TV/i.test(navigator.userAgent))
 {
+   if (document.readyState == "complete" || "loading")
+   {
   alert("This website is not yet available for your device")
+   }
   document.getElementById("TNV").style.display = "none";
 }
-}
+
