@@ -4,7 +4,7 @@
   "name": "Example",
   "version": "1.0",
 
-  "description": "This extension works on all TermiNateVader websites,
+  "description": "This extension works on all TermiNateVader websites",
 
   "content_scripts": [
     {
