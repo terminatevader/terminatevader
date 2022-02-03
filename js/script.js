@@ -18,7 +18,7 @@ if (r == 1)
 
 if(/TV/i.test(navigator.userAgent))
 {
-   if (document.readyState == "complete")
+   if (document.readyState == "loading")
    {
   alert("This website is not yet available for your device");
    }
