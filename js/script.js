@@ -18,9 +18,7 @@ if (r == 1)
 
 if(/TV|PlayStation|Xbox|Nintendo/i.test(navigator.userAgent))
 {
-   while (document.readyState != "loading")
-   {
-  alert("This website is not yet available for your device");
-   }
+   
   document.getElementById("TNV").style.display = "none";
+  alert("This website is not yet available for your device");
 }
