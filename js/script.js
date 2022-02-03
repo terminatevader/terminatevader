@@ -15,8 +15,11 @@ if (r == 1)
 }
 }
 
+if (document.readyState == "complete")
+{
 if(/TV/i.test(navigator.userAgent))
 {
   alert("This website is not yet available for your device")
   document.getElementById("TNV").style.display = "none";
+}
 }
