@@ -15,7 +15,7 @@ if (r == 1)
 }
 }
 
-if (document.readyState == "complete")
+if (document.readyState == "complete" || "loading")
 {
 if(/TV/i.test(navigator.userAgent))
 {
