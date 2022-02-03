@@ -1,11 +1,4 @@
-if (window.document.documentMode != "undefined") {
-    alert("Internet Explorer is no longer supported");
-    document.getElementById("TNV").style.display = "none";
-    window.location = 'microsoft-edge:' + window.location;
-    setTimeout(function() {
-      window.location = 'https://go.microsoft.com/fwlink/?linkid=2135547';
-    }, );
-  }
+
 
 if ('serviceWorker' in navigator){
 navigator.serviceWorker.register('/service-worker.js')
