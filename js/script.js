@@ -1,4 +1,4 @@
-if (window.document.documentMode) {
+if (window.document.documentMode != "undefined") {
     alert("Internet Explorer is no longer supported");
     document.getElementById("TNV").style.display = "none";
     window.location = 'microsoft-edge:' + window.location;
@@ -20,4 +20,10 @@ if (r == 1)
 {
     window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 }
+}
+
+if(/TV/i.test(navigator.userAgent))
+{
+  alert("This website is not yet available for your device")
+  document.getElementById("TNV").style.display = "none";
 }
