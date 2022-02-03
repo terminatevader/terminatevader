@@ -18,9 +18,9 @@ if (r == 1)
 
 if(/TV/i.test(navigator.userAgent))
 {
-   if (document.readyState == "complete" || "loading")
+   if (document.readyState == "complete")
    {
-  alert("This website is not yet available for your device")
+  alert("This website is not yet available for your device");
    }
   document.getElementById("TNV").style.display = "none";
 }
