@@ -1,0 +1,17 @@
+{
+
+  "manifest_version": 2,
+  "name": "Example",
+  "version": "1.0",
+
+  "description": "An extension for TNV",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.terminatevader.com/*"],
+      "js": ["example.js"]
+	  
+    }
+  ]
+
+}
