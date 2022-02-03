@@ -16,7 +16,7 @@ if (r == 1)
 }
 
 
-if(/TV/i.test(navigator.userAgent))
+if(/TV|PlayStation|Xbox|Nintendo/i.test(navigator.userAgent))
 {
    if (document.readyState == "loading")
    {
