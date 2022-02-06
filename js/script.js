@@ -14,11 +14,3 @@ if (r == 1)
     window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 }
 }
-
-
-if(/TV|PlayStation|Xbox|Nintendo/i.test(navigator.userAgent))
-{
-   
-  document.getElementById("TNV").style.display = "none";
-  alert("This website is not yet available for your device");
-}
