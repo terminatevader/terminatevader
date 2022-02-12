@@ -1,5 +1,6 @@
 const cacheName = 'TermiNateVader';
 const appShellFiles = [
+  'https://www.terminatevader.com/images/gatlinburgwater.jpg',
   'https://www.terminatevader.com/images/gatlinburg.png',
   'https://www.terminatevader.com/blogs/myfirsttimeingatlinburgandpigeonforge.html'
   'https://www.terminatevader.com/blogs.html',
