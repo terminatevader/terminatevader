@@ -6,7 +6,6 @@ a:visited {text-decoration: none; color: #808080;font-size:20px;font-family: 'Op
 a:hover {text-decoration: none; color: #808080;font-size:20px;font-family: 'Open Sans'}
 a:active {text-decoration: none; color: #808080;font-size:20px;font-family: 'Open Sans'}
 
-
 figcaption
 {
 	text-align:center;
@@ -132,14 +131,17 @@ code{
   .bottomnav{
     display:none;
   }
-  .c{
-	  display:none;
-	}
-
+  
+  img {
+  min-width: 100%;
+  min-height:100%
 }
+
+
 .dropdown {
   position: fixed;
    top:0;
+}
 }
 
 /* Dropdown button */
