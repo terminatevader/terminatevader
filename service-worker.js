@@ -1,5 +1,13 @@
 const cacheName = 'TermiNateVader';
 const appShellFiles = [
+  'https://www.terminatevader.com/images/Legoland3.jpg',
+  'https://www.terminatevader.com/images/legoland2.jpg',
+  'https://www.terminatevader.com/images/SMFA.png',
+  'https://www.terminatevader.com/images/hanksilly.jpg',
+  'https://www.terminatevader.com/images/barneysilly.jpg',
+  'https://www.terminatevader.com/images/barney.jpg',
+  'https://www.terminatevader.com/images/hank.jpg',
+  'https://www.terminatevader.com/blogs/cooldogs',
   'https://www.terminatevader.com/images/gatlinburgwater.jpg',
   'https://www.terminatevader.com/images/gatlinburg.png',
   'https://www.terminatevader.com/blogs/myfirsttimeingatlinburgandpigeonforge.html'
@@ -40,14 +48,14 @@ const appShellFiles = [
       'https://www.terminatevader.com/images/meme6.jpg',
       'https://www.terminatevader.com/images/meme7.jpg',
       'https://www.terminatevader.com/images/meme8.jpg',
-      'https://www.terminatevader.com/images/meme9.jpg',
+      'https://www.terminatevader.com/images/meme9.jpg'
 ];
 
 console.log('Started', self);
 self.addEventListener('install', function(event) {
   self.skipWaiting();
   console.log('Installed', event);
- 
+
 
 
 
