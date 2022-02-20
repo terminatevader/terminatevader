@@ -55,15 +55,9 @@ code{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-	float:left;
+
 }
-.d{
-  	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-	float:left;
-}
+
 .topnav {
   background-color: rgb(50,12,82);
   overflow: hidden;
@@ -150,9 +144,7 @@ code{
   position: fixed;
    top:0;
 }
-  .d{
-    display:none;
-  }
+ 
 }
 
 /* Dropdown button */
