@@ -41,7 +41,7 @@ document.getElementsByClassName('topnav1 a')[0].style.visibility = 'hidden';
 document.getElementsByClassName('bottomnav')[0].style.visibility = 'hidden';
 document.getElementsByTagName('img')[0].style.min-width = '100%';
 document.getElementsByTagName('img')[0].style.min-height = '100%';
-{
+}
 
 else{
  document.getElementsByClassName('dropdown')[0].style.visibility = 'hidden';
