@@ -48,14 +48,14 @@ const appShellFiles = [
       'https://www.terminatevader.com/images/meme6.jpg',
       'https://www.terminatevader.com/images/meme7.jpg',
       'https://www.terminatevader.com/images/meme8.jpg',
-      'https://www.terminatevader.com/images/meme9.jpg'
+      'https://www.terminatevader.com/images/meme9.jpg',
 ];
 
 console.log('Started', self);
 self.addEventListener('install', function(event) {
   self.skipWaiting();
   console.log('Installed', event);
-
+ 
 
 
 
