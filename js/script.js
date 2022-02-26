@@ -24,3 +24,18 @@ document.getElementById("TNV").style.display = "block";
 
 }
 }*/
+
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+document.getElementsByClassName('topnav')[0].style.visibility = 'hidden';
+document.getElementsByClassName('topnav1')[0].style.visibility = 'hidden';
+document.getElementsByClassName('topnav a')[0].style.visibility = 'hidden';
+document.getElementsByClassName('topnav1 a')[0].style.visibility = 'hidden';
+document.getElementsByClassName('bottomnav')[0].style.visibility = 'hidden';
+document.getElementsByClassName('bottomnav a')[0].style.visibility = 'hidden';
+
+}
+
+if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+ document.getElementsByClassName('dropdown')[0].style.visibility = 'hidden';
+document.getElementsByClassName('dropbtn')[0].style.visibility = 'hidden';
+}
