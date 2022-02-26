@@ -114,36 +114,12 @@ code{
 }
 
 @media screen and (max-width:999px){
-  .topnav{
-      display: none;
-   }
-   .topnav1{
-      display:none;
-   }
-   .topnav a{
-      display:none;
-   }
-   .topnav1 a{
-      display:none;
-   }
-
-  .bottomnav a{
-    display:none;
-  }
-  .bottomnav{
-    display:none;
-  }
-  
+ 
   img {
   min-width: 100%;
   min-height:100%
 }
 
-
-.dropdown {
-  position: fixed;
-   top:0;
-}
  
 }
 
@@ -200,6 +176,11 @@ font-size: 25px;
 
 }
 
+.dropdown {
+  position: fixed;
+   top:0;
+}
+
 .bottomnav1{
   background-color: rgb(50,12,82);
   overflow: hidden;
@@ -216,13 +197,13 @@ font-size: 25px;
   padding: 5px 0px;
    
 }
-@media screen and (min-width:1000px){
+/*@media screen and (min-width:1000px){
    .dropdown{
       display: none;
    }
    .dropbtn{
       display: none;
-   }
+   }*/
 	
   
 }
