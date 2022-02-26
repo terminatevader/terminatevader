@@ -25,19 +25,4 @@ document.getElementById("TNV").style.display = "block";
 }
 }*/
 
-if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-document.getElementsByClassName('topnav').style.display = 'none';
-document.getElementsByClassName('topnav1').style.display = 'none';
-document.getElementsByClassName('topnav a').style.display = 'none';
-document.getElementsByClassName('topnav1 a').style.display = 'none';
-document.getElementsByClassName('bottomnav').style.display = 'none';
-document.getElementsByClassName('bottomnav a').style.display = 'none';
-document.getElementsByTagName('img').style.min-width = '100%';
-document.getElementsByTagName('img').style.min-height = '100%';
-}
 
-else{
- document.getElementsByClassName('dropdown').style.display = 'none';
-document.getElementsByClassName('dropbtn').style.display = 'none';
-
-}
