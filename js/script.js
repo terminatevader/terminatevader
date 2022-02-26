@@ -50,6 +50,6 @@ document.getElementsByClassName('topnav')[0].style.visibility = 'visible';
 document.getElementsByClassName('topnav1')[0].style.visibility = 'visible';
 document.getElementsByClassName('topnav a')[0].style.visibility = 'visible';
 document.getElementsByClassName('topnav1 a')[0].style.visibility = 'visible';
-document.getElementsByClassName('bottomnav')[0].style.visibility = 'visible;
+document.getElementsByClassName('bottomnav')[0].style.visibility = 'visible';
 document.getElementsByClassName('bottomnav a')[0].style.visibility = 'visible';
 }
