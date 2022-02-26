@@ -1,10 +1,10 @@
 
-
 if ('serviceWorker' in navigator){
-navigator.serviceWorker.register('https://www.terminatevader.com/service-worker.js')
+navigator.serviceWorker.register('/service-worker.js')
     .then(() => console.log('service worker registered'))
     .catch(() => console.log('service worker not registered'))
 }
+
 localStorage.setItem("experiment", "no");
 var experiment = localStorage.getItem("experiment"); 
 
