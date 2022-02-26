@@ -113,7 +113,7 @@ code{
   padding: 0px 10px;
 }
 
-@media screen and (max-width:999px){
+/*@media screen and (max-width:999px){
  
   img {
   min-width: 100%;
@@ -121,7 +121,7 @@ code{
 }
 
  
-}
+}*/
 
 /* Dropdown button */
 .dropdown .dropbtn {
