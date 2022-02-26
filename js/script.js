@@ -26,18 +26,18 @@ document.getElementById("TNV").style.display = "block";
 }*/
 
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-document.getElementsByClassName('topnav')[0].style.display = 'none';
-document.getElementsByClassName('topnav1')[0].style.display = 'none';
-document.getElementsByClassName('topnav a')[0].style.display = 'none';
-document.getElementsByClassName('topnav1 a')[0].style.display = 'none';
-document.getElementsByClassName('bottomnav')[0].style.display = 'none';
-document.getElementsByClassName('bottomnav a')[0].style.display = 'none';
-document.getElementsByTagName('img')[0].style.min-width = '100%';
-document.getElementsByTagName('img')[0].style.min-height = '100%';
+document.getElementsByClassName('topnav').style.display = 'none';
+document.getElementsByClassName('topnav1').style.display = 'none';
+document.getElementsByClassName('topnav a').style.display = 'none';
+document.getElementsByClassName('topnav1 a').style.display = 'none';
+document.getElementsByClassName('bottomnav').style.display = 'none';
+document.getElementsByClassName('bottomnav a').style.display = 'none';
+document.getElementsByTagName('img').style.min-width = '100%';
+document.getElementsByTagName('img').style.min-height = '100%';
 }
 
 else{
- document.getElementsByClassName('dropdown')[0].style.display = 'none';
-document.getElementsByClassName('dropbtn')[0].style.display = 'none';
+ document.getElementsByClassName('dropdown').style.display = 'none';
+document.getElementsByClassName('dropbtn').style.display = 'none';
 
 }
