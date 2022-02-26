@@ -113,15 +113,23 @@ code{
   padding: 0px 10px;
 }
 
-/*@media screen and (max-width:999px){
- 
+@media screen and (max-width:999px){
+.topnav{
+display:none;
+}
+.topnav1{
+display:none;
+}
+ .bottomnav{
+display:none;
+}
   img {
   min-width: 100%;
   min-height:100%
 }
 
  
-}*/
+}
 
 /* Dropdown button */
 .dropdown .dropbtn {
@@ -197,13 +205,13 @@ font-size: 25px;
   padding: 5px 0px;
    
 }
-/*@media screen and (min-width:1000px){
+@media screen and (min-width:1000px){
    .dropdown{
       display: none;
    }
    .dropbtn{
       display: none;
-   }*/
+   }
 	
   
 }
