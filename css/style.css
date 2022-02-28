@@ -113,7 +113,7 @@ code{
   padding: 0px 10px;
 }
 
-@media screen and (max-width:999px), screen and (pointer:coarse){
+@media screen and (max-width:999px){
 .topnav{
 display:none;
 }
@@ -205,7 +205,7 @@ font-size: 50px;
   padding: 5px 0px;
    
 }
-@media screen and (min-width:1000px) and screen and (pointer: fine){
+@media screen and (min-width:1000px){
    .dropdown{
       display: none;
    }
