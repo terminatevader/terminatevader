@@ -133,11 +133,11 @@ display:none;
 
 /* Dropdown button */
 .dropdown .dropbtn {
-font-size: 80px;
+font-size: 50px;
   border: none;
   outline: none;
   color: #808080;
-  padding: 15px 15px;
+  padding: 10px 10px;
   background-color:rgb(50,12,82) ;
   font-family: 'Open Sans';/* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
