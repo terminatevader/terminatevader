@@ -36,9 +36,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     topnav.style.display = "none";
     topnav1.style.display = "none";
     bottomnav.style.display = "none";
-    platform.innerHTML = '📱'
-
- ;
+    platform.innerHTML = 'Mobile';
     
     
 }
@@ -47,7 +45,7 @@ else if (/Windows|Mac|Linux|Ubuntu/i.test(navigator.userAgent)){
     dropdown.style.display = "none";
     bottomnav1.style.display = "none";
     dropbtn.style.display = "none";
-    platform.innerHTML = '🖥';
+    platform.innerHTML = 'Desktop';
 }
 
 else{
