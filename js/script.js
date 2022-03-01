@@ -30,11 +30,14 @@ var bottomnav = document.getElementById('bottomnav');
 var bottomnav1 = document.getElementById('bottomnav1');
 var dropdown = document.getElementById('dropdown');
 var dropbtn = document.getElementById('dropbtn');
+var i = document.getElementById('i'
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     topnav.style.display = "none";
     topnav1.style.display = "none";
     bottomnav.style.display = "none";
+    i.style.min-width = "100%";
+    i.style.min-height = "100%";
     
 }
 
