@@ -114,15 +114,7 @@ code{
 }
 
 @media screen and (max-width:999px){
-.topnav{
-display:none;
-}
-.topnav1{
-display:none;
-}
- .bottomnav{
-display:none;
-}
+
   img {
   min-width: 100%;
   min-height:100%
@@ -206,12 +198,7 @@ font-size: 50px;
    
 }
 @media screen and (min-width:1000px){
-   .dropdown{
-      display: none;
-   }
-   .dropbtn{
-      display: none;
-   }
+   
 	
   
 }
