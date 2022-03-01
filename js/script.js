@@ -45,7 +45,6 @@ else if (/Windows|Mac|Linux|Ubuntu/i.test(navigator.userAgent)){
     dropdown.style.display = "none";
     bottomnav1.style.display = "none";
     dropbtn.style.display = "none";
-    platform.innerHTML = 'Desktop';
 }
 
 else{
