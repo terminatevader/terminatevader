@@ -30,11 +30,14 @@ var bottomnav = document.getElementById('bottomnav');
 var bottomnav1 = document.getElementById('bottomnav1');
 var dropdown = document.getElementById('dropdown');
 var dropbtn = document.getElementById('dropbtn');
+var platform = document.getElementById('platform')
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     topnav.style.display = "none";
     topnav1.style.display = "none";
     bottomnav.style.display = "none";
+    platform.innerHTML = 'Mobile';
+    
     
 }
 
@@ -42,6 +45,7 @@ else if (/Windows|Mac|Linux|Ubuntu/i.test(navigator.userAgent)){
     dropdown.style.display = "none";
     bottomnav1.style.display = "none";
     dropbtn.style.display = "none";
+    platform.innerHTML = 'Desktop';
 }
 
 else{
