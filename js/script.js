@@ -38,8 +38,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     
 }
 
-else{
+if (/Windows|Mac|Linux|Ubuntu/i.test(navigator.userAgent))
     dropdown.style.display = "none";
     bottomnav1.style.display = "none";
     dropbtn.style.display = "none";
+}
+
+else{
+location.href = "https://www.terminatevader.com/unavailable"
+
 }
