@@ -36,8 +36,6 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     topnav.style.display = "none";
     topnav1.style.display = "none";
     bottomnav.style.display = "none";
-    i.style.min-width = "100%";
-    i.style.min-height = "100%";
     
 }
 
