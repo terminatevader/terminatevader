@@ -45,6 +45,6 @@ if (/Windows|Mac|Linux|Ubuntu/i.test(navigator.userAgent)){
 }
 
 else{
-location.href = "https://www.terminatevader.com/unavailable"
+location.href = "https://www.terminatevader.com/unavailable.txt"
 
 }
