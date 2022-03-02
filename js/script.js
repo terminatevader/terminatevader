@@ -32,7 +32,7 @@ var dropdown = document.getElementById('dropdown');
 var dropbtn = document.getElementById('dropbtn');
 var platform = document.getElementById('platform')
 
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+if (/Android|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
     topnav.style.display = "none";
     topnav1.style.display = "none";
     bottomnav.style.display = "none";
