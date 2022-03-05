@@ -51,6 +51,10 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
     dropdown.style.display = "none";
     bottomnav1.style.display = "none";
     dropbtn.style.display = "none";
+    
+    
+    
+
 }
 
 
@@ -59,5 +63,6 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
 location.href = "https://www.terminatevader.com/unavailable.txt"
 
 }
+
 
 
