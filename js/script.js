@@ -48,7 +48,7 @@ else if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Sa
 }
 
 
-else if (/Windows NT|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent)){
+else (/Windows NT|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent)){
     dropdown.style.display = "none";
     bottomnav1.style.display = "none";
     dropbtn.style.display = "none";
