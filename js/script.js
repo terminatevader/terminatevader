@@ -32,7 +32,12 @@ var dropdown = document.getElementById('dropdown');
 var dropbtn = document.getElementById('dropbtn');
 var platform = document.getElementById('platform')
 
-if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Safari|Nokia/i.test(navigator.userAgent)){
+if (/TV|Xbox|PlayStation|Nintendo|Roku/i.test(navigator.userAgent){
+location.href = "https://www.terminatevader.com/unavailable.txt"
+
+}
+
+else if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Safari|Nokia/i.test(navigator.userAgent)){
     topnav.style.display = "none";
     topnav1.style.display = "none";
     bottomnav.style.display = "none";
@@ -41,13 +46,18 @@ if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Safari|
     
 }
 
+
 else if (/Windows|Mac|Linux|Ubuntu|CrOS/i.test(navigator.userAgent)){
     dropdown.style.display = "none";
     bottomnav1.style.display = "none";
     dropbtn.style.display = "none";
 }
 
-else{
+
+
+    else {
 location.href = "https://www.terminatevader.com/unavailable.txt"
 
 }
+
+
