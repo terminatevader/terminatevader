@@ -94,5 +94,3 @@ location.href = "https://www.terminatevader.com/unavailable.txt"
   };
 
 
-  const app = initializeApp(firebaseConfig);
-
