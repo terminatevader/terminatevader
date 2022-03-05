@@ -32,7 +32,7 @@ var dropdown = document.getElementById('dropdown');
 var dropbtn = document.getElementById('dropbtn');
 var platform = document.getElementById('platform')
 
-if (/TV|Xbox|PlayStation|Nintendo|Roku/i.test(navigator.userAgent){
+if (/TV|Xbox|Roku/i.test(navigator.userAgent){
 location.href = "https://www.terminatevader.com/unavailable.txt"
 
 }
