@@ -64,33 +64,3 @@ location.href = "https://www.terminatevader.com/unavailable.txt"
 
 }
 
-// Import the functions you need from the SDKs you need
-
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
-import { getStorage } from "firebase/storage";
-
-  // TODO: Add SDKs for Firebase products that you want to use
-
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-
-  // Your web app's Firebase configuration
-
-  const firebaseConfig = {
-
-    apiKey: "AIzaSyBjAeRoqmtZ2I0hbWTKPIPLGSItRh3x9Kg",
-
-    authDomain: "terminatevader-7d214.firebaseapp.com",
-
-    databaseURL: "https://terminatevader-7d214-default-rtdb.firebaseio.com",
-
-
-    storageBucket: "terminatevader-7d214.appspot.com",
-
-
-  };
-
-const firebaseApp = initializeApp(firebaseConfig);
-
-// Get a reference to the storage service, which is used to create references in your storage bucket
-const storage = getStorage(firebaseApp);
