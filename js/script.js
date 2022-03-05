@@ -32,12 +32,9 @@ var dropdown = document.getElementById('dropdown');
 var dropbtn = document.getElementById('dropbtn');
 var platform = document.getElementById('platform')
 
-if (/TV|Xbox|Roku/i.test(navigator.userAgent){
-location.href = "https://www.terminatevader.com/unavailable.txt"
 
-}
 
-else if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Safari|Nokia/i.test(navigator.userAgent)){
+if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Safari|Nokia/i.test(navigator.userAgent)){
     topnav.style.display = "none";
     topnav1.style.display = "none";
     bottomnav.style.display = "none";
@@ -47,7 +44,7 @@ else if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Sa
 }
 
 
-else if (/Windows|Mac|Linux|Ubuntu|CrOS/i.test(navigator.userAgent)){
+else if (/Windows NT|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent)){
     dropdown.style.display = "none";
     bottomnav1.style.display = "none";
     dropbtn.style.display = "none";
