@@ -122,6 +122,11 @@ height: 350x;
   min-height: 100%;
  min-width: 100%;
 }
+.center
+	{
+ 		min-height: 100%;
+              min-width: 100%;
+	}
 }
 
 
