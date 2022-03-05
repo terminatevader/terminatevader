@@ -67,6 +67,7 @@ location.href = "https://www.terminatevader.com/unavailable.txt"
 // Import the functions you need from the SDKs you need
 
   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
+import { getStorage } from "firebase/storage";
 
   // TODO: Add SDKs for Firebase products that you want to use
 
@@ -83,14 +84,13 @@ location.href = "https://www.terminatevader.com/unavailable.txt"
 
     databaseURL: "https://terminatevader-7d214-default-rtdb.firebaseio.com",
 
-    projectId: "terminatevader-7d214",
 
     storageBucket: "terminatevader-7d214.appspot.com",
 
-    messagingSenderId: "716982123841",
-
-    appId: "1:716982123841:web:60593069864f897fc175c0"
 
   };
 
+const firebaseApp = initializeApp(firebaseConfig);
 
+// Get a reference to the storage service, which is used to create references in your storage bucket
+const storage = getStorage(firebaseApp);
