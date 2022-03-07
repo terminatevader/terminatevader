@@ -31,10 +31,7 @@ a:active {text-decoration: none; color: #808080;font-size:20px;font-family: 'Ope
 			color: #808080;
 		}
 
-		.context-menu ul li a.active {
-			 background-color: #808080;
-  			color: rgb(50,12,82);
-		}
+		
 figcaption
 {
 	text-align:center;
