@@ -127,6 +127,49 @@
       }(document, 'script', 'facebook-jssdk'));
    
 </script>
-	 
+	 <h1 style="text-align: center;">
+		Welcome to GeeksforGeeks.
+	</h1>
+	<h1 style="text-align: center;">
+		Hi, We are creating a
+		custom context menu here.
+	</h1>
+
+	<div id="contextMenu" class="context-menu"
+		style="display:none">
+		<ul>
+			<li><a href="https://www.terminatevader.com/blogs/myplanforaftercollege">My Plan For After College</a></li>
+			<li><a href="https://www.terminatevader.com/blogs/cooldogs">Cool Dogs</a></li>
+			<li><a href="https://www.terminatevader.com/blogs/myexperienceatlegolandflorida">My Experience At Legoland Florida</a></li>
+            <li><a href="https://www.terminatevader.com/blogs/myfirsttimeingatlinburgandpigeonforge">My First Time At Gatlinburg And Pigeon Forge</a></li>
+
+		</ul>
+	</div>
+
+	<script>
+		document.onclick = hideMenu;
+		document.oncontextmenu = rightClick;
+
+		function hideMenu() {
+			document.getElementById(
+				"contextMenu").style.display = "none"
+		}
+
+		function rightClick(e) {
+			e.preventDefault();
+
+			if (document.getElementById(
+				"contextMenu").style.display == "block")
+				hideMenu();
+			else {
+				var menu = document
+					.getElementById("contextMenu")
+					
+				menu.style.display = 'block';
+				menu.style.left = e.pageX + "px";
+				menu.style.top = e.pageY + "px";
+			}
+		}
+	</script>
 </body>
 </html>
