@@ -8,11 +8,7 @@ a:active {text-decoration: none; color: #808080;font-size:20px;font-family: 'Ope
  
         
 		
-		.contex-menu.active{
-			background-color: #808080;
-  			color: rgb(50,12,82);
-		}
-
+		
 		.context-menu ul {
 			padding: 0px;
 			margin: 0px;
