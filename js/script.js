@@ -42,6 +42,28 @@ else if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Sa
     topnav1.style.display = "none";
     bottomnav.style.display = "none";
     platform.innerHTML = 'Mobile';
+	
+	document.onclick = hideMenu;
+		document.oncontextmenu = ondblclick;
+
+		function hideMenu() {
+			document.getElementById("contextMenu").style.display = "none"
+		}
+
+		function rightClick(e) {
+			e.preventDefault();
+
+			if (document.getElementById("contextMenu").style.display == "block")
+				hideMenu();
+			else {
+				var menu = document.getElementById("contextMenu")
+					
+				menu.style.display = 'block';
+				menu.style.left = e.pageX + "px";
+				menu.style.top = e.pageY + "px";
+			}
+		}
+    
     
     
 }
