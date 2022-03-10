@@ -41,8 +41,13 @@ a:active {text-decoration: none; color: #808080;font-size:20px;font-family: 'Ope
 		}
 
 		
-figcaption
-{
+
+figure {
+  display: table;
+}
+figcaption {
+  display: table-caption;
+  caption-side: top;
 	text-align:center;
 }
 author
