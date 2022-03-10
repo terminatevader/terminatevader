@@ -46,6 +46,8 @@ a:active {text-decoration: none; color: #808080;font-size:20px;font-family: 'Ope
 figcaption {
 
 	text-align:center;
+	display: table-caption;
+  caption-side: top;
 }
 
 
