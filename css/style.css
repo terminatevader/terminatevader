@@ -50,10 +50,13 @@ figcaption {
   caption-side: top;
 	text-align:center;
 }
-author
+.author
 {
-	text-align:center;
 	font-size:10px;
+}
+.title
+{
+	font-size:20px;
 }
 
 a
