@@ -86,3 +86,30 @@ location.href = "https://www.terminatevader.com/unavailable.txt"
 
 }
 
+r = Math.floor(Math.random() * 10001); 
+
+if (r==1)
+{
+	location.href = "https://www.ravbug.com/bsod/bsod7/";
+}
+
+if (r==2)
+{
+	location.href = "https://www.ravbug.com/bsod/booterror7/";
+}
+
+if (r==3)
+{
+	location.href = "https://www.ravbug.com/bsod/bsod8/";
+}
+
+if (r==4)
+{
+	location.href = "https://www.ravbug.com/bsod/bsod10/";
+}
+
+if (r==5)
+{
+	location.href = "https://www.ravbug.com/bsod/bsod10/?g";
+}
+
