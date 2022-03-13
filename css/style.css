@@ -13,7 +13,7 @@ a:active {text-decoration: none; color: #808080;font-size:20px;font-family: 'Ope
             text-align: center;
             background: rgb(50,12,82);
 		overflow: auto;
-		position: fixed;
+		
        
         }
 		.context-menu ul {
