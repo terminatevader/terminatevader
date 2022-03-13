@@ -8,7 +8,7 @@
 		<ul>
 			<li><a href="https://www.terminatevader.com/index">Home</a></li>
    			<li><a href="https://www.terminatevader.com/projects">Projects</a></li>
-   			<li><a href="https://www.terminatevader.com/blogs">Blogs</a></li>
+   			<li><a class="active" href="https://www.terminatevader.com/blogs">Blogs</a></li>
 			
 		</ul>
 	</div>
