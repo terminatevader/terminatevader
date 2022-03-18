@@ -173,7 +173,7 @@ code{
 /* Dropdown button */
 .dropdown .dropbtn {
 	
-font-size: 50px;
+font-size: 37px;
   border: none;
   outline: none;
   color: #808080;
@@ -229,7 +229,7 @@ font-size: 50px;
 
 .dropdown {
   position: fixed;
-  top: -18px;
+  top: -10px;
   right:0;
   float:right;
   
