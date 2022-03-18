@@ -172,6 +172,7 @@ code{
 
 /* Dropdown button */
 .dropdown .dropbtn {
+	float:right;
 font-size: 50px;
   border: none;
   outline: none;
@@ -201,7 +202,7 @@ font-size: 50px;
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  float: none;
+  float: right;
   color: #808080;
   padding: 10px 0px;
   text-decoration: none;
