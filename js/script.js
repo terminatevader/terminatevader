@@ -39,7 +39,7 @@ if (/Xbox/i.test(navigator.userAgent)){
 
 else if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Safari|Nokia/i.test(navigator.userAgent)){
     topnav.style.display = "none";
-    topnav1.style.float a = "right";
+    topnav1.style.float = "right";
     bottomnav.style.display = "none";
     platform.innerHTML = 'Mobile';
 	
