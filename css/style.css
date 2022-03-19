@@ -173,7 +173,7 @@ code{
 /* Dropdown button */
 .dropdown .dropbtn {
 	
-font-size: 36.8px;
+font-size: 50px;
   border: none;
   outline: none;
   color: #808080;
@@ -211,7 +211,7 @@ font-size: 36.8px;
   text-decoration: none;
   display: block;
   text-align: center;
-   font-size: 50px;
+   font-size: 20px;
   font-family: 'Open Sans';
 }
 
