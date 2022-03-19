@@ -31,8 +31,8 @@ var bottomnav1 = document.getElementById('bottomnav1');
 var dropdown = document.getElementById('dropdown');
 var dropbtn = document.getElementById('dropbtn');
 var platform = document.getElementById('platform')
-var i = document.getElementById('i')
-
+var mobilefeed = document.getElementById('mobilefeed')
+var desktopfeed = document.getElementById('desktopfeed')
 if (/Xbox/i.test(navigator.userAgent)){
     location.href = "https://www.terminatevader.com/unavailable.txt"
 
@@ -43,7 +43,8 @@ else if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Sa
     
     bottomnav.style.display = "none";
     platform.innerHTML = 'Mobile';
-	
+		desktopfeed.style.display = "none";
+
 	
     
     
@@ -55,7 +56,7 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
     dropdown.style.display = "none";
     bottomnav1.style.display = "none";
     dropbtn.style.display = "none";
-	i.style.display = "none";
+	mobilefeed.style.display = "none";
     
     document.onclick = hideMenu;
 		document.oncontextmenu = rightClick;
