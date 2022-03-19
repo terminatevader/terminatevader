@@ -229,8 +229,8 @@ font-size: 36.8px;
 
 .dropdown {
   position: fixed;
-  
-  right:-5;
+  top:-5;
+  right:0;
   float:right;
   
 }
