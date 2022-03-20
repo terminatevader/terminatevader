@@ -79,8 +79,8 @@
 
   <a href="https://www.terminatevader.com/blogs/myfirsttimeingatlinburgandpigeonforge" ><img src="https://www.terminatevader.com/images/gatlinburg.png" class="mySlides" style="width:50%; margin-left:auto; margin-right:auto;"></a>
 
-<p>test</p>
-</p>test0</p>
+<p class="title">test</p>
+<p class="title">test0</p>
 <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 	
@@ -136,20 +136,21 @@ function plusDivs(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
+  var y = document.getElementsByClassName("title"):
+if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
-var i;
-  var y = document.getElementsByClassName("title");
-  if (n > y.length) {slideIndex = 1}
+if (n > y.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < title.length; i++) {
-    title[i].style.display = "none";  
+  for (i = 0; i < y.length; i++) {
+    y[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
+y[slideIndex-1].style.display = "block";  
+var i;
+  
 }
 	</script>
 
