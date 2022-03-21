@@ -5,13 +5,32 @@ a:link {text-decoration: none; color: white;font-size:20px; font-family: 'Open S
 a:visited {text-decoration: none; color: white;font-size:20px; font-family: 'Open Sans';}
 a:hover {text-decoration: none; color: white;font-size:20px; font-family: 'Open Sans';}
 a:active {text-decoration: none; color: white;font-size:20px; font-family: 'Open Sans';}
- 
-        .card {
 
+ @media only screen and (orientation: landscape){
+	 .image
+	 {
+	    height:100%
+	 }
+	 .card {
+height:100%;
   float:right;
   margin-bottom: 100px;
   margin-right: 25px;
 }
+}
+ @media only screen and (orientation: portrait){
+	 .image
+	 {
+	   width:100%;
+	 }
+	 .card {
+width:100%;
+  float:right;
+  margin-bottom: 100px;
+  margin-right: 25px;
+}
+}
+        
 
 		
 		.context-menu {
