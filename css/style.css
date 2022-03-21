@@ -175,12 +175,12 @@ font-size: 50px;
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
-  position: relative;
+  position: absolute;
   background-color: black;
   min-width: 250px;
   min-height: 200px;
   
-  z-index: 1;
+  z-index: 100;
     overflow: visible;
   
   right:0;
