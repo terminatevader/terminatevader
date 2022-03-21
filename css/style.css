@@ -6,13 +6,15 @@ a:visited {text-decoration: none; color: white;font-size:20px; font-family: 'Ope
 a:hover {text-decoration: none; color: white;font-size:20px; font-family: 'Open Sans';}
 a:active {text-decoration: none; color: white;font-size:20px; font-family: 'Open Sans';}
 
- @media only screen and (orientation: landscape){
+  @media only screen and (orientation: landscape){
 	 .image
 	 {
-	    height:100%
+	    width:560px;
+     height: 315px;
 	 }
 	 .card {
-height:100%;
+  width:560px;
+     height: 315px;
   float:right;
   margin-bottom: 100px;
   margin-right: 25px;
@@ -21,16 +23,17 @@ height:100%;
  @media only screen and (orientation: portrait){
 	 .image
 	 {
-	   width:100%;
+	    width:280px;
+     height: 157.5px;
 	 }
 	 .card {
-width:100%;
+  width:280px;
+     height: 157.5px;
   float:right;
   margin-bottom: 100px;
   margin-right: 25px;
 }
 }
-        
 
 		
 		.context-menu {
