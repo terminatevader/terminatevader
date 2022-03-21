@@ -180,7 +180,7 @@ font-size: 50px;
   min-width: 250px;
   min-height: 200px;
   
-  z-index: 1000;
+  z-index: 10000;
     overflow: visible;
   
   right:0;
