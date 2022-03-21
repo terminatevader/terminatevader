@@ -175,7 +175,7 @@ font-size: 50px;
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: relative;
   background-color: black;
   min-width: 250px;
   min-height: 200px;
