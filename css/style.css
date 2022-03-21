@@ -7,8 +7,7 @@ a:hover {text-decoration: none; color: white;font-size:20px; font-family: 'Open 
 a:active {text-decoration: none; color: white;font-size:20px; font-family: 'Open Sans';}
  
         .card {
-  width: 560px;
-  height: 315px;
+
   float:right;
   margin-bottom: 100px;
   margin-right: 25px;
