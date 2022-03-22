@@ -15,7 +15,7 @@ a:active {text-decoration: none; color: white;font-size:20px; font-family: 'Open
 	 .card {
   width:560px;
      height: 315px;
-  float:right;
+  float:left;
   margin-bottom: 100px;
   margin-right: 25px;
 }
@@ -29,7 +29,7 @@ a:active {text-decoration: none; color: white;font-size:20px; font-family: 'Open
 	 .card {
   width:280px;
      height: 157.5px;
-  float:right;
+  float:left;
   margin-bottom: 100px;
   margin-right: 25px;
 }
@@ -149,7 +149,7 @@ code{
 }
 
 .bottomnav a{
-  color: whtie;
+  color: white;
    float: left;
   display: block;
   padding: 0px 5px;
@@ -167,7 +167,7 @@ code{
   background-color: black;
   overflow: hidden;
   top: 0px;
- 
+ left:1px;
   position: fixed;
   
 }
