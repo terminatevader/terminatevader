@@ -1,4 +1,12 @@
-
+document.onkeydown = function(event) {
+    
+    document.onkeydown = function(evt) {
+    evt = evt || window.event;
+   if ( evt.keyCode == 36) {
+        location.href = "https://www.terminatevader.com/"
+    }
+};
+};
 if ('serviceWorker' in navigator){
 navigator.serviceWorker.register('/service-worker.js')
     .then(() => console.log('service worker registered'))
