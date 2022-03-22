@@ -9,7 +9,8 @@ a:active {text-decoration: none; color: white;font-size:20px; font-family: 'Open
 {
   margin-top:0;
 }
-  @media only screen and (orientation: landscape){
+ 
+ @media screen and (min-width:1000px){
 	 .image
 	 {
 	    width:100%;
@@ -24,7 +25,7 @@ a:active {text-decoration: none; color: white;font-size:20px; font-family: 'Open
 		
 }
 }
- @media only screen and (orientation: portrait){
+ @media screen and (max-width:1001px){
 	 .image
 	 {
 	    width:100%;
@@ -37,6 +38,7 @@ a:active {text-decoration: none; color: white;font-size:20px; font-family: 'Open
  
 }
 }
+
 
 		
 		.context-menu {
