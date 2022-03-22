@@ -28,8 +28,7 @@ a:active {text-decoration: none; color: white;font-size:20px; font-family: 'Open
  @media only screen and (orientation: portrait){
 	 .image
 	 {
-	    width:280px;
-     height: 157.5px;
+	    width:100%;
 	 }
 	 .card {
   
