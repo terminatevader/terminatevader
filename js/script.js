@@ -88,7 +88,16 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
     }
 }
 	    
-	    if ( window.location.href == "https://www.terminatevader.com/projects" | "https://www.terminatevader.com/projects/dancingchristmaslights" ) {
+	    if ( window.location.href == "https://www.terminatevader.com/projects" ) {
+    if ( evt.keyCode == 37) {
+        location.href = "https://www.terminatevader.com/"
+    }
+		 if ( evt.keyCode == 39) {
+        location.href = "https://www.terminatevader.com/blogs"
+    }
+}
+	     
+	    if ( window.location.href ==  "https://www.terminatevader.com/projects/dancingchristmaslights" ) {
     if ( evt.keyCode == 37) {
         location.href = "https://www.terminatevader.com/"
     }
