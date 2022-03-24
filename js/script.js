@@ -88,7 +88,7 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
     }
 }
 	    
-	    if ( window.location.href == "https://www.terminatevader.com/projects" ) {
+	    if ( window.location.href == "https://www.terminatevader.com/projects" | "https://www.terminatevader.com/projects/dancingchristmaslights" ) {
     if ( evt.keyCode == 37) {
         location.href = "https://www.terminatevader.com/"
     }
@@ -112,12 +112,13 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
         location.href = "https://www.terminatevader.com/projects"
     }
 }
-	   }
+	   
    if ( evt.keyCode == 36) {
         location.href = "https://www.terminatevader.com/"
     }
 
     }
+	
     document.onclick = hideMenu;
 		document.oncontextmenu = rightClick;
 
