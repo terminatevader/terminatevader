@@ -42,7 +42,7 @@ else if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Sa
     topnav.style.display = "none";
     topnav1.style.display = "none";
     bottomnav.style.display = "none";
-    i.style.width = "100%"
+    i.style.width = "100%";
 	
     
     
