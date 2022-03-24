@@ -55,72 +55,7 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
     document.onkeydown = function(evt) {
     evt = evt || window.event;
 	
-   if ( window.location.href == "https://www.terminatevader.com/blogs/myplanforaftercollege" ) {
-    if ( evt.keyCode == 37) {
-        location.href = "https://www.terminatevader.com/blogs/myfirstimeingatlinburgandpigeonforge"
-    }
-		 if ( evt.keyCode == 39) {
-        location.href = "https://www.terminatevader.com/blogs/cooldogs"
-    }
-}
-	       if ( window.location.href == "https://www.terminatevader.com/blogs/cooldogs" ) {
-    if ( evt.keyCode == 37) {
-        location.href = "https://www.terminatevader.com/blogs/myplanforaftercollege"
-    }
-		 if ( evt.keyCode == 39) {
-        location.href = "https://www.terminatevader.com/blogs/myexperienceatlegolandflorida"
-    }
-}
-	       if ( window.location.href == "https://www.terminatevader.com/blogs/myexperienceatlegolandflorida" ) {
-    if ( evt.keyCode == 37) {
-        location.href = "https://www.terminatevader.com/blogs/cooldogs"
-    }
-		 if ( evt.keyCode == 39) {
-        location.href = "https://www.terminatevader.com/blogs/myfirsttimeingatlinburgandpigeonforge"
-    }
-}
-	         if ( window.location.href == "https://www.terminatevader.com/blogs/myfirsttimeingatlinburgandpigeonforge" ) {
-    if ( evt.keyCode == 37) {
-        location.href = "https://www.terminatevader.com/blogs/myexperienceatlegolandflorida"
-    }
-		 if ( evt.keyCode == 39) {
-        location.href = "https://www.terminatevader.com/blogs/myplanforaftercollege"
-    }
-}
-	    
-	    if ( window.location.href == "https://www.terminatevader.com/projects" ) {
-    if ( evt.keyCode == 37) {
-        location.href = "https://www.terminatevader.com/"
-    }
-		 if ( evt.keyCode == 39) {
-        location.href = "https://www.terminatevader.com/blogs"
-    }
-}
-	     
-	    if ( window.location.href ==  "https://www.terminatevader.com/projects/dancingchristmaslights" ) {
-    if ( evt.keyCode == 37) {
-        location.href = "https://www.terminatevader.com/"
-    }
-		 if ( evt.keyCode == 39) {
-        location.href = "https://www.terminatevader.com/blogs"
-    }
-}
-	    if ( window.location.href == "https://www.terminatevader.com/blogs" ) {
-    if ( evt.keyCode == 37) {
-        location.href = "https://www.terminatevader.com/projects"
-    }
-		 if ( evt.keyCode == 39) {
-        location.href = "https://www.terminatevader.com/"
-    }
-		}
-	   else{
-		     if ( evt.keyCode == 37) {
-        location.href = "https://www.terminatevader.com/blogs"
-    }
-		 if ( evt.keyCode == 39) {
-        location.href = "https://www.terminatevader.com/projects"
-    }
-}
+   
 	   
    if ( evt.keyCode == 36) {
         location.href = "https://www.terminatevader.com/"
