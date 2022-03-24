@@ -78,11 +78,12 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
 		 if ( evt.keyCode == 39) {
         location.href = "https://www.terminatevader.com/"
     }
-}
+
    if ( evt.keyCode == 36) {
         location.href = "https://www.terminatevader.com/"
     }
 }
+    }
     document.onclick = hideMenu;
 		document.oncontextmenu = rightClick;
 
@@ -143,4 +144,4 @@ location.href = "https://www.terminatevader.com/unavailable.txt"
 
 }
 
-\
+
