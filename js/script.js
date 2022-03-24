@@ -49,6 +49,7 @@ else if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Sa
 
 
 else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent)){
+	
     dropdown.style.display = "none";
     bottomnav1.style.display = "none";
     dropbtn.style.display = "none";
@@ -56,6 +57,30 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
     
     document.onkeydown = function(evt) {
     evt = evt || window.event;
+	if ( document.URL.includes("https://www.terminatevader.com/") ) {
+    if ( evt.keyCode == 37) {
+        location.href = "https://www.terminatevader.com/blogs"
+    }
+		 if ( evt.keyCode == 39) {
+        location.href = "https://www.terminatevader.com/projects"
+    }
+}
+	    if ( document.URL.includes("https://www.terminatevader.com/projects") ) {
+    if ( evt.keyCode == 37) {
+        location.href = "https://www.terminatevader.com/"
+    }
+		 if ( evt.keyCode == 39) {
+        location.href = "https://www.terminatevader.com/blogs"
+    }
+}
+	    if ( document.URL.includes("https://www.terminatevader.com/blogs") ) {
+    if ( evt.keyCode == 37) {
+        location.href = "https://www.terminatevader.com/projects"
+    }
+		 if ( evt.keyCode == 39) {
+        location.href = "https://www.terminatevader.com/"
+    }
+}
    if ( evt.keyCode == 36) {
         location.href = "https://www.terminatevader.com/"
     }
