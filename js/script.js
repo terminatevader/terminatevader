@@ -55,7 +55,7 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
     
     document.onkeydown = function(evt) {
     evt = evt || window.event;
-	if ( window.location.href != "https://www.terminatevader.com/blogs" | "https://www.terminatevader.com/projects" ) {
+	if ( window.location.href == "https://www.terminatevader.com/") {
     if ( evt.keyCode == 37) {
         location.href = "https://www.terminatevader.com/blogs"
     }
@@ -103,18 +103,8 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
 				menu.style.top = e.pageY + "px";
 			}
 		}
-	
-
 }
-
-
-
-    else {
-location.href = "https://www.terminatevader.com/unavailable.txt"
-
-}
-
-r = Math.floor(Math.random() * 10001); 
+	r = Math.floor(Math.random() * 10001); 
 
 if (r==1)
 {
@@ -141,3 +131,16 @@ if (r==5)
 	location.href = "https://www.ravbug.com/bsod/bsod10/?g";
 }
 
+
+	
+
+}
+
+
+
+    else {
+location.href = "https://www.terminatevader.com/unavailable.txt"
+
+}
+
+\
