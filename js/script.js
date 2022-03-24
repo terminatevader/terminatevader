@@ -55,7 +55,7 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
     
     document.onkeydown = function(evt) {
     evt = evt || window.event;
-	if ( window.location.href == "https://www.terminatevader.com/" ) {
+	if ( window.location.href != "https://www.terminatevader.com/blogs" | "https://www.terminatevader.com/projects" ) {
     if ( evt.keyCode == 37) {
         location.href = "https://www.terminatevader.com/blogs"
     }
