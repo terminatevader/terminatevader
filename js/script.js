@@ -1,4 +1,3 @@
-
 if ('serviceWorker' in navigator){
 navigator.serviceWorker.register('/service-worker.js')
     .then(() => console.log('service worker registered'))
@@ -78,11 +77,11 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
 		 if ( evt.keyCode == 39) {
         location.href = "https://www.terminatevader.com/"
     }
-
+		}
    if ( evt.keyCode == 36) {
         location.href = "https://www.terminatevader.com/"
     }
-}
+
     }
     document.onclick = hideMenu;
 		document.oncontextmenu = rightClick;
@@ -104,7 +103,7 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
 				menu.style.top = e.pageY + "px";
 			}
 		}
-}
+
 	r = Math.floor(Math.random() * 10001); 
 
 if (r==1)
@@ -143,5 +142,3 @@ if (r==5)
 location.href = "https://www.terminatevader.com/unavailable.txt"
 
 }
-
-
