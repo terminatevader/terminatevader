@@ -123,7 +123,19 @@
 
 
  
- <script src="js/script.js">  </script>
+ <script src="js/script.js">  
+	 document.onkeydown = function(evt) {
+    evt = evt || window.event;
+	   if ( evt.keyCode == 37) {
+        location.href = "https://www.terminatevader.com/projects"
+    }
+	   if ( evt.keyCode == 39) {
+        location.href = "https://www.terminatevader.com/"
+    }
+
+	 }
+
+	</script>
  <script>
  
  var chatbox = document.getElementById('fb-customer-chat');
