@@ -4,14 +4,23 @@
   "name": "Example",
   "version": "1.0",
 
-  "description": "This extension works on all TermiNateVader websites",
+  "description": "This extension works on all TermiNateVader websites along with some other third party websites",
 
   "content_scripts": [
     {
       "matches": ["*://*.terminatevader.com/*"],
       "js": ["example.js"]
 	  
+    },
+	{
+      "matches": ["*://*.unitedanimations.info/*"],
+      "js": ["example.js"]
+	  
+    },
+	{
+      "matches": ["*://*.reedsoftwaresolutions.com/*"],
+      "js": ["example.js"]
+	  
     }
   ]
-
 }
