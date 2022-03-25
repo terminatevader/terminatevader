@@ -26,6 +26,15 @@ a:active {text-decoration: none; color: white;font-size:20px; font-family: 'Open
   margin-left: 1%;
 		
 }
+	 .center {
+  
+  width: 50%
+ 
+}
+	 p{
+		margin-left:25%;
+			margin-right:25%;
+	 }
 }
  @media screen and (max-width:1001px){
 	
