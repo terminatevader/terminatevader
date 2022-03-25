@@ -30,7 +30,6 @@ var bottomnav = document.getElementById('bottomnav');
 var bottomnav1 = document.getElementById('bottomnav1');
 var dropdown = document.getElementById('dropdown');
 var dropbtn = document.getElementById('dropbtn');
-var h1 = document.getElementsByTagName('h1');
 
 if (/Xbox/i.test(navigator.userAgent)){
     location.href = "https://www.terminatevader.com/unavailable.txt"
@@ -52,9 +51,7 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
     dropdown.style.display = "none";
     bottomnav1.style.display = "none";
     dropbtn.style.display = "none";
-    h1.style.white-space = "nowrap";
-    h1.style.overflow = "hidden";
-    h1.style.text-overflow = "ellipsis";
+   
     document.onkeydown = function(evt) {
     evt = evt || window.event;
 	
