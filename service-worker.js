@@ -21,6 +21,10 @@ const appShellFiles = [
   'https://www.terminatevader.com/css/style.css',
   'https://www.terminatevader.com/images/TNV.ico',
   'https://www.terminatevader.com/images/TNV.png',
+  'https://www.terminatevader.com/images/TTAJIE.png',
+  'https://www.terminatevader.com/blogs/myplanforaftercollege',
+  'https://www.terminatevader.com/images/Florida.jpg',
+  'https://www.terminatevader.com/images/19g.jpg',
 ];
 
 console.log('Started', self);
