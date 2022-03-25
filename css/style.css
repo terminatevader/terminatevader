@@ -18,7 +18,7 @@ a:active {text-decoration: none; color: white;font-size:20px; font-family: 'Open
 	    width:100%;
     
 	 }
-	 .card {
+	 .card1 {
   width:23%;
   float:left;
   margin-bottom: 10%;
@@ -26,7 +26,14 @@ a:active {text-decoration: none; color: white;font-size:20px; font-family: 'Open
   margin-left: 1%;
 		
 }
- 
+ 	 .card {
+  width:48%;
+  float:left;
+  margin-bottom: 10%;
+  margin-right: 1%;
+  margin-left: 1%;
+		
+}
 	
 
     .center {
@@ -43,6 +50,13 @@ a:active {text-decoration: none; color: white;font-size:20px; font-family: 'Open
 	    width:100%;
 	 }
 	 .card {
+  
+ width:100%;
+  float:left;
+  margin-bottom: 100px;
+ 
+}
+	 	 .card1 {
   
  width:100%;
   float:left;
