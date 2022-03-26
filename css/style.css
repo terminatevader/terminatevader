@@ -9,10 +9,9 @@ a:active {text-decoration: none; color: white;font-size:20px; font-family: 'Open
 {
   margin-top:0;
 }
- 
+ h1:hover{overflow:visible;white-space: normal;}
  @media screen and (min-width:1000px){
- h1{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
-   h1:hover{overflow:visible;white-space: normal;}
+   
 	 .image
 	 {
 	    width:100%;
