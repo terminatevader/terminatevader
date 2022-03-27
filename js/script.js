@@ -30,7 +30,6 @@ var bottomnav = document.getElementById('bottomnav');
 var bottomnav1 = document.getElementById('bottomnav1');
 var dropdown = document.getElementById('dropdown');
 var dropbtn = document.getElementById('dropbtn');
-var platform = document.getElementById('platform');
 if (/Xbox/i.test(navigator.userAgent)){
     location.href = "https://www.terminatevader.com/unavailable.txt"
 
@@ -40,7 +39,6 @@ else if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Sa
     topnav.style.display = "none";
     topnav1.style.display = "none";
     bottomnav.style.display = "none";
-    platform.innerHTML = "Mobile";
     
     
     
