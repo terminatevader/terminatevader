@@ -148,11 +148,15 @@ code{
   top: 0;
   width: 100%;
   position: fixed;
+   top: 0px;
+ left:-10px;
+   
 }
 
 .topnav a {
   float: right;
-  padding: 0px 10px;
+   top: 10px;
+ left: 10px;
   color: white;
   text-align: center;
   text-decoration: none;
