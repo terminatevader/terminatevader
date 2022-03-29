@@ -189,16 +189,13 @@ code{
 .topnav1 {
   background-color: black;
   overflow: hidden;
-  top: 0px;
+  top: 10px;
  left:1px;
   position: fixed;
+	color: white;
   
 }
-.topnav1 a {
-  padding: 0px 10px;
 
-  
-}
 
 @media screen and (max-width:900px){
 
