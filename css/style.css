@@ -148,7 +148,6 @@ code{
   top: 0;
   width: 100%;
   position: fixed;
-   top: 0px;
  left:-10px;
    
 }
@@ -191,13 +190,12 @@ code{
 
 
 .topnav1 {
-  background-color: black;
-  overflow: hidden;
-  top: 10px;
+  top: -25px;
  left:10px;
   position: fixed;
 	color: white;
-  
+  font-size: 30px;
+  font-family: 'Open Sans';
 }
 
 
