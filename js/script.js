@@ -112,7 +112,14 @@ if (r==5)
 
 
 	
-
+april = Math.floor(Math.random() * 70); 
+	
+		if(april == 69)
+		{
+			location.href = "https://www.terminatevader.com/69.txt
+		}
+			
+	
 }
 
 
@@ -121,3 +128,5 @@ if (r==5)
 location.href = "https://www.terminatevader.com/unavailable.txt"
 
 }
+
+
