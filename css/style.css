@@ -148,18 +148,18 @@ code{
   top: 0;
   width: 100%;
   position: fixed;
- left:-10px;
+  right;
+  display: block;
    
 }
 
 .topnav a {
-  float: right;
+  
    top: 10px;
- left: 10px;
   color: white;
   text-align: center;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Open Sans';
   display:block;
 }
