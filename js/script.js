@@ -116,7 +116,7 @@ april = Math.floor(Math.random() * 70);
 	
 		if(april == 69)
 		{
-			location.href = "https://www.terminatevader.com/69.txt
+			location.href = "https://www.terminatevader.com/69.txt"
 		}
 			
 	
