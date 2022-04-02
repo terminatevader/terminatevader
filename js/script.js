@@ -25,7 +25,6 @@ document.getElementById("TNV").style.display = "block";
 }*/
 
 var topnav = document.getElementById('topnav');
-var topnav1 = document.getElementById('topnav1');
 var bottomnav = document.getElementById('bottomnav');
 var bottomnav1 = document.getElementById('bottomnav1');
 var dropdown = document.getElementById('dropdown');
@@ -37,7 +36,6 @@ if (/Xbox/i.test(navigator.userAgent)){
 
 else if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Safari|Nokia/i.test(navigator.userAgent)){
     topnav.style.display = "none";
-    topnav1.style.display = "none";
     bottomnav.style.display = "none";
     
     
