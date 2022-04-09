@@ -38,10 +38,10 @@ else if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Sa
     topnav.style.display = "none";
     bottomnav.style.display = "none";
     document.getElementById("contextMenu").style.display = "none";
-  addEventListener('dblclick', function (e) {
+  window.addEventListener('dblclick', event => {
   document.getElementById("contextMenu").style.display = "block";
 });
-	 addEventListener('click', function (e) {
+	 window.addEventListener('click', event => {
   document.getElementById("contextMenu").style.display = "none";
 });
     
