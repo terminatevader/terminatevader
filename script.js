@@ -63,10 +63,7 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
 }					
     
     
-    }
-
-    }
-	
+   
     document.onclick = hideMenu;
 		document.oncontextmenu = rightClick;
 
