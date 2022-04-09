@@ -57,38 +57,8 @@ else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent))
    if ( evt.keyCode == 36) {
         location.href = "https://www.terminatevader.com/";
     }
-	if ( document.URL.includes("myplanforaftercollege") ) {
-	 if ( evt.keyCode == 37) {
-        location.href = "https://www.terminatevader.com/myfirsttimeatgatlinburgandpigeonforge";
-    }	
-		 if ( evt.keyCode == 39) {
-        location.href = "https://www.terminatevader.com/cooldogs";
-    }	
-    
-}
-	    	if ( document.URL.includes("cooldogs") ) {
-	 if ( evt.keyCode == 37) {
-        location.href = "https://www.terminatevader.com/myplanforaftercollege";
-    }	
-		 if ( evt.keyCode == 39) {
-        location.href = "https://www.terminatevader.com/myexperienceatlegolandflorida";
-    }	
-		}
-				if ( document.URL.includes("myexperienceatlegolandflorida") ) {
-	 if ( evt.keyCode == 37) {
-        location.href = "https://www.terminatevader.com/cooldogs";
-    }	
-		 if ( evt.keyCode == 39) {
-        location.href = "https://www.terminatevader.com/myfirsttimeatgatlinburgandpigeonforge";
-    }	
-				}
-	if ( document.URL.includes("myfirsttimeingatlinburgandpigoenforge") ) {
-	 if ( evt.keyCode == 37) {
-        location.href = "https://www.terminatevader.com/myexperienceatlegolandflorida";
-    }	
-		 if ( evt.keyCode == 39) {
-        location.href = "https://www.terminatevader.com/myplanforaftercollege";
-    }	
+	    
+	
     
 }					
     
