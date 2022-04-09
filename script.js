@@ -38,12 +38,6 @@ else if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Sa
     topnav.style.display = "none";
     bottomnav.style.display = "none";
     document.getElementById("contextMenu").style.display = "none";
-  window.addEventListener('dblclick', event => {
-  document.getElementById("contextMenu").style.display = "block";
-});
-	 window.addEventListener('click', event => {
-  document.getElementById("contextMenu").style.display = "none";
-});
     
 }
 
