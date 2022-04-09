@@ -37,8 +37,13 @@ if (/Xbox/i.test(navigator.userAgent)){
 else if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Safari|Nokia/i.test(navigator.userAgent)){
     topnav.style.display = "none";
     bottomnav.style.display = "none";
-    
-    
+    document.getElementById("contextMenu").style.display = "none";
+  addEventListener('dblclick', function (e) {
+  document.getElementById("contextMenu").style.display = "block";
+});
+	 addEventListener('click', function (e) {
+  document.getElementById("contextMenu").style.display = "none";
+});
     
 }
 
