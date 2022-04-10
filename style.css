@@ -1,10 +1,10 @@
-h1{color: #17aa5;text-align: center; font-size: 40px; font-family: 'Open Sans';}
-p{color: ##17aa5; text-align: center; font-size:20px; font-family: 'Open Sans';}
+h1{color: #17aa5c;text-align: center; font-size: 40px; font-family: 'Open Sans';}
+p{color: #17aa5c; text-align: center; font-size:20px; font-family: 'Open Sans';}
 body{background-color: black; padding-top:100px;padding-bottom:100px; }
-a:link {text-decoration: none; color: #01a85c;font-size:20px; font-family: 'Open Sans';}
-a:visited {text-decoration: none; color: #01a85c;font-size:20px; font-family: 'Open Sans';}
-a:hover {text-decoration: none; color: #01a85c;font-size:20px; font-family: 'Open Sans';}
-a:active {text-decoration: none; color: #01a85c;font-size:20px; font-family: 'Open Sans';}
+a:link {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Open Sans';}
+a:visited {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Open Sans';}
+a:hover {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Open Sans';}
+a:active {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Open Sans';}
 .caption 
 {
   margin-top:0;
@@ -88,7 +88,7 @@ a:active {text-decoration: none; color: #01a85c;font-size:20px; font-family: 'Op
 
 		.context-menu ul li a {
 			text-decoration: none;
-			color: #01a85c;
+			color: #17aa5c;
 			font-family: 'Open Sans';
 			display: block;
 		}
@@ -117,7 +117,7 @@ pre{
 }
 code{
   text-align: center;
-  color: #01a85c;
+  color: #17aa5c;
 }
 
 
@@ -137,7 +137,7 @@ code{
 .topnav a {
   
    top: 10px;
-  color: #17aa5;
+  color: #17aa5c;
   text-align: center;
   text-decoration: none;
   font-size: 50px;
@@ -156,7 +156,7 @@ code{
 }
 
 .bottomnav a{
-  color: #17aa5;
+  color: #17aa5c;
    float: left;
   display: block;
   padding: 0px 5px;
@@ -165,7 +165,7 @@ code{
 
 
 .topnav a.active {
-  background-color: #17aa5;
+  background-color: #17aa5c;
   color: black;
 }
 
@@ -174,7 +174,7 @@ code{
   top: -30px;
  left:10px;
   position: fixed;
-	color: #17aa5;
+	color: #17aa5c;
   font-size: 30px;
   font-family: 'Open Sans';
 }
@@ -192,7 +192,7 @@ code{
 font-size: 50px;
   border: none;
   outline: none;
-  color: #17aa5;
+  color: #17aa5c;
   background-color:black;
   font-family: 'Open Sans';/* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
@@ -223,7 +223,7 @@ font-size: 50px;
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
-  color: #17aa5;
+  color: #17aa5c;
   padding: 10px 0px;
   text-decoration: none;
   display: block;
@@ -234,7 +234,7 @@ font-size: 50px;
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a.active {
-  background-color: #17aa5;
+  background-color: #17aa5c;
   color: black;
 }
 
@@ -265,7 +265,7 @@ z-index:-1;
 }
 
 .bottomnav1 a{
-  color: ##17aa5;
+  color: #17aa5c;
    float: left;
   display: block;
   padding: 5px 0px;
