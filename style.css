@@ -152,14 +152,14 @@ code{
   position: fixed;
   bottom: 0;
   width: 100%;
- 
+
 }
 
 .bottomnav a{
   color: #17aa5c;
-  float:left;
+   float: left;
   display: block;
-  padding: 0px 77px;
+  padding: 0px 5px;
    
 }
 
@@ -224,11 +224,11 @@ font-size: 50px;
 .dropdown-content a {
   float: none;
   color: #17aa5c;
-  padding: 10px 0px;
+ 
   text-decoration: none;
   display: block;
   text-align: center;
-   font-size: 20px;
+   font-size: 30px;
   font-family: 'Open Sans';
 }
 
