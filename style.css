@@ -152,14 +152,14 @@ code{
   position: fixed;
   bottom: 0;
   width: 100%;
-
+ 
 }
 
 .bottomnav a{
   color: #17aa5c;
-   float: left;
+  float:left;
   display: block;
-  padding: 0px 5px;
+  padding: 0px 77px;
    
 }
 
