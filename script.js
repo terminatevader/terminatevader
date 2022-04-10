@@ -25,19 +25,12 @@ document.getElementById("TNV").style.display = "block";
 }*/
 
 
-if (/Xbox/i.test(navigator.userAgent)){
-    location.href = "https://www.terminatevader.com/unavailable.txt"
-
-}
-
-else if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Safari|Nokia/i.test(navigator.userAgent)){
-
-    document.getElementById("contextMenu").style.display = "none";
-    
-}
 
 
-else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent)){
+
+
+
+
    
     
 
@@ -109,13 +102,8 @@ if (r==5)
 
 			
 	
-}
 
 
 
-    else {
-location.href = "https://www.terminatevader.com/unavailable.txt"
-
-}
-
+    
 
