@@ -24,28 +24,21 @@ document.getElementById("TNV").style.display = "block";
 }
 }*/
 
-var topnav = document.getElementById('topnav');
-var bottomnav = document.getElementById('bottomnav');
-var bottomnav1 = document.getElementById('bottomnav1');
-var dropdown = document.getElementById('dropdown');
-var dropbtn = document.getElementById('dropbtn');
+
 if (/Xbox/i.test(navigator.userAgent)){
     location.href = "https://www.terminatevader.com/unavailable.txt"
 
 }
 
 else if (/Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|Windows Phone|Mobile Safari|Nokia/i.test(navigator.userAgent)){
-    topnav.style.display = "none";
-    bottomnav.style.display = "none";
+
     document.getElementById("contextMenu").style.display = "none";
     
 }
 
 
 else if (/Windows|Mac|Thunderstorm|i686|Ubuntu|CrOS/i.test(navigator.userAgent)){
-    dropdown.style.display = "none";
-    bottomnav1.style.display = "none";
-    dropbtn.style.display = "none";
+   
     
 
     document.onkeydown = function(evt) {
