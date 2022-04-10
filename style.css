@@ -129,8 +129,9 @@ code{
   top: 0;
   width: 100%;
   position: fixed;
-  right;
-  display: block;
+  
+  display: flex;
+ justify-content: center;
    
 }
 
