@@ -10,14 +10,14 @@ a:active {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Op
   margin-top:0;
 }
  
- @media screen and (min-width:1000px){
+ @media (orientation: landscape){
    .topnav a {
 
-  font-size: 30px;
+  font-size: 4vw;
 
 }
-	 h1{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size: 20px;}
-   p{font-size:10px;}
+	 h1{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size: 3vw;}
+   p{font-size:2vw;}
    h1:hover{overflow:visible;white-space: normal;}
 	 .image
 	 {
@@ -40,13 +40,13 @@ a:active {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Op
   width: 30%;
    }
 }
- @media screen and (max-width:1001px){
+ @media (orientation:portrait){
    .topnav a {
-  font-size: 40px;
+  font-size: 7vw;
   
 }
-   h1{font-size: 30px;}
-   p{font-size:20px;}
+   h1{font-size: 6vw;}
+   p{font-size:5vw;}
    .center{
      width:100%;
    }
