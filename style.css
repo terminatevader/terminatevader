@@ -10,7 +10,7 @@ a:active {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Op
   margin-top:0;
 }
  
- @media screen and (min-width:1000px){
+ @media screen and (min-width:600px){
    .topnav a {
 
   font-size: 3vw;
@@ -40,7 +40,7 @@ a:active {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Op
   width: 30%;
    }
 }
- @media screen and (max-width:1001px){
+ @media screen and (max-width:601px){
    .topnav a {
   font-size: 4vh;
   
