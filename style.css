@@ -5,10 +5,7 @@ a:link {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Open
 a:visited {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Open Sans';}
 a:hover {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Open Sans';}
 a:active {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Open Sans';}
-.caption 
-{
-  margin-top:0;
-}
+
  
  @media (orientation: landscape){
    .topnav a {
@@ -70,12 +67,7 @@ a:active {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Op
 }
 }
 
- .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
  
-}
 		
 		.context-menu {
             position: absolute;
@@ -112,27 +104,6 @@ a:active {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Op
 		
 
 
-figcaption {
-
-	text-align:center;
-	
-}
-
-
-a
-}
-  text-align:center;
-}
-
-pre{
-  text-align: center;
-}
-code{
-  text-align: center;
-  color: #17aa5c;
-}
-
-
 
 
 .topnav {
@@ -166,70 +137,5 @@ code{
   color: black;
 }
 
-
-.topnav1 {
-  top: -30px;
- left:10px;
-  position: fixed;
-	color: #17aa5c;
-  font-size: 30px;
-  font-family: 'Open Sans';
-}
-
-
-@media screen and (max-width:900px){
-
-
-}
-
-
-/* Dropdown button */
-.dropdown .dropbtn {
-	
-font-size: 50px;
-  border: none;
-  outline: none;
-  color: #17aa5c;
-  background-color:black;
-  font-family: 'Open Sans';/* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-  
-  
-}
-
-/* Add a red background color to navbar links on hover */
-
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: black;
-  min-width: 250px;
-  min-height: 100px;
-  
-  z-index: 1;
-
-    overflow: visible;
-  
-  right:0;
-  float:left;
-
-}
-
-/* Links inside the dropdown */
-
-.mySlides
-{
-z-index:-1;
-}
-.bottomnav1{
-  background-color: black;
-  overflow: hidden;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-
-}
 
 
