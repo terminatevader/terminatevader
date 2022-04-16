@@ -4,35 +4,7 @@ navigator.serviceWorker.register('/service-worker.js')
     .catch(() => console.log('service worker not registered'))
 }
 
-localStorage.setItem("experiment", "no");
-var experiment = localStorage.getItem("experiment"); 
 
-/* if (confirm("Press OK to enable experimental mode. Press Cancel to turn off experimental mode")) {
-     localStorage.setItem("experiment","yes");
-if(experiment == "yes"){     
-document.getElementById("TNV").style.display = "none";
-document.getElementById("experiment").style.display = "block";
-}
- }
-else{
-    localStorage.getItem("experiment", "no");
-if (experiment == "no")
-{
-document.getElementById("experiment").style.display = "none";
-document.getElementById("TNV").style.display = "block";
-
-}
-}*/
-
-
-
-
-
-
-
-
-   
-    
 
     document.onkeydown = function(evt) {
     evt = evt || window.event;
