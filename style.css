@@ -1,13 +1,18 @@
 h1{color: #17aa5c;text-align: center;  font-family: 'Open Sans';}
 p{color: #17aa5c; text-align: center;  font-family: 'Open Sans';}
 body{background-color: black; padding-top:10vw;padding-bottom:10vw; }
-a:link {text-decoration: none; color: #17aa5c;font-size:2vw; font-family: 'Open Sans';}
-a:visited {text-decoration: none; color: #17aa5c;font-size:2vw; font-family: 'Open Sans';}
-a:hover {text-decoration: none; color: #17aa5c;font-size:2vw; font-family: 'Open Sans';}
-a:active {text-decoration: none; color: #17aa5c;font-size:2vw; font-family: 'Open Sans';}
+a:link {text-decoration: none; color: #17aa5c;font-family: 'Open Sans';}
+a:visited {text-decoration: none; color: #17aa5c; font-family: 'Open Sans';}
+a:hover {text-decoration: none; color: #17aa5c; font-family: 'Open Sans';}
+a:active {text-decoration: none; color: #17aa5c; font-family: 'Open Sans';}
 
  
  @media (orientation: landscape){
+a:link {font-size:2vw;}
+a:visited {font-size:2vw;}
+a:hover {font-size:2vw;}
+a:active {font-size:2vw;}
+
    .topnav a {
 
   font-size: 4vw;
@@ -38,6 +43,10 @@ a:active {text-decoration: none; color: #17aa5c;font-size:2vw; font-family: 'Ope
    }
 }
  @media (orientation:portrait){
+a:link {font-size:4vw;}
+a:visited {font-size:4vw;}
+a:hover {font-size:4vw;}
+a:active {font-size:4vw;}
    .topnav a {
   font-size: 7vw;
   
