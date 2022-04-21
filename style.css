@@ -1,10 +1,10 @@
 h1{color: #17aa5c;text-align: center;  font-family: 'Open Sans';}
 p{color: #17aa5c; text-align: center;  font-family: 'Open Sans';}
-body{background-color: black; padding-top:100px;padding-bottom:100px; }
-a:link {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Open Sans';}
-a:visited {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Open Sans';}
-a:hover {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Open Sans';}
-a:active {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Open Sans';}
+body{background-color: black; padding-top:10vw;padding-bottom:10vw; }
+a:link {text-decoration: none; color: #17aa5c;font-size:2vw; font-family: 'Open Sans';}
+a:visited {text-decoration: none; color: #17aa5c;font-size:2vw; font-family: 'Open Sans';}
+a:hover {text-decoration: none; color: #17aa5c;font-size:2vw; font-family: 'Open Sans';}
+a:active {text-decoration: none; color: #17aa5c;font-size:2vw; font-family: 'Open Sans';}
 
  
  @media (orientation: landscape){
@@ -86,8 +86,8 @@ a:active {text-decoration: none; color: #17aa5c;font-size:20px; font-family: 'Op
 		}
 
 		.context-menu ul li {
-			padding-bottom: 5px;
-			padding-top: 5px;
+			padding-bottom: 0.5vw;
+			padding-top: 0.5vww;
 		}
 
 		.context-menu ul li a {
