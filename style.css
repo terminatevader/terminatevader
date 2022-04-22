@@ -1,10 +1,10 @@
-h1{color: #17aa5c;text-align: center;  font-family: 'Open Sans';}
-p{color: #17aa5c; text-align: center;  font-family: 'Open Sans';}
+h1{color: white;text-align: center;  font-family: 'Open Sans';}
+p{color: white; text-align: center;  font-family: 'Open Sans';}
 body{background-color: black; padding-top:10vw;padding-bottom:10vw; }
-a:link {text-decoration: none; color: #17aa5c;font-family: 'Open Sans';}
-a:visited {text-decoration: none; color: #17aa5c; font-family: 'Open Sans';}
-a:hover {text-decoration: none; color: #17aa5c; font-family: 'Open Sans';}
-a:active {text-decoration: none; color: #17aa5c; font-family: 'Open Sans';}
+a:link {text-decoration: none; color: white;font-family: 'Open Sans';}
+a:visited {text-decoration: none; color: white; font-family: 'Open Sans';}
+a:hover {text-decoration: none; color: white; font-family: 'Open Sans';}
+a:active {text-decoration: none; color: white; font-family: 'Open Sans';}
 
  
  @media (orientation: landscape){
@@ -101,12 +101,12 @@ a:active {font-size:4vw;}
 
 		.context-menu ul li a {
 			text-decoration: none;
-			color: #17aa5c;
+			color: white;
 			font-family: 'Open Sans';
 			display: block;
 		}
 	.context-menu ul li a.active {
-			 background-color: #01a85c;
+			 background-color: white;
   			color: black;
 		}
 
@@ -142,7 +142,7 @@ a:active {font-size:4vw;}
 
 
 .topnav a.active {
-  background-color: #17aa5c;
+  background-color: white;
   color: black;
 }
 
