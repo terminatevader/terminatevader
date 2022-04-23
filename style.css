@@ -5,7 +5,7 @@ a:link {text-decoration: none; color: white;font-family: 'Open Sans';}
 a:visited {text-decoration: none; color: white; font-family: 'Open Sans';}
 a:hover {text-decoration: none; color: white; font-family: 'Open Sans';}
 a:active {text-decoration: none; color: white; font-family: 'Open Sans';}
-
+h2{color: white;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
  
  @media (orientation: landscape){
 a:link {font-size:2vw;}
