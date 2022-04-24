@@ -35,8 +35,9 @@ navigator.serviceWorker.register('/service-worker.js')
 			
 			
 			else {
+				var menu = getElementById("contextMenu")
 				document.oncontextmenu = rightClick;
-
+				
 			
 				menu.style.display = 'block';
 				menu.style.left = e.pageX + "px";
