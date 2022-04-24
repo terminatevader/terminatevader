@@ -42,18 +42,18 @@
 
  
  </div>
-<div id="contextMenu" class="context-menu" style="display:none">
-		<ul>
-			<li><a href="https://www.terminatevader.com/myplanforaftercollege">My Plan For After College</a></li>
-			<hr>
-			<li><a href="https://www.terminatevader.com/cooldogs">Cool Dogs</a></li>
-			<hr>
-			<li><a href="https://www.terminatevader.com/myexperienceatlegolandflorida">My Experience At Legoland Florida</a></li>
-			<hr>
-            <li><a href="https://www.terminatevader.com/myfirsttimeingatlinburgandpigeonforge">My First Time In Gatlinburg And Pigeon Forge</a></li>
-
-		</ul>
-	</div>
+<div id="contextMenu" class="context-menu">
+    <ul id="contextDropdown"><li><a href="https://www.terminatevader.com/myplanforaftercollege">https://www.terminatevader.com/myplanforaftercollege</a></li><hr><li><a href="https://www.terminatevader.com/cooldogs">https://www.terminatevader.com/cooldogs</a></li><hr><li><a href="https://www.terminatevader.com/myexperienceatlegolandflorida">https://www.terminatevader.com/myexperienceatlegolandflorida</a></li><hr><li><a href="https://www.terminatevader.com/myfirsttimeingatlinburgandpigeonforge">https://www.terminatevader.com/myfirsttimeingatlinburgandpigeonforge</a></li><hr></ul>
+    <script>
+      // The list of sites
+      var sites = ["https://www.terminatevader.com/myplanforaftercollege", "https://www.terminatevader.com/cooldogs", "https://www.terminatevader.com/myexperienceatlegolandflorida","https://www.terminatevader.com/myfirsttimeingatlinburgandpigeonforge"];
+      // Loops through the sites
+      for (i=0;i<sites.length;i++){
+        // Adds the url to contextDropdown
+        document.getElementById("contextDropdown").innerHTML += '<li><a href="'+sites[i]+'">'+sites[i]+'</a></li><hr>';
+      }
+    </script>
+</div>
 
 </body>
 </html> 
