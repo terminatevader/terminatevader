@@ -22,7 +22,7 @@ navigator.serviceWorker.register('/service-worker.js')
     
 
     document.onclick = hideMenu;
-		
+		document.oncontextmenu = rightClick;
 		function hideMenu() {
 			document.getElementById("contextMenu").style.display = "none"
 		}
