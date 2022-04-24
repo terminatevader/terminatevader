@@ -20,7 +20,7 @@ navigator.serviceWorker.register('/service-worker.js')
 }					
     
     
-   
+   var menu = document.getElementById("contextMenu")
     document.onclick = hideMenu;
 		document.oncontextmenu = rightClick;
 
@@ -34,18 +34,10 @@ navigator.serviceWorker.register('/service-worker.js')
 			if (document.getElementById("contextMenu").style.display == "block")
 				hideMenu();
 			
-			else {
-				var menu = document.getElementById("contextMenu")
-					<ul>
-				    menu.innerHTML= '<li><a href="https://www.terminatevader.com/myplanforaftercollege">My Plan For After College</a></li>
-			<hr> \
-			<li><a href="https://www.terminatevader.com/cooldogs">Cool Dogs</a></li> \
-			<hr> \
-			<li><a href="https://www.terminatevader.com/myexperienceatlegolandflorida">My Experience At Legoland Florida</a></li> \
-			<hr> \
-            <li><a href="https://www.terminatevader.com/myfirsttimeingatlinburgandpigeonforge">My First Time In Gatlinburg And Pigeon Forge</a></li> \
 			
-		</ul>';
+			else {
+				
+			
 				menu.style.display = 'block';
 				menu.style.left = e.pageX + "px";
 				menu.style.top = e.pageY + "px";
