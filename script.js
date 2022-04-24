@@ -22,8 +22,7 @@ navigator.serviceWorker.register('/service-worker.js')
     
    var menu = document.getElementById("contextMenu")
     document.onclick = hideMenu;
-		document.oncontextmenu = rightClick;
-
+		
 		function hideMenu() {
 			document.getElementById("contextMenu").style.display = "none"
 		}
@@ -36,7 +35,8 @@ navigator.serviceWorker.register('/service-worker.js')
 			
 			
 			else {
-				
+				document.oncontextmenu = rightClick;
+
 			
 				menu.style.display = 'block';
 				menu.style.left = e.pageX + "px";
