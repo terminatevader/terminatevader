@@ -20,7 +20,7 @@ navigator.serviceWorker.register('/service-worker.js')
 }					
     
     
-   var menu = document.getElementById("contextMenu")
+
     document.onclick = hideMenu;
 		
 		function hideMenu() {
@@ -35,7 +35,7 @@ navigator.serviceWorker.register('/service-worker.js')
 			
 			
 			else {
-				var menu = getElementById("contextMenu")
+				var menu = document.getElementById("contextMenu");
 				document.oncontextmenu = rightClick;
 				
 			
