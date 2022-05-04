@@ -6,7 +6,11 @@ a:visited {text-decoration: none; color: white; font-family: 'Open Sans';}
 a:hover {text-decoration: none; color: white; font-family: 'Open Sans';}
 a:active {text-decoration: none; color: white; font-family: 'Open Sans';}
 h2{color: white;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
- 
+ .yt
+{
+  text-align: center;
+  margin-bottom: 20%
+}
  @media (orientation: landscape){
 a:link {font-size:2vw;}
 a:visited {font-size:2vw;}
