@@ -9,7 +9,7 @@ h2{color: white;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
  .yt
 {
   text-align: center;
-  margin-bottom: 20%
+  margin-bottom: 20%;
   position: fixed;
 }
  @media (orientation: landscape){
