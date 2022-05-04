@@ -12,12 +12,7 @@ a:link {font-size:2vw;}
 a:visited {font-size:2vw;}
 a:hover {font-size:2vw;}
 a:active {font-size:2vw;}
-iframe{
-width:50%;
-margin-left: auto;
-margin-right: auto;
-position: fixed;
-}
+
    .topnav a {
 
   font-size: 4vw;
@@ -52,11 +47,7 @@ a:link {font-size:4vw;}
 a:visited {font-size:4vw;}
 a:hover {font-size:4vw;}
 a:active {font-size:4vw;}
-iframe
-{
-width:100%
-position: fixed;
-}
+
    .topnav a {
   font-size: 7vw;
   
