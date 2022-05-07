@@ -22,7 +22,7 @@ navigator.serviceWorker.register('/service-worker.js')
     
 
    
-topnav = document.getElementById("topnav");
+const topnav = document.getElementById("topnav");
 topnav.textContent = 'Test'; 
 
 	
