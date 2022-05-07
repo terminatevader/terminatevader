@@ -22,7 +22,8 @@ navigator.serviceWorker.register('/service-worker.js')
     
 
    
-
+topnav = document.getElementById("topnav");
+topnav.innerHTML = ("Happy Mother's Day")
 	
 
 			
