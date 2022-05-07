@@ -23,7 +23,8 @@ navigator.serviceWorker.register('/service-worker.js')
 
    
 topnav = document.getElementById("topnav");
-topnav.innerHTML = "<a href="https://www.terminatevader.com/">Test</a>";
+topnav.textContent = 'Test'; 
+
 	
 
 			
