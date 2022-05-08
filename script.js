@@ -23,7 +23,7 @@ navigator.serviceWorker.register('/service-worker.js')
 
    
 const topnav = document.getElementById("topnav");
-topnav.textContent = 'TermiNateVader'; 
+topnav.textContent = 'Happy Mother's Day'; 
 
 	
 
