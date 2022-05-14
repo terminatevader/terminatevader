@@ -10,7 +10,7 @@ h2{color: white;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
 {
   width:100%;
   margin-bottom: 10%;
-  position: fixed;
+  margin-top: 10%;
 }
  @media (orientation: landscape){
 a:link {font-size:2vw;}
