@@ -127,7 +127,7 @@ a:active {font-size:4vw;}
   overflow: hidden;
   top: 0;
   width: 100%;
-  
+  z-index:1;
   position:fixed;
   display: flex;
  justify-content: center;
