@@ -35,14 +35,30 @@ document.addEventListener('keydown', function(event) {
 	else if(event.keyCode == 36){
 		location.href = "https://www.terminatevader.com/";
 	}
+	
+	else if(event.keyCode == 49){
+		location.href = "https://www.terminatevader.com/myplanforaftercollege";
+	}
+
+	else if(event.keyCode == 50){
+		location.href = "https://www.terminatevader.com/cooldogs";
+	}
+	
+	else if(event.keyCode == 51){
+		location.href = "https://www.terminatevader.com/myexperienceatlegolandflorida";
+	}
+	
+	else if(event.keyCode == 52){
+		location.href = "https://www.terminatevader.com/myfirsttimeingatlinburgandpigeonforge";
+	}
+
+
+
+
 });
 
-function auto(){
-while (true) {
-    plusDivs(1)
-}
-}
-setTimeout(auto, 3000)
+
+
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
