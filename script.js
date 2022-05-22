@@ -6,19 +6,7 @@ navigator.serviceWorker.register('/service-worker.js')
 
 
 
-    document.onkeydown = function(evt) {
-    evt = evt || window.event;
-	
-   
-	   
-   if ( evt.keyCode == 36) {
-        location.href = "https://www.terminatevader.com/";
-    }
-	    
-	
-    
-}					
-    
+
     
 
    
@@ -35,7 +23,17 @@ showDivs(slideIndex);
 function plusDivs(n) {
   showDivs(slideIndex += n);
 }
-
+document.addEventListener('keydown', function(event) {
+    if(event.keyCode == 37) {
+        plusDivs(-1)
+    }
+    else if(event.keyCode == 39) {
+        plusDivs(1)
+    }
+	else if(event.keyCode == 36){
+		location.href = "https://www.terminatevader.com/";
+	}
+});
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
