@@ -46,6 +46,7 @@ function handleTouchMove(evt) {
         } else {
            plusDivs(-1)
         }    
+    }
 document.addEventListener('keydown', function(event) {
     if(event.keyCode == 37) {
         plusDivs(-1)
