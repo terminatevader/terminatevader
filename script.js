@@ -36,6 +36,13 @@ document.addEventListener('keydown', function(event) {
 		location.href = "https://www.terminatevader.com/";
 	}
 });
+
+function auto(){
+while (true) {
+    plusDivs(1)
+}
+}
+setTimeout(auto, 3000)
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
