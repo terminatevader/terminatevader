@@ -11,7 +11,7 @@ navigator.serviceWorker.register('/service-worker.js')
 
    
 const topnav = document.getElementById("topnav");
-topnav.textContent = "Happy Memorial Day";
+/*topnav.textContent = "Happy Memorial Day";*/
 
 	
 
