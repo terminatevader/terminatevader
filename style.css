@@ -1,6 +1,6 @@
-h1{color: white;text-align: center;  font-family: 'Open Sans';}
-p{color: white; text-align: center;  font-family: 'Open Sans';}
-body{background-color: black; padding-top:10vw;padding-bottom:10vw; }
+h1{color: white; background-color:black; text-align: center;  font-family: 'Open Sans';}
+p{color: white; background-color:black; text-align: center;  font-family: 'Open Sans';}
+body{background-color: black; background-image: url("https://media2.giphy.com/media/i4Gz4BuKa3NQU5FbhA/giphy.gif?cid=790b761154863eaf314062b878ada6d108758dfb26a5cfc0&rid=giphy.gif&ct=g"); background-repeat: no-repeat; background-position: center; background-size: 100% 100%; padding-top:10vw;padding-bottom:10vw; }
 a:link {text-decoration: none; color: white;font-family: 'Open Sans';}
 a:visited {text-decoration: none; color: white; font-family: 'Open Sans';}
 a:hover {text-decoration: none; color: white; font-family: 'Open Sans';}
