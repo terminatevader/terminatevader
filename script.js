@@ -11,7 +11,7 @@ navigator.serviceWorker.register('/service-worker.js')
 
    
 const topnav = document.getElementById("topnav");
-topnav.textContent = "Happy Best Friends Day";
+topnav.textContent = "National Best Friends Day";
 	
 
 			
