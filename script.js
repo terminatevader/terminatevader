@@ -11,12 +11,7 @@ navigator.serviceWorker.register('/service-worker.js')
 
    
 const topnav = document.getElementById("topnav");
-while(document.readyState != "complete")
-}
-topnav.textContent = "loading";
-break;
-}
-topnav.textContent = "TermiNateVader";
+topnav.textContent = "Happy Best Friends Day";
 	
 
 			
