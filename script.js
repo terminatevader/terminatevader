@@ -35,21 +35,7 @@ document.addEventListener('keydown', function(event) {
 		location.href = "https://www.terminatevader.com/";
 	}
 	
-	else if(event.keyCode == 49){
-		location.href = "https://www.terminatevader.com/myplanforaftercollege";
-	}
-
-	else if(event.keyCode == 50){
-		location.href = "https://www.terminatevader.com/cooldogs";
-	}
 	
-	else if(event.keyCode == 51){
-		location.href = "https://www.terminatevader.com/myexperienceatlegolandflorida";
-	}
-	
-	else if(event.keyCode == 52){
-		location.href = "https://www.terminatevader.com/myfirsttimeingatlinburgandpigeonforge";
-	}
 
 
 
