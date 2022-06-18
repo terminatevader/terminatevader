@@ -4,8 +4,11 @@ navigator.serviceWorker.register('/service-worker.js')
     .catch(() => console.log('service worker not registered'))
 }
 
-
-
+if(/Android/i.test(navigator.userAgent)){
+if (window.confirm("Download the app")) {
+  href = "https://github.com/terminatevader/terminatevader.github.io/releases/download/1.0/_TermiNateVader_15643514.apk";
+}
+}
 
     
 
