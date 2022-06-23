@@ -1,0 +1,17 @@
+{
+
+  "manifest_version": 2,
+  "name": "3D Mode",
+  "version": "1.0",
+
+  "description": "Red and blue 3D glasses are required",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.terminatevader.com/*"],
+      "css": ["3dmode.css"],
+	  "js" : ["3dmode.js"]
+	  
+    }
+  ]
+}
