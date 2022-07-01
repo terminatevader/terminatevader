@@ -9,7 +9,7 @@ body:
     value: |
       Thanks for taking the time to fill out this bug report
 - type: textarea
-   id: Bug-Description
+   id: about
    attributes:
      label: Description of the bug
      description: Describe the bug
