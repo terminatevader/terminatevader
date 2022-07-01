@@ -4,6 +4,9 @@ title: "[BUG]: "
 labels: ["bug"]
 assignees: ["TermiNateVader"]
 body:
+- type: markdown
+  attributes:
+    value: "Report a bug"
 - type: textarea
    id: bug-description
    attributes:
