@@ -1,3 +1,9 @@
+  name: Bug Report
+description: File a bug report here
+title: "[BUG]: "
+labels: ["bug"]
+assignees: ["TermiNateVader"]
+body:
   - type: textarea
     id: bug-description
     attributes:
