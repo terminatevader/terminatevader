@@ -4,7 +4,7 @@ title: "[BUG]: "
 labels: ["bug"]
 assignees: ["TermiNateVader"]
 body:
-  - type: textarea
+- type: textarea
     id: bug-description
     attributes:
       label: Description of the bug
