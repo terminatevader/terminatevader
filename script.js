@@ -53,3 +53,7 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+
+if(/Trident/i.test(navigator.userAgent)){
+  // true for mobile device
+  ("Internet Explorer is no longer supported but you can continue to use the website on Internet Explorer
