@@ -1,0 +1,14 @@
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Description of the bug
+      description: Describe the bug
+    validations:
+      required: true
+  - type: textarea
+    id: useragent
+    attributes:
+      label: Useragent
+      description: Provide your useragent
+    validations:
+      required: true
