@@ -56,4 +56,7 @@ function showDivs(n) {
 
 
     
-
+if(/Edge/i.test(navigator.userAgent)){
+  // true for mobile device
+  alert("Edge is no longer supported. You can continue to use the website, but parts of the website may be broken.")
+}
