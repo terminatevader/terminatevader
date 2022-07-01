@@ -6,7 +6,8 @@ assignees: ["TermiNateVader"]
 body:
 - type: markdown
   attributes:
-    value: "Report a bug"
+    value: |
+      Thanks for taking the time to fill out this bug report
 - type: textarea
    id: bug-description
    attributes:
