@@ -1,11 +1,76 @@
-h1{color: white; background-color:black; text-align: center;  font-family: 'Open Sans';}
-p{color: white; background-color:black; text-align: center;  font-family: 'Open Sans';}
-body{background-color: black; /*background-image: url("https://unblast.com/wp-content/uploads/2018/10/Sky-Stars-Pattern.jpg");background-size: cover; background-position: center;*/ padding-top:10vw;padding-bottom:10vw; }
-a:link {text-decoration: none; color: white;font-family: 'Open Sans';}
-a:visited {text-decoration: none; color: white; font-family: 'Open Sans';}
-a:hover {text-decoration: none; color: white; font-family: 'Open Sans';}
-a:active {text-decoration: none; color: white; font-family: 'Open Sans';}
-h2{color: white;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
+
+@media (prefers-color-scheme: dark) {
+	
+	h1{color: white; background-color:black; text-align: center;  font-family: 'Open Sans';}
+	p{color: white; background-color:black; text-align: center;  font-family: 'Open Sans';}
+	body{background-color: black; /*background-image: url("https://unblast.com/wp-content/uploads/2018/10/Sky-Stars-Pattern.jpg");background-size: cover; background-position: center;*/ padding-top:10vw;padding-bottom:10vw; }
+	a:link {text-decoration: none; color: white;font-family: 'Open Sans';}
+	a:visited {text-decoration: none; color: white; font-family: 'Open Sans';}
+	a:hover {text-decoration: none; color: white; font-family: 'Open Sans';}
+	a:active {text-decoration: none; color: white; font-family: 'Open Sans';}
+	h2{color: white;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
+	.topnav {
+  background-color: black;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  z-index:1;
+  position:fixed;
+  display: flex;
+ justify-content: center;
+
+   
+}
+
+.topnav a {
+  
+   top: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  display:block;
+}
+
+
+
+}
+@media (prefers-color-scheme: light) {
+	
+	h1{color: black; background-color:white; text-align: center;  font-family: 'Open Sans';}
+	p{color: black; background-color:white; text-align: center;  font-family: 'Open Sans';}
+	body{background-color: white; /*background-image: url("https://unblast.com/wp-content/uploads/2018/10/Sky-Stars-Pattern.jpg");background-size: cover; background-position: center;*/ padding-top:10vw;padding-bottom:10vw; }
+	a:link {text-decoration: none; color: black;font-family: 'Open Sans';}
+	a:visited {text-decoration: none; color: black; font-family: 'Open Sans';}
+	a:hover {text-decoration: none; color: black; font-family: 'Open Sans';}
+	a:active {text-decoration: none; color: black; font-family: 'Open Sans';}
+	h2{color: black;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
+	.topnav {
+  background-color: white;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  z-index:1;
+  position:fixed;
+  display: flex;
+ justify-content: center;
+
+   
+}
+
+.topnav a {
+  
+   top: 10px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  display:block;
+}
+
+
+
+}
  .yt
 {
   
@@ -30,7 +95,7 @@ a:active {font-size:2vw;}
   font-size: 4vw;
 
 }
-	 header{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size: 3vw;}
+	 .header{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size: 3vw;}
    p{font-size:2vw;}
    h1:hover{overflow:visible;white-space: normal;}
 	 .image
@@ -92,74 +157,18 @@ a:active {font-size:4vw;}
 
  
 		
-		.context-menu {
-            position: absolute;
-            text-align: center;
-            background: black;
-		overflow: auto;
 		
-       
-        }
-		.context-menu ul {
-			padding: 0px;
-			margin: 0px;
-			min-width: 150px;
-			list-style: none;
-			
-		}
-
-		.context-menu ul li {
-			padding-bottom: 0.5vw;
-			padding-top: 0.5vw;
-		}
-
-		.context-menu ul li a {
-			text-decoration: none;
-			color: white;
-			font-family: 'Open Sans';
-			display: block;
-		}
-	.context-menu ul li a.active {
-			 background-color: white;
-  			color: black;
-		}
 
 		
 
 
 
 
-.topnav {
-  background-color: black;
-  overflow: hidden;
-  top: 0;
-  width: 100%;
-  z-index:1;
-  position:fixed;
-  display: flex;
- justify-content: center;
-
-   
-}
-
-.topnav a {
-  
-   top: 10px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  font-family: 'Open Sans';
-  display:block;
-}
 
 
 
 
 
-.topnav a.active {
-  background-color: white;
-  color: black;
-}
 
 
 
