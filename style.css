@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: dark) {
-	
+	hr{height:2px;background-color:white; border: none;}
 	h1{color: white; background-color:black; text-align: center;  font-family: 'Open Sans';}
 	p{color: white; background-color:black; text-align: center;  font-family: 'Open Sans';}
 	body{background-color: black; /*background-image: url("https://unblast.com/wp-content/uploads/2018/10/Sky-Stars-Pattern.jpg");background-size: cover; background-position: center;*/ padding-top:10vw;padding-bottom:10vw; }
@@ -35,7 +35,7 @@
 
 }
 @media (prefers-color-scheme: light) {
-	
+	hr{height:2px;background-color:black; border: none;}
 	h1{color: black; background-color:white; text-align: center;  font-family: 'Open Sans';}
 	p{color: black; background-color:white; text-align: center;  font-family: 'Open Sans';}
 	body{background-color: white; /*background-image: url("https://unblast.com/wp-content/uploads/2018/10/Sky-Stars-Pattern.jpg");background-size: cover; background-position: center;*/ padding-top:10vw;padding-bottom:10vw; }
