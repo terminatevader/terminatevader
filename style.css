@@ -18,7 +18,13 @@ a:visited {font-size:2vw;}
 a:hover {font-size:2vw;}
 a:active {font-size:2vw;}
 .mySlides {display:none;width:50%;margin-left:auto; margin-right:auto;}
-
+.card1
+	 {
+		 display:block;
+		 width:50%;
+		 margin-right:auto;
+		 margin-left:auto;
+	 }
    .topnav a {
 
   font-size: 4vw;
