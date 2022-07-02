@@ -57,3 +57,4 @@ function showDivs(n) {
 if(/Trident/i.test(navigator.userAgent)){
   // true for mobile device
   Alert("Internet Explorer is no longer supported but you can continue to use the website on Internet Explorer");
+}
