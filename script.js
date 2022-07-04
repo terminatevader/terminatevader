@@ -1,3 +1,5 @@
+console.log(navigator.userAgent);
+
 if ('serviceWorker' in navigator){
 navigator.serviceWorker.register('/service-worker.js')
    .then(() => console.log('service worker registered'))
@@ -60,8 +62,10 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
 }
 
-if(/Trident/i.test(navigator.userAgent)){
-  // true for mobile device
-  alert("Internet Explorer is no longer supported but you can continue to use the website on Internet Explorer");
-}
-console.log(navigator.userAgent);
+  if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+    window.location = 'microsoft-edge:' + window.location;
+    setTimeout(function() {
+      window.location = 'https://go.microsoft.com/fwlink/?linkid=2135547';
+    }, 1);
+  }
+
