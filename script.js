@@ -5,10 +5,15 @@ navigator.serviceWorker.register('/service-worker.js')
 }
 
 
-
-    
-
-   
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.visitcount) {
+      localStorage.visitcount = Number(localStorage.visitcount)+1;
+    } 
+else {
+      localStorage.visitcount = 1;
+    }
+  } 
+ 
 const topnav = document.getElementById("topnav");
 topnav.textContent = "TermiNateVader";
 	
