@@ -9,8 +9,8 @@
   "content_scripts": [
     {
       "matches": ["*://*.terminatevader.com/*"],
-      "js": ["experimentalmode.js"],
-	  "css": ["experimentalmode.css"]
+      "js": ["script.js"],
+	  "css": ["style.css"]
 	 
 	  
     }
