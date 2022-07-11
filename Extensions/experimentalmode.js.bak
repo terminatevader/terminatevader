@@ -1,3 +1,0 @@
-const d = new Date();
-const topnav = document.getElementById("topnav");
-topnav.textContent = d;
