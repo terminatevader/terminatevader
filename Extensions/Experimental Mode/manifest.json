@@ -10,7 +10,8 @@
     {
       "matches": ["*://*.terminatevader.com/*"],
       "js": ["script.js"],
-	  "css": ["style.css"]
+	  "css": ["style.css"],
+	    "html": ["index.html"]
 	 
 	  
     }
