@@ -13,7 +13,8 @@ else {
  
 const topnav = document.getElementById("topnav");
 topnav.textContent = "TermiNateVader";
-	
+const v = document.getElementById("v");
+v.textContent = "2022.7.22";
 
 			
 	
