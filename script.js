@@ -1,6 +1,6 @@
 console.log(navigator.userAgent);
 // Simulate an HTTP redirect:
-window.location.replace("http://www.terminatevader.com/broken");
+window.location.replace("http://www.terminatevader.com/broken.txt");
 
 
   if (typeof(Storage) !== "undefined") {
