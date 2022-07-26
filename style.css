@@ -1,4 +1,3 @@
-.v{float:right; right:1%; bottom:1%; position:fixed; font-size:1px; }
 
 @media (prefers-color-scheme: dark) {
 	hr{height:2px;background-color:white; border: none;}
@@ -9,7 +8,6 @@
 	a:visited {text-decoration: none; color: white; font-family: 'Open Sans';}
 	a:hover {text-decoration: none; color: white; font-family: 'Open Sans';}
 	a:active {text-decoration: none; color: white; font-family: 'Open Sans';}
-   .v{color: white; background-color: black}
   
 	h2{color: white;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
 	.topnav {
@@ -39,7 +37,6 @@
 
 }
 @media (prefers-color-scheme: light) {
-  .v{color: black; background-color: white;}
 	hr{height:2px;background-color:black; border: none;}
 	h1{color: black; background-color:white; text-align: center;  font-family: 'Open Sans';}
 	p{color: black; background-color:white; text-align: center;  font-family: 'Open Sans';}
