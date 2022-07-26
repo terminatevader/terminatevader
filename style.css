@@ -1,4 +1,4 @@
-
+.card:hover{opacity:75%}
 @media (prefers-color-scheme: dark) {
 	hr{height:2px;background-color:white; border: none;}
 	h1{color: white; background-color:black; text-align: center;  font-family: 'Open Sans';}
