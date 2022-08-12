@@ -21,7 +21,7 @@
 
   
 }
-	.topnav:hover{
+	.topnav a:hover{
   	 animation-name: example1;
   animation-duration: 1s;
   animation-iteration-count: infinite;
