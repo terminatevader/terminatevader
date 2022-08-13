@@ -1,3 +1,7 @@
+body{
+  scroll-behavior:smooth;
+}
+
 @media (hover: hover){
 .card:hover{
 	 animation-name: example;
