@@ -1,6 +1,6 @@
 console.log(navigator.userAgent);
 if(/Firefox/i.test(navigator.userAgent)){
-	window.location.replace("https://www.terminatevader.com/experimentalmode");
+	window.location("https://www.terminatevader.com/experimentalmode");
 	node.rel = 'https://www.terminatevader.com/experimentalmode.css';
 }
 else{
