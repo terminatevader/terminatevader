@@ -1,5 +1,7 @@
 console.log(navigator.userAgent);
-
+if(/Firefox/i.test(navigator.userAgent)){
+	window.location.replace("https://www.terminatevader.com/experimentalmode")
+}
   if (typeof(Storage) !== "undefined") {
     if (localStorage.visitcount) {
       localStorage.visitcount = Number(localStorage.visitcount)+1;
