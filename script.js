@@ -5,7 +5,7 @@ if(/Firefox/i.test(navigator.userAgent)){
 else{
 	if (window.location.href = "https://www.terminatevader.com/experimentalmode")
 	{
-		window.location.replace("https://www.terminatevader.com/")
+		window.location.replace("https://www.terminatevader.com/index.html")
 	}
 }
   if (typeof(Storage) !== "undefined") {
