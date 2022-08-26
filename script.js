@@ -4,6 +4,7 @@ if(/Firefox/i.test(navigator.userAgent)){
 	node.rel = 'https://www.terminatevader.com/experimentalmode.css';
 	if(window.location.href = "https://www.terminatevader.com/index.html")
 	{
+	window.location.replace("https://www.terminatevader.com/experimentalmode")
 	 if (confirm("I would like to hear your feedback") == true)
 	 {
 		 window.location("https://docs.google.com/forms/d/e/1FAIpQLSeA-6ko6ivasc6LnMX_RBvBSql2oIFOsXe37UQ4bu1o4WvC8A/viewform?usp=sf_link");
