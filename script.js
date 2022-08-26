@@ -3,7 +3,7 @@ if(/Firefox/i.test(navigator.userAgent)){
 	window.location.replace("https://www.terminatevader.com/experimentalmode");
 	node.rel = 'https://www.terminatevader.com/experimentalmode.css';
 }
-if(!/Firefox/i.test(navigator.userAgent){
+else{
 	if (window.location.href = "https://www.terminatevader.com/experimentalmode")
 	{
 		window.location.replace("https://www.terminatevader.com/index.html");
