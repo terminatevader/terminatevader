@@ -1,12 +1,12 @@
 console.log(navigator.userAgent);
 if(/Firefox/i.test(navigator.userAgent)){
-	window.location.replace("https://www.terminatevader.com/experimentalmode")
+	window.location.replace("https://www.terminatevader.com/experimentalmode");
 	node.rel = 'https://www.terminatevader.com/experimentalmode.css';
 }
 if(!/Firefox/i.test(navigator.userAgent){
 	if (window.location.href = "https://www.terminatevader.com/experimentalmode")
 	{
-		window.location.replace("https://www.terminatevader.com/index.html")
+		window.location.replace("https://www.terminatevader.com/index.html");
 	}
 }
   if (typeof(Storage) !== "undefined") {
