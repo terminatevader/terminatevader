@@ -2,6 +2,12 @@ console.log(navigator.userAgent);
 if(/Firefox/i.test(navigator.userAgent)){
 	window.location.replace("https://www.terminatevader.com/experimentalmode")
 }
+else{
+	if (window.location.href = "https://www.terminatevader.com/experimentalmode")
+	{
+		window.location.replace("https://www.terminatevader.com/")
+	}
+}
   if (typeof(Storage) !== "undefined") {
     if (localStorage.visitcount) {
       localStorage.visitcount = Number(localStorage.visitcount)+1;
