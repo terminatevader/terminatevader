@@ -1,7 +1,5 @@
 console.log(navigator.userAgent);
-if(/Android/i.test(navigator.userAgent){
-		window.location.replace("https://github.com/terminatevader/terminatevader.github.io/releases/tag/App")
-	}
+
   if (typeof(Storage) !== "undefined") {
     if (localStorage.visitcount) {
       localStorage.visitcount = Number(localStorage.visitcount)+1;
