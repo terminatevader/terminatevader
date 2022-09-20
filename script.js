@@ -3,7 +3,7 @@ console.log(navigator.userAgent);
 if (
   navigator.userAgent.match(/Android/i)
 	{
-		window.location.replace("https://www.terminatevader.com/download")
+		window.location.replace("https://github.com/terminatevader/terminatevader.github.io/releases/tag/App")
 	}
   if (typeof(Storage) !== "undefined") {
     if (localStorage.visitcount) {
