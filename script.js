@@ -1,5 +1,5 @@
 console.log(navigator.userAgent);
-if(/Android/i.test(navigator.userAgent)&&(!window.screenTop && !window.screenY){
+if(/Android/i.test(navigator.userAgent){
 		window.location.replace("https://github.com/terminatevader/terminatevader.github.io/releases/tag/App")
 	}
   if (typeof(Storage) !== "undefined") {
