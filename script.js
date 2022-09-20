@@ -1,6 +1,10 @@
 console.log(navigator.userAgent);
 
-
+if (
+  navigator.userAgent.match(/Android/i)
+	{
+		window.location.replace("https://www.terminatevader.com/download")
+	}
   if (typeof(Storage) !== "undefined") {
     if (localStorage.visitcount) {
       localStorage.visitcount = Number(localStorage.visitcount)+1;
