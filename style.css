@@ -14,7 +14,7 @@ body{
   text-align: center;
   
   color: white;
-  font-size: 100%;
+  
 }
 figcaption
 {
@@ -132,10 +132,11 @@ font-family: 'Open Sans'
    {
      font-size:50%;
 }
-a:link {font-size:2vw;}
-a:visited {font-size:2vw;}
-a:hover {font-size:2vw;}
-a:active {font-size:2vw;}
+   .icon-bar
+   {
+    font-size: 4vw;
+   }
+
 .mySlides {display:none;width:50%;margin-left:auto; margin-right:auto;}
 .card1
 	 {
@@ -174,15 +175,17 @@ a:active {font-size:2vw;}
    }
 }
  @media (orientation:portrait){
-   
-
+   .icon-bar
+   {
+    font-size: 5vh;
+   }
 .mySlides {display:none;width:100%;}
    figcaption
  {
      font-size:100%;
 }
    .topnav a {
-  font-size: 7vw;
+  font-size: 5vh;
   
 }
    h1{font-size: 3vh;}
