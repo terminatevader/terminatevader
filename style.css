@@ -6,14 +6,14 @@ body{
  position:fixed;
   overflow: auto;
   bottom:0;
-margin-top:10vh;
+
 }
 
 .icon-bar a {
   float: left;
   width: 10%;
   text-align: center;
-  margin-top:10vh;
+  
   color: white;
   
 }
@@ -179,6 +179,7 @@ font-family: 'Open Sans'
    .icon-bar
    {
     font-size: 5vh;
+    display:none;
    }
 .mySlides {display:none;width:100%;}
    figcaption
