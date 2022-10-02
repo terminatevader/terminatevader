@@ -6,6 +6,7 @@ body{
  position:fixed;
   overflow: auto;
   bottom:0;
+margin-top:10vh
 }
 
 .icon-bar a {
