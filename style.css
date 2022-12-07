@@ -157,7 +157,7 @@ font-family: 'Open Sans'
 }
    .icon-bar
    {
-    font-size: 1.8vw;
+    font-size: 2vw;
    }
 
 .mySlides {display:none;height:50vh;margin-left:auto; margin-right:1%;float:left; }
@@ -232,8 +232,8 @@ margin-right:5vw;
    }
    .icon-bar
    {
-    font-size: 1.8vh;
-    display:none;
+    font-size: 2.5vh;
+   
    }
 .mySlides {display:none;width:100%; margin-top:5vh;}
    figcaption
