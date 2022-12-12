@@ -1,6 +1,34 @@
 body{
   scroll-behavior:smooth;
 }
+.fa-facebook{
+  color: #3b5998;
+}
+.fa-instagram{
+  color:#8a3ab9;
+}
+.fa-twitter{
+  color: #00acee;
+}
+.fa-youtube{
+  color:#FF0000;
+}
+.fa-twitch{
+  color:#6441a5;
+}
+.fa-reddit{
+  color:#FF5700;
+}
+.fa-snapchat{
+  color:#FFFC00;
+}
+
+.fa-steam{
+  color: #00adee
+}
+.fa-map{
+  color:#34A56F;
+}
 .icon-bar {
   width: 100%;
  position:fixed;
@@ -112,7 +140,7 @@ font-family: 'Open Sans'
 .icon-bar a {
 
   
-  color: #000100;
+  
 }
 	.topnav {
   background-color: #fffeff;
