@@ -3,7 +3,7 @@
   "short_name": "DevCoffee",
   "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#000100;,
+  "background_color": "#000100,
   "theme_color": "#fffeff",
   "orientation": "portrait-primary",
   "icons": [
