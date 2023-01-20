@@ -54,7 +54,7 @@ font-family: 'Open Sans'
 	
 	h1{color: #fffeff;  background-color:#000100; text-align: center;  font-family: 'Open Sans';}
 	p{color: #fffeff; text-align: center;  font-family: 'Open Sans';}
-	body{background-color: #000100; background-image: url("https://paulvanderlaken.files.wordpress.com/2017/12/snow6.gif");background-repeat: no-repeat; background-attachment: fixed; background-size:cover; background-position: center center;  padding-top:10vh; padding-bottom:10vh;}
+	body{background-color: #000100; background-image: url("https://www.ci.sandy.or.us/sites/default/files/imageattachments/library/page/14271/hearts-37308_1280.png");background-repeat: repeat; background-attachment: fixed; background-size:contain; background-position: center center;  padding-top:10vh; padding-bottom:10vh;}
 	a:link {text-decoration: none; color: #fffeff;font-family: 'Open Sans';}
 	a:visited {text-decoration: none; color: #fffeff; font-family: 'Open Sans';}
 	a:hover {text-decoration: none; color: #fffeff; font-family: 'Open Sans';}
