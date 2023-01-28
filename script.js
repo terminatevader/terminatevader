@@ -1,5 +1,9 @@
 console.log(navigator.userAgent);
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+window.screen.orientation.lock("portrait-primary")
 
+window.screen.orientation.unlock()
+}
   if (typeof(Storage) !== "undefined") {
     if (localStorage.visitcount) {
       localStorage.visitcount = Number(localStorage.visitcount)+1;
