@@ -1,4 +1,4 @@
-console.log(navigator.userAgent);
+/*console.log(navigator.userAgent);
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
 
 }
@@ -55,6 +55,7 @@ function showDivs(n) {
     x[i].style.display = "none";  
   }
   x[slideIndex-1].style.display = "block";  
-}
+}*/
 
 
+Alert("Perfomance has been improved");
