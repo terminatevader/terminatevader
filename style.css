@@ -2,7 +2,7 @@ body{
   scroll-behavior:smooth;
 }
 .fa-facebook{
-  color:#4267B2;
+  color:#1778f2;
 }
 .fa-instagram{
     color:transparent;
@@ -10,26 +10,28 @@ body{
   background-image: linear-gradient(#405DE6, #5B51D8,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
 }
 .fa-twitter{
-  color: #00acee;
+  color: #1da1f2;
 }
 .fa-youtube{
   color:#FF0000;
 }
 .fa-twitch{
-  color:#6441a5;
+  color:#6441A4;
 }
 .fa-reddit{
-  color:#FF5700;
+  color:#ff4500;
 }
 .fa-snapchat{
-  color:#FFFC00;
+  color:#fffc00;
 }
 
 .fa-steam{
    color:#c7d5e0;
 }
 .fa-map{
-  color:#34A56F;
+  color:transparent;
+  background-clip: text;
+  background-image: linear-gradient(#9ddbff,#c3f4fe,#fefded,#e8e1c9,#aad1ac,#cbe7be);
 }
 .icon-bar {
   width: 100%;
