@@ -1,6 +1,10 @@
-body{
-  scroll-behavior:smooth;
+html{
+  scroll-behavior: smooth;
+  scrollbar-color: green black;
+ scrollbar-width: thin;
 }
+
+
 .fa-facebook{
   color:#1778f2;
 }
@@ -71,6 +75,9 @@ font-family: 'Open Sans'
 	.blog{
 		border-color:green;
     background-color:black;
+    scroll-behavior: smooth;
+    scrollbar-color: green black;
+    scrollbar-width: thin;
 	}
   .icon-bar {
  background-color:black;
