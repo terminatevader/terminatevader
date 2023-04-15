@@ -56,41 +56,41 @@ font-family: 'Open Sans'
 }
 
 	
-	h1{color: #fffeff;  background-color:#000100; text-align: center;  font-family: 'Open Sans';}
-	p{color: #fffeff; text-align: center;  font-family: 'Open Sans';}
-	body{background-color: #000100; /*background-image: url("https://www.ci.sandy.or.us/sites/default/files/imageattachments/library/page/14271/hearts-37308_1280.png");*/background-repeat: repeat; background-attachment: fixed; background-size:contain; background-position: center center;  padding-top:10vh; padding-bottom:10vh;}
-	a:link {text-decoration: none; color: #fffeff;font-family: 'Open Sans';}
-	a:visited {text-decoration: none; color: #fffeff; font-family: 'Open Sans';}
-	a:hover {text-decoration: none; color: #fffeff; font-family: 'Open Sans';}
-	a:active {text-decoration: none; color: #fffeff; font-family: 'Open Sans';}
+	h1{color: black;  background-color:#2e0551; text-align: center;  font-family: 'Open Sans';}
+	p{color: black; text-align: center;  font-family: 'Open Sans';}
+	body{background-color: #2e0551; /*background-image: url("https://www.ci.sandy.or.us/sites/default/files/imageattachments/library/page/14271/hearts-37308_1280.png");*/background-repeat: repeat; background-attachment: fixed; background-size:contain; background-position: center center;  padding-top:10vh; padding-bottom:10vh;}
+	a:link {text-decoration: none; color: black;font-family: 'Open Sans';}
+	a:visited {text-decoration: none; color: black; font-family: 'Open Sans';}
+	a:hover {text-decoration: none; color: black; font-family: 'Open Sans';}
+	a:active {text-decoration: none; color: black; font-family: 'Open Sans';}
 	
 	figcaption{
-		border-color:#fffeff;
-    background-color:#000100;
+		border-color:black;
+    background-color:#2e0551;
 	}
 	.blog{
-		border-color:#fffeff;
-    background-color:#000100;
+		border-color:black;
+    background-color:#2e0551;
 	}
   .icon-bar {
- background-color:#000100;
+ background-color:#2e0551;
 }
   .image{
-    border-color: #fffeff;
+    border-color: black;
   }
 .icon-bar a {
 
   
-  color: #fffeff;
+  color: black;
 
 }
   figcaption
   {
-	color: #fffeff;
+	color: black;
   }
-	h2{color: #fffeff;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
+	h2{color: black;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
 	.topnav {
-  background-color: #000100;
+  background-color: #2e0551;
   overflow: hidden;
   top: 0;
   width: 100%;
@@ -105,7 +105,7 @@ font-family: 'Open Sans'
 .topnav a {
   
    top: 10px;
-  color: #fffeff;
+  color: black;
   text-align: center;
   text-decoration: none;
   font-family: 'Open Sans';
@@ -207,7 +207,7 @@ margin-right:5vw;
    .icon-bar
    {
     font-size: 2.5vh;
-   
+   display: none;
    }
 .mySlides {display:none;width:100%; margin-top:5vh;}
    figcaption
