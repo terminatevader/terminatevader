@@ -1,6 +1,6 @@
 html{
   scroll-behavior: smooth;
-  scrollbar-color: green black;
+  scrollbar-color: white black;
  scrollbar-width: thin;
 }
 
@@ -62,30 +62,30 @@ font-family: 'Open Sans'
 }
 
 	
-	h1{color: green;  background-color:black; text-align: center;  font-family: 'Open Sans';}
-	p{color: green; text-align: center;  font-family: 'Open Sans';}
-	body{background-color: black; /*background-image: url("https://www.ci.sandy.or.us/sites/default/files/imageattachments/library/page/14271/hearts-37308_1280.png");*/background-repeat: repeat; background-attachment: fixed; background-size:contain; background-position: center center;  padding-top:10vh; padding-bottom:10vh;}
+	h1{color: white;  background-color:black; text-align: center;  font-family: 'Open Sans';}
+	p{color: white; text-align: center;  font-family: 'Open Sans';}
+	body{background-color: white; /*background-image: url("https://www.ci.sandy.or.us/sites/default/files/imageattachments/library/page/14271/hearts-37308_1280.png");*/background-repeat: repeat; background-attachment: fixed; background-size:contain; background-position: center center;  padding-top:10vh; padding-bottom:10vh;}
 	a:link {text-decoration: none; color: black;font-family: 'Open Sans';}
 	a:visited {text-decoration: none; color: black; font-family: 'Open Sans';}
 	a:hover {text-decoration: none; color: black; font-family: 'Open Sans';}
 	a:active {text-decoration: none; color: black; font-family: 'Open Sans';}
 	
 	figcaption{
-		border-color:green;
+		border-color:white;
     background-color:black;
 	}
 	.blog{
-		border-color:green;
+		border-color:white;
     background-color:black;
     scroll-behavior: smooth;
-    scrollbar-color: green black;
+    scrollbar-color: white black;
     scrollbar-width: thin;
 	}
   .icon-bar {
  background-color:black;
 }
   .image{
-    border-color: green;
+    border-color: white;
   }
 .icon-bar a {
 
@@ -95,7 +95,7 @@ font-family: 'Open Sans'
 }
   figcaption
   {
-	color: green;
+	color: white;
   }
 	h2{color: black;text-align: center;  font-size:1000%; font-family: 'Open Sans';}
 	.topnav {
@@ -114,7 +114,7 @@ font-family: 'Open Sans'
 .topnav a {
   
    top: 10px;
-  color: green;
+  color: white;
   text-align: center;
   text-decoration: none;
   font-family: 'Open Sans';
@@ -216,7 +216,7 @@ margin-right:5vw;
    .icon-bar
    {
     font-size: 2.5vh;
-   display: none;
+   
    }
 .mySlides {display:none;width:100%; margin-top:5vh;}
    figcaption
