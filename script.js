@@ -13,7 +13,7 @@ else {
  
 const topnav = document.getElementById("topnav");
 
-	topnav.textContent = "Teachers' Day";
+	topnav.textContent = "TermiNateVader";
 
 
 
