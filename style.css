@@ -72,7 +72,7 @@ html{
 figcaption
 {
 text-align:center;
-font-family: 'Open Sans'
+font-family: 'Roboto Mono', monospace;
 }
 
 	
@@ -131,7 +131,7 @@ font-family: 'Open Sans'
   color: white;
   text-align: center;
   text-decoration: none;
-  font-family: 'Open Sans';
+  font-family: 'Roboto Mono', monospace;;
   display:block;
 }
 
