@@ -85,7 +85,6 @@ font-family: 'Roboto Mono', monospace;
 	a:active {text-decoration: none; color: black; font-family: 'Roboto Mono', monospace;}
 	
 	figcaption{
-		border-color:white;
     background-color:black;
 	}
 	.blog{
@@ -149,9 +148,7 @@ font-family: 'Roboto Mono', monospace;
   
    figcaption
    {
-     font-size:0.90vw;
-     border-style:solid;
-     border-radius:0 0 1vw 1vw
+     font-size:0.9vw;
      
 }
    .icon-bar
@@ -181,8 +178,7 @@ font-family: 'Roboto Mono', monospace;
 margin-right:5vw;
     height:50vh;
      overflow:auto;
-     border-style:solid;
-    
+    border-style: solid;
    
    }
    .side:after{
@@ -195,8 +191,6 @@ margin-right:5vw;
 	 .image
 	 {
 	    width:100%;
-    border-style: solid;
-     border-radius: 1vw 1vw 0 0;
 	 }
 
  	 .card {
