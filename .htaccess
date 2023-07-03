@@ -1,5 +1,0 @@
-#RewriteEngine On
-#RewriteBase /
-#RewriteCond %{REMOTE_HOST} 123\.456\.789
-#RewriteCond %{REQUEST_URI} /requested-page\.html$
-#RewriteRule .* /just-for-you.html [R=301,L]
