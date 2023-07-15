@@ -196,6 +196,7 @@ margin-right:5vw;
 	 }
 
  	 .card {
+     opacity: 75%;
      margin-top:25vh;;
   width:23%;
   float:left;
@@ -206,7 +207,9 @@ margin-right:5vw;
      
      
 }
-	
+   .card:hover{
+     opacity:100%;
+   }
 
     .center {
 
