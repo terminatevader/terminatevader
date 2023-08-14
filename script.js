@@ -1,6 +1,24 @@
-console.log(navigator.userAgent);
-if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
 
+if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+	console.log(navigator.userAgent);
+	document.addEventListener('keydown', function(event) {
+    if(event.keyCode == 37) {
+        plusDivs(-1)
+    }
+    else if(event.keyCode == 39) {
+        plusDivs(1)
+    }
+	else if(event.keyCode == 36){
+		location.href = "https://www.terminatevader.com/";
+	}
+	
+	
+	
+
+
+
+
+});
 }
 
  
@@ -21,24 +39,7 @@ function plusDivs(n) {
 }
 
 
-document.addEventListener('keydown', function(event) {
-    if(event.keyCode == 37) {
-        plusDivs(-1)
-    }
-    else if(event.keyCode == 39) {
-        plusDivs(1)
-    }
-	else if(event.keyCode == 36){
-		location.href = "https://www.terminatevader.com/";
-	}
-	
-	
-	
 
-
-
-
-});
 
 
 
