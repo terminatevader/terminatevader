@@ -2,7 +2,7 @@
 if(/Android/i.test(navigator.userAgent) && !/wv/i.test(navigator.userAgent)){
 	window.location.replace("https://github.com/terminatevader/terminatevader.github.io/releases/tag/App")
 	
-});
+
 }
 	console.log(navigator.userAgent);
 	document.addEventListener('keydown', function(event) {
@@ -21,7 +21,7 @@ const topnav = document.getElementById("topnav");
 
 
 
-
+	});
 			
 	
 var slideIndex = 1;
