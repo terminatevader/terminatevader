@@ -1,5 +1,14 @@
 
 if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+
+	
+	
+
+
+
+
+});
+}
 	console.log(navigator.userAgent);
 	document.addEventListener('keydown', function(event) {
     if(event.keyCode == 37) {
@@ -11,17 +20,6 @@ if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 	else if(event.keyCode == 36){
 		location.href = "https://www.terminatevader.com/";
 	}
-	
-	
-	
-
-
-
-
-});
-}
-
- 
 const topnav = document.getElementById("topnav");
 
 	topnav.textContent = "TermiNateVader";
