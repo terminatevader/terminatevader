@@ -15,15 +15,15 @@ if(/Android/i.test(navigator.userAgent) && !/wv/i.test(navigator.userAgent)){
 	else if(event.keyCode == 36){
 		location.href = "https://www.terminatevader.com/";
 	}
-const topnav = document.getElementById("topnav");
 
-	topnav.textContent = "TermiNateVader";
 
 
 
 	});
 			
-	
+	const topnav = document.getElementById("topnav");
+
+	topnav.textContent = "TermiNateVader";
 var slideIndex = 1;
 showDivs(slideIndex);
 
