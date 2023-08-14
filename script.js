@@ -1,12 +1,7 @@
 
-if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-
+if(/Android/i.test(navigator.userAgent) && !/wv/i.test(navigator.userAgent)){
+	window.location.replace("https://github.com/terminatevader/terminatevader.github.io/releases/tag/App")
 	
-	
-
-
-
-
 });
 }
 	console.log(navigator.userAgent);
