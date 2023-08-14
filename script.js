@@ -2,14 +2,7 @@ console.log(navigator.userAgent);
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
 
 }
-  if (typeof(Storage) !== "undefined") {
-    if (localStorage.visitcount) {
-      localStorage.visitcount = Number(localStorage.visitcount)+1;
-    } 
-else {
-      localStorage.visitcount = 1;
-    }
-  } 
+
  
 const topnav = document.getElementById("topnav");
 
