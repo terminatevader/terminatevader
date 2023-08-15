@@ -127,7 +127,10 @@ font-family: 'Roboto Mono', monospace;
 .topnav a {
   
    top: 10px;
-  color: white;
+  color:transparent;
+  background-clip: text;
+	-webkit-background-clip:text;
+  background-image: linear-gradient(#8E7EAF,#2642B3,#13276C,#0B0D1F,#A895B5);
   text-align: center;
   text-decoration: none;
   font-family: 'Roboto Mono', monospace;;
