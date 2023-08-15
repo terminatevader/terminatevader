@@ -203,11 +203,13 @@ margin-right:1vw;
   margin-right: 1%;
   margin-left: 1%;
 		 
-     
+   
      
 }
-	
-
+ 
+   .card:hover{
+     opacity:0.5;
+   }
     .center {
 
   width: 30%;
