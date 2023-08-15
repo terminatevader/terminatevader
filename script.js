@@ -26,7 +26,7 @@ if(/wv/i.test(navigator.userAgent)){
 			
 	const topnav = document.getElementById("topnav");
 
-	topnav.textContent = "Assumption Of Mary";
+	topnav.textContent = "TNV Universe";
 var slideIndex = 1;
 showDivs(slideIndex);
 
