@@ -1,5 +1,3 @@
-
-
 html{
   scroll-behavior: smooth;
   scrollbar-color: white black;
@@ -132,7 +130,7 @@ font-family: 'Roboto Mono', monospace;
   color:transparent;
   background-clip: text;
 	-webkit-background-clip:text;
-  background-image: linear-gradient(#ffffff,#bfbfbf,#7f7f7f,#404040,#000000);
+  background-image: linear-gradient(#000000,#2A0357,#0503CE,#181719,#141513);
   text-align: center;
   text-decoration: none;
   font-family: 'Roboto Mono', monospace;;
