@@ -4,11 +4,7 @@ if(/Android/i.test(navigator.userAgent) && !/wv/i.test(navigator.userAgent)){
 	
 
 }
-for (var i = 0; i < Infinity; i++) {
-	var online = navigator.onLine;
-	if (online == false){
-		Alert("You are offline");
-	}
+var online = navigator.onLine;
 
 }
 	console.log(navigator.userAgent);
