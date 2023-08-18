@@ -4,7 +4,7 @@ if(/Android/i.test(navigator.userAgent) && !/wv/i.test(navigator.userAgent)){
 	
 
 }
-if(/wv/i.test(navigator.userAgent){
+if(/wv/i.test(navigator.userAgent) && (/Android/i.test(navigator.userAgent)){
 window.location.replace("https://www.terminatevader.com/myplanforaftercollege");
 	
 	myElement.addEventListener("touchstart", startTouch, false);
