@@ -22,7 +22,7 @@ var online = navigator.onLine;
 
 
 
-	});
+	}
 			
 	const topnav = document.getElementById("topnav");
 
