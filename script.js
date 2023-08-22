@@ -4,7 +4,10 @@ if(/Android/i.test(navigator.userAgent) && !/wv/i.test(navigator.userAgent)){
 	
 
 }
-var online = navigator.onLine;
+const topnav = document.getElementById("topnav");
+
+	topnav.textContent = "TermiNateVader";
+
 
 
 	console.log(navigator.userAgent);
@@ -15,18 +18,14 @@ var online = navigator.onLine;
     else if(event.keyCode == 39) {
         plusDivs(1)
     }
-	else if(event.keyCode == 36){
-		location.href = "https://www.terminatevader.com/";
-	}
+	
 
 
 
 
 	}
 			
-	const topnav = document.getElementById("topnav");
-
-	topnav.textContent = "TermiNateVader";
+	
 var slideIndex = 1;
 showDivs(slideIndex);
 
