@@ -11,6 +11,12 @@ const topnav = document.getElementById("topnav");
 
 
 	console.log(navigator.userAgent);
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
 	document.addEventListener('keydown', function(event) {
     if(event.keyCode == 37) {
         plusDivs(-1)
@@ -26,12 +32,7 @@ const topnav = document.getElementById("topnav");
 	}
 			
 	
-var slideIndex = 1;
-showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
 
 
 
