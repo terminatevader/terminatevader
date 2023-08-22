@@ -6,7 +6,7 @@ if(/Android/i.test(navigator.userAgent) && !/wv/i.test(navigator.userAgent)){
 }
 var online = navigator.onLine;
 
-}
+
 	console.log(navigator.userAgent);
 	document.addEventListener('keydown', function(event) {
     if(event.keyCode == 37) {
