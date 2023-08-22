@@ -4,13 +4,39 @@ if(/Android/i.test(navigator.userAgent) && !/wv/i.test(navigator.userAgent)){
 	
 
 }
-const topnav = document.getElementById("topnav");
-
-	topnav.textContent = "TermiNateVader";
-
-
 
 	console.log(navigator.userAgent);
+	document.addEventListener('keydown', function(event) {
+    if(event.keyCode == 37) {
+        plusDivs(-1)
+    }
+    else if(event.keyCode == 39) {
+        plusDivs(1)
+    }
+	else if(event.keyCode == 36){
+		location.href = "https://www.terminatevader.com/";
+	}
+
+
+
+
+	});
+			
+	const topnav = document.getElementById("topnav");
+
+	topnav.textContent = "TermiNateVader";
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+
+
+
+
+
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
@@ -21,34 +47,4 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-	document.addEventListener('keydown', function(event) {
-    if(event.keyCode == 37) {
-        plusDivs(-1)
-    }
-    else if(event.keyCode == 39) {
-        plusDivs(1)
-    }
-	
-
-
-
-
-	}
-			
-	
-
-
-
-
-
-
-
-
-
 
