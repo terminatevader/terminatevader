@@ -4,7 +4,7 @@ if(/Android/i.test(navigator.userAgent) && !/wv/i.test(navigator.userAgent)){
 	
 
 }
-Alert(navigator.userAgent);
+
 	console.log(navigator.userAgent);
 	document.addEventListener('keydown', function(event) {
     if(event.keyCode == 37) {
