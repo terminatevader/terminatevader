@@ -130,7 +130,7 @@ font-family: 'Roboto Mono', monospace;
   color:transparent;
   background-clip: text;
 	-webkit-background-clip:text;
-  background-image: url('https://c.tadst.com/gfx/750w/womens-equality-day-us-holidays.jpg');
+  background-image: linear-gradient(red,orangered,orange,yellow,yellowgreen,green,blue,indigo,violet);
   text-align: center;
   text-decoration: none;
   font-family: 'Roboto Mono', monospace;;
