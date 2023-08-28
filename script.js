@@ -26,6 +26,7 @@ if(/Android/i.test(navigator.userAgent) && !/wv/i.test(navigator.userAgent)){
 	let today = new Date();
 if (today.getMonth() == 11 && today.getDate() == 25) {
 	topnav.textContent = "Merry Christmas";
+	document.body.style.backgroundImage = "url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm12Ym5lazZjMm01NGY4Yjl5ZDAzNm1udWR3bWsxbzdpOXBjM2xxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/tIHktzgRi8yjIplFVI/giphy.gif')"; 
 }
 if (today.getMonth() == 10 && today.getDate() == 23) {
 	topnav.textContent = "Happy Thanksgiving";
