@@ -23,8 +23,23 @@ if(/Android/i.test(navigator.userAgent) && !/wv/i.test(navigator.userAgent)){
 	});
 			
 	const topnav = document.getElementById("topnav");
+	let today = new Date();
+if (today.getMonth() == 11 && today.getDate() == 25) {
+	topnav.textContent = "Merry Christmas";
+}
+if (today.getMonth() == 10 && today.getDate() == 23) {
+	topnav.textContent = "Happy Thanksgiving";
+}
+if (today.getMonth() == 0 && today.getDate() == 1) {
+	topnav.textContent = "Happy New Year";
+}
+	if (today.getMonth() == 1 && today.getDate() == 14) {
+	topnav.textContent = "Happy Valetine's Day";
+}
 
+else{
 	topnav.textContent = "TermiNateVader";
+}
 var slideIndex = 1;
 showDivs(slideIndex);
 
