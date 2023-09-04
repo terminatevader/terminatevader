@@ -78,7 +78,7 @@ font-family: 'Roboto Mono', monospace;
 	
 	h1{color: white;  background-color:black; text-align: center; font-family: 'Roboto Mono', monospace;}
 	p{color: white; text-align: center;  font-family: 'Roboto Mono', monospace;}
-	body{background-color: black; background-repeat: repeat; background-attachment: fixed; background-size:contain; background-position: center center;  padding-top:10vh; padding-bottom:10vh;}
+	body{background-color: black; /*background-image: url("https://www.ci.sandy.or.us/sites/default/files/imageattachments/library/page/14271/hearts-37308_1280.png");*/background-repeat: repeat; background-attachment: fixed; background-size:contain; background-position: center center;  padding-top:10vh; padding-bottom:10vh;}
 	a:link {text-decoration: none; color: black;font-family: 'Roboto Mono', monospace;}
 	a:visited {text-decoration: none; color: black; font-family: 'Roboto Mono', monospace;}
 	a:hover {text-decoration: none; color: black; font-family: 'Roboto Mono', monospace;}
@@ -147,7 +147,9 @@ font-family: 'Roboto Mono', monospace;
   margin-top: 10%;
 }
  @media (orientation: landscape){
-  
+   .QOTD{
+     display: none;
+   }
    figcaption
    {
      font-size:0.9vw;
