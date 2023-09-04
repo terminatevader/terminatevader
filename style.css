@@ -147,9 +147,7 @@ font-family: 'Roboto Mono', monospace;
   margin-top: 10%;
 }
  @media (orientation: landscape){
-   .QOTD{
-     display: none;
-   }
+ 
    figcaption
    {
      font-size:0.9vw;
