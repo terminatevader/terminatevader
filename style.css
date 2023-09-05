@@ -160,7 +160,7 @@ font-family: 'Roboto Mono', monospace;
     font-size: 2vw;
    }
 
-.mySlides {display:none;height:50vh;margin-left:-16vw; margin-right:1vw;float:left; }
+.mySlides {display:none;height:50vh;margin-left:-16vw; margin-right:1vw;margin-bottom:1vh;float:left; }
    
 .card1
 	 {
