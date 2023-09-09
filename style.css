@@ -91,7 +91,7 @@ font-family: 'Roboto Mono', monospace;
 	}
 	.blog{
 		border-color:white;
-    background-color:black;
+    -webkit-text-stroke: 1px black;
     scroll-behavior: smooth;
     scrollbar-color: white black;
     scrollbar-width: thin;
