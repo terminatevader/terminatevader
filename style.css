@@ -154,7 +154,7 @@ font-family: 'Roboto Mono', monospace;
    figcaption
    {
      font-size:0.9vw;
-     text-shadow: 0.09vw 0.09vw black;
+     text-shadow: 0.0225vw 0.0225vw black;
  
 }
   
@@ -177,7 +177,7 @@ font-family: 'Roboto Mono', monospace;
    .topnav a {
 
   font-size: 4vw;
-      text-shadow: 0.4vw 0.4vw black;
+      text-shadow: 0.2vw 0.2vw black;
 
 }
 	 .header{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size: 3vw;}
@@ -188,7 +188,7 @@ margin-right:1vw;
     height:50vh;
      overflow:auto;
     border-style: solid;
-     text-shadow: 0.34vw 0.34vw black;
+     text-shadow: 0.1vw 0.1vw black;
    
    }
    .side:after{
@@ -207,7 +207,7 @@ margin-right:1vw;
      margin-bottom:10vh;
      margin-right:1%;
      margin-left:1%;
-     text-shadow: 2px 2px black;
+     text-shadow: 0.1vw 0.1vw black;
    }
  	 .card {
      margin-top:10vh;
@@ -237,7 +237,7 @@ margin-right:1vw;
  @media (orientation:portrait){
     .blog{
      font-size:2vw;
-text-shadow: 0.2vw 0.2vw black;
+text-shadow: 0.1vw 0.1vw black;
    
       
      
@@ -247,22 +247,22 @@ text-shadow: 0.2vw 0.2vw black;
    .icon-bar
    {
     font-size: 2.5vh;
-  text-shadow: 0.25vh 0.25vh black;
+  text-shadow: 0.125vh 0.125vh black;
    }
 .mySlides {display:none;width:100%; margin-top:5vh;}
    figcaption
  {
      font-size:1.9vh;
-text-shadow: 0.19vh 0.19vh black;
+text-shadow: 0.095vh 0.95vh black;
 
 }
    .topnav a {
   font-size: 5vh;
-  text-shadow: 0.5vh 0.5vh black;
+  text-shadow: 0.25vh 0.25vh black;
 }
    
-   h1{font-size: 3vh; margin-top:10vh; text-shadow: 0.3vh 0.3vh black;}
-   p{font-size:2vh;text-shadow: 0.2vh 0.2vh black;}
+   h1{font-size: 3vh; margin-top:10vh; text-shadow: 0.15vh 0.15vh black;}
+   p{font-size:2vh;text-shadow: 0.1vh 0.1vh black;}
    .center{
      width:100%;
    }
