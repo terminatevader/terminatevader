@@ -161,7 +161,7 @@ font-family: 'Roboto Mono', monospace;
    .icon-bar
    {
     font-size: 2vw;
--webkit-text-stroke: 0.02vw black;
+-webkit-text-stroke: 0.2vw black;
    }
 
 .mySlides {display:none;height:50vh;margin-left:-16vw; margin-right:1vw;margin-bottom:1vh;float:left; }
@@ -244,14 +244,16 @@ margin-right:1vw;
    .icon-bar
    {
     font-size: 2.5vh;
-   
+
+
+-webkit-text-stroke: 0.25vh black;   
    }
 .mySlides {display:none;width:100%; margin-top:5vh;}
    figcaption
  {
      font-size:1.9vh;
 
--webkit-text-stroke: 0.025vh black;
+
 }
    .topnav a {
   font-size: 5vh;
