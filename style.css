@@ -17,22 +17,30 @@ html{
 ::-webkit-scrollbar-thumb {
   background: black; 
 }
-
+.fa{
+  text-shadow: 0.1vw 0.1vw black;
+}
 
 .fa-facebook{
   color:#1778f2;
+ 
 }
 .fa-instagram{
     color:transparent;
   background-clip: text;
 	-webkit-background-clip:text;
   background-image: linear-gradient(#405DE6, #5B51D8,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
+  filter:drop-shadow(0.1vw 0.1vw black);
+  text-shadow:none;
+ 
 }
 .fa-twitter{
   color: #1da1f2;
+ 
 }
 .fa-youtube{
   color:#FF0000;
+  
 }
 .fa-twitch{
   color:#6441A4;
@@ -52,6 +60,8 @@ html{
   background-clip: text;
  -webkit-background-clip:text;
   background-image: linear-gradient(#9ddbff,#c3f4fe,#fefded,#e8e1c9,#aad1ac,#cbe7be);
+  filter:drop-shadow(0.1vw 0.1vw black);
+  text-shadow: none;
 }
 .icon-bar {
   width: 100%;
