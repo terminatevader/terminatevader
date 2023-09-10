@@ -71,14 +71,14 @@ html{
 }
 figcaption
 {
-  -webkit-text-stroke: 1px black;
+ 
 text-align:center;
 font-family: 'Roboto Mono', monospace;
 }
 
 
 	
-	h1{color: white;  background-color:; text-align: center; font-family: 'Roboto Mono', monospace;-webkit-text-stroke: 1px black;}
+	h1{color: white;  background-color:; text-align: center; font-family: 'Roboto Mono', monospace;text-shadow: 0.1vw 0.1vw black;}
 	p{color: white; text-align: center;  font-family: 'Roboto Mono', monospace;}
 	body{background-color: black; background-image: url("https://preview.redd.it/pw8jx6rqusga1.png?width=3840&format=png&auto=webp&s=998124b9c5f00310857ca9e504f23bc4d74d6528");background-repeat: no-repeat; background-attachment: fixed; background-size:cover; background-position: center center;  padding-top:10vh; padding-bottom:10vh;}
 	a:link {text-decoration: none; color: black;font-family: 'Roboto Mono', monospace;}
@@ -91,7 +91,7 @@ font-family: 'Roboto Mono', monospace;
 	}
 	.blog{
 		border-color:white;
-    -webkit-text-stroke: 1px black;
+   
     scroll-behavior: smooth;
     scrollbar-color: white black;
     scrollbar-width: thin;
@@ -130,7 +130,7 @@ font-family: 'Roboto Mono', monospace;
 .topnav a {
   
    top: 10px;
-  -webkit-text-stroke: 1px black;
+ 
   background-clip: text;
 	color:white;
   text-align: center;
@@ -154,14 +154,14 @@ font-family: 'Roboto Mono', monospace;
    figcaption
    {
      font-size:0.9vw;
-     
+     text-shadow: 0.09vw 0.09vw black;
  
 }
   
    .icon-bar
    {
     font-size: 2vw;
--webkit-text-stroke: 0.2vw black;
+
    }
 
 .mySlides {display:none;height:50vh;margin-left:-16vw; margin-right:1vw;margin-bottom:1vh;float:left; }
@@ -177,6 +177,7 @@ font-family: 'Roboto Mono', monospace;
    .topnav a {
 
   font-size: 4vw;
+      text-shadow: 0.4vw 0.4vw black;
 
 }
 	 .header{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size: 3vw;}
@@ -187,6 +188,7 @@ margin-right:1vw;
     height:50vh;
      overflow:auto;
     border-style: solid;
+     text-shadow: 0.34vw 0.34vw black;
    
    }
    .side:after{
@@ -205,6 +207,7 @@ margin-right:1vw;
      margin-bottom:10vh;
      margin-right:1%;
      margin-left:1%;
+     text-shadow: 2px 2px black;
    }
  	 .card {
      margin-top:10vh;
@@ -234,7 +237,7 @@ margin-right:1vw;
  @media (orientation:portrait){
     .blog{
      font-size:2vw;
-
+text-shadow: 0.2vw 0.2vw black;
    
       
      
@@ -244,24 +247,22 @@ margin-right:1vw;
    .icon-bar
    {
     font-size: 2.5vh;
-
-
--webkit-text-stroke: 0.25vh black;   
+  text-shadow: 0.25vh 0.25vh black;
    }
 .mySlides {display:none;width:100%; margin-top:5vh;}
    figcaption
  {
      font-size:1.9vh;
-
+text-shadow: 0.19vh 0.19vh black;
 
 }
    .topnav a {
   font-size: 5vh;
-  
+  text-shadow: 0.5vh 0.5vh black;
 }
    
-   h1{font-size: 3vh; margin-top:10vh}
-   p{font-size:2vh;}
+   h1{font-size: 3vh; margin-top:10vh; text-shadow: 0.3vh 0.3vh black;}
+   p{font-size:2vh;text-shadow: 0.2vh 0.2vh black;}
    .center{
      width:100%;
    }
@@ -281,6 +282,7 @@ margin-right:1vw;
    .QOTD{
      margin-bottom:5vh;
      padding:1vh;
+    
    }
 	 	 .card1 {
   
