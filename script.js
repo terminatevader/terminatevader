@@ -1,11 +1,5 @@
 
-if(/Android/i.test(navigator.userAgent) && !/wv/i.test(navigator.userAgent)){
-	  var answer = confirm ("Download the app")
-if (answer)
-alert("Downloading...")
-    window.location.replace("https://github.com/terminatevader/terminatevader.github.io/releases/download/App/TermiNateVader.apk")
 
-}
     
 
 	
