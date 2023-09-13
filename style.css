@@ -18,7 +18,9 @@ html{
 ::-webkit-scrollbar-thumb {
   background: black; 
 }
-
+.icon-bar{
+  background-color:black;
+}
 
 .fa-facebook{
   color:#1778f2;
@@ -123,7 +125,7 @@ font-family: 'Roboto Mono', monospace;
   }
 	h2{color: black;text-align: center;  font-size:1000%; font-family: 'Roboto Mono', monospace;}
 	.topnav {
-  background-color: 
+  background-color: black;
    
   overflow: hidden;
   top: 0;
