@@ -1,3 +1,11 @@
+window.addEventListener("online", function() {
+  
+	
+})
+
+window.addEventListener("offline", function() {
+  
+})
 
 
     
