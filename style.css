@@ -23,10 +23,10 @@ html{
 }
 
 
-.fa-facebook:hover{
+.fa-facebook{
   color:#1778f2;
 }
-.fa-instagram:hover{
+.fa-instagram{
     color:transparent;
   background-clip: text;
 	-webkit-background-clip:text;
@@ -35,28 +35,28 @@ html{
   text-shadow:none;
  
 }
-.fa-twitter:hover{
+.fa-twitter{
   color: #1da1f2;
  
 }
-.fa-youtube:hover{
+.fa-youtube{
   color:#FF0000;
   
 }
-.fa-twitch:hover{
+.fa-twitch{
   color:#6441A4;
 }
-.fa-reddit:hover{
+.fa-reddit{
   color:#ff4500;
 }
-.fa-snapchat:hover{
+.fa-snapchat{
   color:#fffc00;
 }
 
-.fa-steam:hover{
+.fa-steam{
    color:#c7d5e0;
 }
-.fa-map:hover{
+.fa-map{
   color:transparent;
   background-clip: text;
  -webkit-background-clip:text;
@@ -71,12 +71,7 @@ html{
   bottom:0;
 
 }
-.card{
-  filter:grayscale(100%);
-}
-.card:hover{
-  filter:grayscale(0%);
-}
+
 .icon-bar a {
   float: left;
   width: 10%;
