@@ -24,11 +24,11 @@ iframe{
   height:100vh;
 }
 .icon-bar{
-  background-color:black;
+  background-color:skyblue;
 }
 
 
-.fa-facebook{
+/*.fa-facebook{
   color:#1778f2;
 }
 .fa-instagram{
@@ -68,7 +68,7 @@ iframe{
   background-image: linear-gradient(#9ddbff,#c3f4fe,#fefded,#e8e1c9,#aad1ac,#cbe7be);
  
   text-shadow: none;
-}
+}*/
 .icon-bar {
   width: 100%;
  position:fixed;
@@ -82,41 +82,44 @@ iframe{
   width: 10%;
   text-align: center;
   
-  color: white;
+  color: blue;
   
+}
+.fa{
+  color:blue;
 }
 figcaption
 {
  
 text-align:center;
-font-family: 'Roboto Mono', monospace;
+font-family: 'Istok Web', monospace;
 }
 
 
 	
-	h1{color: white;  background-color:; text-align: center; font-family: 'Roboto Mono', monospace;}
-	p{color: white; text-align: center;  font-family: 'Roboto Mono', monospace;}
-	body{background-color: black; /*background-image: url("https://preview.redd.it/pw8jx6rqusga1.png?width=3840&format=png&auto=webp&s=998124b9c5f00310857ca9e504f23bc4d74d6528")*/;background-repeat: no-repeat; background-attachment: fixed; background-size:cover; background-position: center center;  padding-top:10vh; padding-bottom:10vh;}
-	a:link {text-decoration: none; color: black;font-family: 'Roboto Mono', monospace;}
-	a:visited {text-decoration: none; color: black; font-family: 'Roboto Mono', monospace;}
-	a:hover {text-decoration: none; color: black; font-family: 'Roboto Mono', monospace;}
-	a:active {text-decoration: none; color: black; font-family: 'Roboto Mono', monospace;}
+	h1{color: blue;  background-color:skyblue; text-align: center; font-family: 'Istok Web', monospace;}
+	p{color: blue; text-align: center;  font-family: 'Istok Web', monospace;}
+	body{background-color: skyblue; background-image: url("https://i.pinimg.com/originals/02/97/98/0297985cded03ced73ff8e5232469223.jpg");background-repeat: no-repeat; background-attachment: fixed; background-size:cover; background-position: center center;  padding-top:10vh; padding-bottom:10vh;}
+	a:link {text-decoration: none; color: black;font-family: 'Istok Web', monospace;}
+	a:visited {text-decoration: none; color: black; font-family: 'Istok Web', monospace;}
+	a:hover {text-decoration: none; color: black; font-family: 'Istok Web', monospace;}
+	a:active {text-decoration: none; color: black; font-family: 'Istok Web', monospace;}
 	
 	figcaption{
     background-color:;
 	}
 	.blog{
-		border-color:white;
-   
+		border-color:blue;
+   background-color:skyblue;
     scroll-behavior: smooth;
-    scrollbar-color: white black;
+    scrollbar-color: blue skyblue;
     scrollbar-width: thin;
 	}
   .icon-bar {
  
 }
   .image{
-    border-color: white;
+    border-color: blue;
   }
 .icon-bar a {
 
@@ -126,11 +129,12 @@ font-family: 'Roboto Mono', monospace;
 }
   figcaption
   {
-	color: white;
+	color: blue;
+    background-color: skyblue;
   }
-	h2{color: black;text-align: center;  font-size:1000%; font-family: 'Roboto Mono', monospace;}
+	h2{color: blue;text-align: center;  font-size:1000%; font-family: 'Istok Web', monospace;}
 	.topnav {
-  background-color: black;
+  background-color: skyblue;
    
   overflow: hidden;
   top: 0;
@@ -148,10 +152,10 @@ font-family: 'Roboto Mono', monospace;
    top: 10px;
  
   background-clip: text;
-	color:white;
+	color:blue;
   text-align: center;
   text-decoration: none;
-  font-family: 'Roboto Mono', monospace;;
+  font-family: 'Istok Web', monospace;;
   display:block;
 }
 
