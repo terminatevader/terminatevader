@@ -1,34 +1,20 @@
 html{
   scroll-behavior: smooth;
-  scrollbar-color: white black;
- scrollbar-width: thin;
+  
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: thin;
-}
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: white; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: black; 
-}
 
 iframe{
   width:100vw;
   height:100vh;
 }
 .icon-bar{
-  background-color:skyblue;
+  background-color:#2f3136;
 }
 
 
-/*.fa-facebook{
+.fa-facebook{
   color:#1778f2;
 }
 .fa-instagram{
@@ -68,7 +54,7 @@ iframe{
   background-image: linear-gradient(#9ddbff,#c3f4fe,#fefded,#e8e1c9,#aad1ac,#cbe7be);
  
   text-shadow: none;
-}*/
+}
 .icon-bar {
   width: 100%;
  position:fixed;
@@ -82,12 +68,9 @@ iframe{
   width: 10%;
   text-align: center;
   
-  color: blue;
-  
+
 }
-.fa{
-  color:blue;
-}
+
 figcaption
 {
  
@@ -97,29 +80,27 @@ font-family: 'Istok Web', monospace;
 
 
 	
-	h1{color: blue;  background-color:skyblue; text-align: center; font-family: 'Istok Web', monospace;}
-	p{color: blue; text-align: center;  font-family: 'Istok Web', monospace;}
-	body{background-color: skyblue; background-image: url("https://i.pinimg.com/originals/02/97/98/0297985cded03ced73ff8e5232469223.jpg");background-repeat: no-repeat; background-attachment: fixed; background-size:cover; background-position: center center;  padding-top:10vh; padding-bottom:10vh;}
+	h1{color:  	white;  background-color:#36393f; text-align: center; font-family: 'Istok Web', monospace;}
+	p{color:  	white; text-align: center;  font-family: 'Istok Web', monospace;}
+	body{background-color: #36393f; /*background-image: url("https://i.pinimg.com/originals/02/97/98/0297985cded03ced73ff8e5232469223.jpg");background-repeat: no-repeat; background-attachment: fixed; background-size:cover; background-position: center center;*/  padding-top:10vh; padding-bottom:10vh;}
 	a:link {text-decoration: none; color: black;font-family: 'Istok Web', monospace;}
 	a:visited {text-decoration: none; color: black; font-family: 'Istok Web', monospace;}
 	a:hover {text-decoration: none; color: black; font-family: 'Istok Web', monospace;}
 	a:active {text-decoration: none; color: black; font-family: 'Istok Web', monospace;}
 	
 	figcaption{
-    background-color:;
+    background-color:#36393f;
 	}
 	.blog{
-		border-color:blue;
-   background-color:skyblue;
-    scroll-behavior: smooth;
-    scrollbar-color: blue skyblue;
-    scrollbar-width: thin;
+		border-color:white;
+   background-color:#36393f;
+
 	}
   .icon-bar {
  
 }
   .image{
-    border-color: blue;
+    border-color: white;
   }
 .icon-bar a {
 
@@ -129,12 +110,12 @@ font-family: 'Istok Web', monospace;
 }
   figcaption
   {
-	color: blue;
-    background-color: skyblue;
+	color: white;
+    background-color:#36393f ;
   }
 	h2{color: blue;text-align: center;  font-size:1000%; font-family: 'Istok Web', monospace;}
 	.topnav {
-  background-color: skyblue;
+  background-color: #2f3136;
    
   overflow: hidden;
   top: 0;
@@ -152,7 +133,7 @@ font-family: 'Istok Web', monospace;
    top: 10px;
  
   background-clip: text;
-	color:blue;
+	color:white;
   text-align: center;
   text-decoration: none;
   font-family: 'Istok Web', monospace;;
@@ -285,8 +266,7 @@ text-shadow: 0.095vh 0.95vh black;
   text-shadow: 0.25vh 0.25vh black;
 }
    
-   h1{font-size: 3vh; margin-top:10vh; text-shadow: 0.15vh 0.15vh black;}
-   p{font-size:2vh;text-shadow: 0.1vh 0.1vh black;}
+  
    .center{
      width:100%;
    }
