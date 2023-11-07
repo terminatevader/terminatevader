@@ -47,9 +47,7 @@ if (today.getMonth() == 0 && today.getDate() == 1) {
 	topnav.textContent = "❤️&#xFE0E;";
 }
 
-else{
-	topnav.textContent = "TermiNateVader";
-}
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
