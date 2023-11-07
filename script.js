@@ -30,7 +30,16 @@ window.addEventListener("offline", function() {
 
 
 	});
-			
+			 if (navigator.userAgent.match(/Android/i)
+        || navigator.userAgent.match(/webOS/i)
+        || navigator.userAgent.match(/iPhone/i)
+        || navigator.userAgent.match(/iPad/i)
+        || navigator.userAgent.match(/iPod/i)
+        || navigator.userAgent.match(/BlackBerry/i)
+        || navigator.userAgent.match(/Windows Phone/i)) {
+				 topnav.textContent = "Home"
+			 }
+else{
 	const topnav = document.getElementById("topnav");
 	let today = new Date();
 if (today.getMonth() == 11 && today.getDate() == 25) {
@@ -46,7 +55,11 @@ if (today.getMonth() == 0 && today.getDate() == 1) {
 	if (today.getMonth() == 1 && today.getDate() == 14) {
 	topnav.textContent = "❤️&#xFE0E;";
 }
+				 else{
+					 topnav.textContent="🏠︎"
+				 }
 
+}
 
 var slideIndex = 1;
 showDivs(slideIndex);
