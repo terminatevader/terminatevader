@@ -43,17 +43,17 @@ else{
 	const topnav = document.getElementById("topnav");
 	let today = new Date();
 if (today.getMonth() == 11 && today.getDate() == 25) {
-	topnav.textContent = "🎄&#xFE0E;";
+	topnav.textContent = "🎄︎";
 	document.body.style.backgroundImage = "url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm12Ym5lazZjMm01NGY4Yjl5ZDAzNm1udWR3bWsxbzdpOXBjM2xxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/tIHktzgRi8yjIplFVI/giphy.gif')"; 
 }
 if (today.getMonth() == 10 && today.getDate() == 23) {
-	topnav.textContent = "🦃&#xFE0E;";
+	topnav.textContent = "🦃︎";
 }
 if (today.getMonth() == 0 && today.getDate() == 1) {
 	topnav.textContent = "📅&#xFE0E;";
 }
 	if (today.getMonth() == 1 && today.getDate() == 14) {
-	topnav.textContent = "❤️&#xFE0E;";
+	topnav.textContent = "❤";
 }
 				 else{
 					 topnav.textContent="🏠︎"
