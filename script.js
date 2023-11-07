@@ -34,17 +34,17 @@ window.addEventListener("offline", function() {
 	const topnav = document.getElementById("topnav");
 	let today = new Date();
 if (today.getMonth() == 11 && today.getDate() == 25) {
-	topnav.textContent = "Merry Christmas";
+	topnav.textContent = "🎄&#xFE0E;";
 	document.body.style.backgroundImage = "url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm12Ym5lazZjMm01NGY4Yjl5ZDAzNm1udWR3bWsxbzdpOXBjM2xxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/tIHktzgRi8yjIplFVI/giphy.gif')"; 
 }
 if (today.getMonth() == 10 && today.getDate() == 23) {
-	topnav.textContent = "Happy Thanksgiving";
+	topnav.textContent = "🦃&#xFE0E;";
 }
 if (today.getMonth() == 0 && today.getDate() == 1) {
-	topnav.textContent = "Happy New Year";
+	topnav.textContent = "📅&#xFE0E;";
 }
 	if (today.getMonth() == 1 && today.getDate() == 14) {
-	topnav.textContent = "Happy Valetine's Day";
+	topnav.textContent = "❤️&#xFE0E;";
 }
 
 else{
