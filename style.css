@@ -84,8 +84,8 @@ font-family: 'Istok Web', monospace;
 
 
 	
-	h1{color:  #b0b3b7;  background-color:; text-align: center; font-family: 'Istok Web', monospace;}
-	p{color:  	#b0b3b7; text-align: center;  font-family: 'Istok Web', monospace;}
+	h1{color:  #c1c5c9;  background-color:; text-align: center; font-family: 'Istok Web', monospace;}
+	p{color:  	#c1c5c9; text-align: center;  font-family: 'Istok Web', monospace;}
 	body{background-color: #313338; /*background-image: url("https://i.pinimg.com/originals/02/97/98/0297985cded03ced73ff8e5232469223.jpg");background-repeat: no-repeat; background-attachment: fixed; background-size:cover; background-position: center center;*/  padding-top:10vh; padding-bottom:10vh;}
 	a:link {text-decoration: none; color: black;font-family: 'Istok Web', monospace;}
 	a:visited {text-decoration: none; color: black; font-family: 'Istok Web', monospace;}
@@ -94,7 +94,7 @@ font-family: 'Istok Web', monospace;
 	
 
 	.blog{
-		border-color:#b0b3b7;
+		border-color:#c1c5c9;
   
 
 	}
@@ -107,7 +107,7 @@ font-family: 'Istok Web', monospace;
 
   figcaption
   {
-	color: #b0b3b7;
+	color: #c1c5c9;
 
   }
 	h2{color: blue;text-align: center;  font-size:1000%; font-family: 'Istok Web', monospace;}
