@@ -40,10 +40,10 @@ window.addEventListener("offline", function() {
 				 topnav.textContent = "Home"
 			 }
 else{
-	const topnav = document.getElementById("topnav");
+	/*const topnav = document.getElementById("topnav");
 	let today = new Date();
 if (today.getMonth() == 11 && today.getDate() == 25) {
-	topnav.textContent = "🎄︎";
+	topnav.textContent = "<i class="fa fa-home" aria-hidden="true"></i>";
 	document.body.style.backgroundImage = "url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm12Ym5lazZjMm01NGY4Yjl5ZDAzNm1udWR3bWsxbzdpOXBjM2xxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/tIHktzgRi8yjIplFVI/giphy.gif')"; 
 }
 if (today.getMonth() == 10 && today.getDate() == 23) {
@@ -59,7 +59,7 @@ if (today.getMonth() == 0 && today.getDate() == 1) {
 					 topnav.textContent="🏠︎"
 				 }
 
-}
+}*/
 
 var slideIndex = 1;
 showDivs(slideIndex);
