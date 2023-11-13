@@ -28,12 +28,19 @@ const assets = [
 "https://github.githubassets.com/images/mona-loading-dark.gif",
   "https://www.w3schools.com/w3css/4/w3.css",
   "https://www.w3schools.com/lib/w3data.js",
-  "/images/19g.jpg
+  "/images/19g.jpg",
+  "/images/barney.jpg",
+  "/images/hanksilly.jpg",
+  "/images/barneysilly.jpg",
+"/images/gatlinburgwater.jpg",
+  "/images/legoland2.jpg",
+"/images/Legoland3.jpg",
+  "/images/gatlinburg.png"
 ]
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticDevCoffee).then(cache => {
+    caches.open(TNV).then(cache => {
       cache.addAll(assets)
     })
   )
