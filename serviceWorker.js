@@ -1,7 +1,13 @@
 const TNV = "TermiNateVader"
 const assets = [
   "/",
-  "/index.hhtml"
+  "/index.hhtml",
+  "/cooldogs.html",
+  "/myexperienceatlegolandflorida.html",
+  "/myfirsttimeingatlinburgandpigeonforge.html",
+  "/myplanforaftercollege.html",
+  "/style.css",
+  "/script.js",
 ]
 
 self.addEventListener("install", installEvent => {
