@@ -35,7 +35,7 @@ const assets = [
 "/images/gatlinburgwater.jpg",
   "/images/legoland2.jpg",
 "/images/Legoland3.jpg",
-  "/images/gatlinburg.png"
+  "/images/gatlinburg.png",
 ]
 
 self.addEventListener("install", installEvent => {
