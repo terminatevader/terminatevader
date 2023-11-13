@@ -13,7 +13,7 @@ const precachedAssets = [
   "/style.css",
   "/script.js",
   "/images/hank.jpg",
-  "/images/Florida.jpg,
+  "/images/Florida.jpg",
   "https://pagead2.googlesyndication.com/pagead/js/rum.js?fcd=true",
   "https://tpc.googlesyndication.com/pagead/js/r20231108/r20110914/abg_lite_fy2021.js",
   "https://tpc.googlesyndication.com/pagead/js/r20231108/r20110914/abg_lite_fy2021.js",
