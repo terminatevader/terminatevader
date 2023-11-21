@@ -1,6 +1,6 @@
 if(navigator.userAgent.match(/Trident/i))
 {
-	history.back();
+	window.stop();
 }
 
 window.addEventListener("online", function() {
