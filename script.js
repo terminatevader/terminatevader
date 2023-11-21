@@ -1,3 +1,8 @@
+if(navigator.userAgent.match(/Trident/i))
+{
+	windows.stop();
+}
+
 window.addEventListener("online", function() {
   
 	
