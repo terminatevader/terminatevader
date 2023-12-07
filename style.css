@@ -30,7 +30,10 @@ iframe{
   color: #1da1f2;
  
 }
-.fa-youtube{
+.fa-soundcloud{
+  color:#F26F23;
+}
+.fa-youtube-play{
   color:#FF0000;
   
 }
@@ -69,7 +72,7 @@ iframe{
 
 .icon-bar a {
   float: left;
-  width: 10%;
+  width: 9%;
   text-align: center;
   
 
