@@ -279,8 +279,8 @@ margin-right:1vw;
    .icon-bar a
    {
     font-size: 10vh;
-  padding-left: 5vh;
-padding-right: 5vh;
+  padding-left: 10vh;
+padding-right: 10vh;
    }
 
 .mySlides {display:none;width:100%; margin-top:5vh;}
