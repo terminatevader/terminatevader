@@ -247,48 +247,13 @@ margin-right:1vw;
       
      
    }
-.fa-soundcloud{
-  display:none;
-}
-.fa-youtube-play{
-  display:none;
-  
-}
-.fa-twitch{
-  display:none;
-}
-.fa-reddit{
-  display:none;
-}
-.fa-snapchat{
-  display:none;
-}
 
-.fa-steam{
-   display:none;
-}
-.fa-map{
-  display:none;
- 
-}
-.fa-github{
-  display:none;
-}
    p{margin-top:0;}
    
    .icon-bar a
    {
-    font-size: 10vh;
-  padding-left: 1vh;
-padding-right: 1vh;
-   }
-.icon-bar
-{
- display:none;
-width:50%;
-margin-left: auto;
-margin-right: auto;
-}
+    font-size: 2.5vh;
+  }
 
 .mySlides {display:none;width:100%; margin-top:5vh;}
    figcaption
@@ -300,9 +265,7 @@ margin-right: auto;
   font-size: 5vh;
 }
    
-  .topnav{
-  display:none;
-}
+  
 
    .center{
      width:100%;
@@ -320,11 +283,7 @@ margin-right: auto;
 	margin-top:5vh;
  
 }
-   .QOTD{
-     margin-bottom:5vh;
-     padding:1vh;
-    display:none;
-   }
+   .
 	 	 .card1 {
   
  width:100%;
