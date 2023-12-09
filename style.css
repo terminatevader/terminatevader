@@ -300,7 +300,10 @@ margin-right: auto;
   font-size: 5vh;
 }
    
-  
+  .topnav{
+  display:none;
+}
+
    .center{
      width:100%;
    }
@@ -320,7 +323,7 @@ margin-right: auto;
    .QOTD{
      margin-bottom:5vh;
      padding:1vh;
-    
+    display:none;
    }
 	 	 .card1 {
   
