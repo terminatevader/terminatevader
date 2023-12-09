@@ -284,7 +284,7 @@ padding-right: 1vh;
    }
 .icon-bar
 {
- display:block;
+ display:none;
 width:50%;
 margin-left: auto;
 margin-right: auto;
