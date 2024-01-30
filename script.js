@@ -14,6 +14,11 @@ window.addEventListener("offline", function() {
 
 
     
+    return toMatch.some((toMatchItem) => {
+        return navigator.userAgent.match(toMatchItem);
+    });
+}
+    
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {
     navigator.serviceWorker
@@ -22,9 +27,9 @@ if ("serviceWorker" in navigator) {
       .catch(err => console.log("service worker not registered", err))
   })
 }
-
-	
-
+   if (navigator.userAgent.match(/NintendoBrowser/i) ) {
+	Alert("Looks like you found out about that exploit");
+   }
 
 
 	console.log(navigator.userAgent);
