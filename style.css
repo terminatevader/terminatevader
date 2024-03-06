@@ -10,11 +10,11 @@ iframe{
   height:100vh;
 }
 .icon-bar{
-  background-color:#1e1f22;
+  background-color:red;
 }
 
 
-.fa-facebook{
+/*.fa-facebook{
   color:#3B5998;
 }
 .fa-instagram{
@@ -60,7 +60,7 @@ iframe{
 }
 .fa-github{
   color:white;
-}
+}*/
 .icon-bar {
   width: 100%;
  position:fixed;
@@ -87,17 +87,17 @@ font-family: 'Istok Web', monospace;
 
 
 	
-	h1{color:  #c1c5c9;  background-color:; text-align: center; font-family: 'Istok Web', monospace;}
-	p{color:  	#c1c5c9; text-align: center;  font-family: 'Istok Web', monospace;}
-	body{background-color: #313338; /*background-image: url("https://i.pinimg.com/originals/02/97/98/0297985cded03ced73ff8e5232469223.jpg");background-repeat: no-repeat; background-attachment: fixed; background-size:cover; background-position: center center;*/  padding-top:10vh; padding-bottom:10vh;}
-	a:link {text-decoration: none; color: black;font-family: 'Istok Web', monospace;}
-	a:visited {text-decoration: none; color: black; font-family: 'Istok Web', monospace;}
-	a:hover {text-decoration: none; color: black; font-family: 'Istok Web', monospace;}
-	a:active {text-decoration: none; color: black; font-family: 'Istok Web', monospace;}
+	h1{color:  yellow;  background-color:; text-align: center; font-family: 'Istok Web', monospace;}
+	p{color:  	yellow; text-align: center;  font-family: 'Istok Web', monospace;}
+	body{background-color: blue; /*background-image: url("https://i.pinimg.com/originals/02/97/98/0297985cded03ced73ff8e5232469223.jpg");background-repeat: no-repeat; background-attachment: fixed; background-size:cover; background-position: center center;*/  padding-top:10vh; padding-bottom:10vh;}
+	a:link {text-decoration: none; color: blue;font-family: 'Istok Web', monospace;}
+	a:visited {text-decoration: none; color: blue; font-family: 'Istok Web', monospace;}
+	a:hover {text-decoration: none; color: blue; font-family: 'Istok Web', monospace;}
+	a:active {text-decoration: none; color: blue; font-family: 'Istok Web', monospace;}
 	
 
 	.blog{
-		border-color:#c1c5c9;
+		border-color:yellow;
   
 
 	}
@@ -105,17 +105,17 @@ font-family: 'Istok Web', monospace;
  
 }
   .image{
-    border-color: white;
+    border-color: yellow;
   }
 
   figcaption
   {
-	color: #c1c5c9;
+	color: yellow;
 
   }
 	h2{color: blue;text-align: center;  font-size:1000%; font-family: 'Istok Web', monospace;}
 	.topnav {
-  background-color: #2b2d31;
+  background-color: yellow;
    
   overflow: hidden;
   top: 0;
@@ -133,7 +133,7 @@ font-family: 'Istok Web', monospace;
    top: 10px;
  
   background-clip: text;
-	color:#9198a1;
+	color:red;
   text-align: center;
   text-decoration: none;
   font-family: 'Istok Web', monospace;;
