@@ -10,7 +10,7 @@ iframe{
   height:100vh;
 }
 .icon-bar{
-  background-color:#070B34;
+  background-color:mediumspringgreen;
 }
 
 
@@ -90,7 +90,7 @@ font-family: 'Istok Web', monospace;
 	h1{  color:transparent;
   background-clip: text;
  -webkit-background-clip:text;
-  background-image: linear-gradient(#4098DB,#ECF3FC,#C1EBFB,#A9E0F8,#5FD2FA,#4CB0ED);
+  background-image: linear-gradient(yellow,yellowgreen,greenyellow,lightyellow,lightgoldenrodyellow);
  
   text-shadow: none; background-color:; text-align: center; font-family: 'Istok Web', monospace;}
 	p{  color:transparent;
@@ -99,32 +99,22 @@ font-family: 'Istok Web', monospace;
   background-image: linear-gradient(#4098DB,#ECF3FC,#C1EBFB,#A9E0F8,#5FD2FA,#4CB0ED);
  
   text-shadow: none; text-align: center;  font-family: 'Istok Web', monospace;}
-	body{background-image: linear-gradient(#855988,#6B4984,#483475,#2B2F77,#141852,#070B34); /*background-image: url("https://i.pinimg.com/originals/02/97/98/0297985cded03ced73ff8e5232469223.jpg");background-repeat: no-repeat; background-attachment: fixed; background-size:cover; background-position: center center;*/  padding-top:10vh; padding-bottom:10vh;}
-	a:link {text-decoration: none; color: #4CB0ED;font-family: 'Istok Web', monospace;}
-	a:visited {text-decoration: none; color: #4CB0ED; font-family: 'Istok Web', monospace;}
-	a:hover {text-decoration: none; color: #4CB0ED; font-family: 'Istok Web', monospace;}
-	a:active {text-decoration: none; color: #4CB0ED; font-family: 'Istok Web', monospace;}
+	body{background-image: linear-gradient(green, greenyellow,seagreen,darkgreen,lawngreen,limegreen, palegreen,lightgreen,forestgreen,springgreen,yellowgreen,darkseagreen,lightseagreen,darkolivegreen,mediumseagreen,mediumspringgreen); /*background-image: url("https://i.pinimg.com/originals/02/97/98/0297985cded03ced73ff8e5232469223.jpg");background-repeat: no-repeat; background-attachment: fixed; background-size:cover; background-position: center center;*/  padding-top:10vh; padding-bottom:10vh;}
+	a:link {text-decoration: none; font-family: 'Istok Web', monospace;}
+	a:visited {text-decoration: none; font-family: 'Istok Web', monospace;}
+	a:hover {text-decoration: none;  font-family: 'Istok Web', monospace;}
+	a:active {text-decoration: none;  font-family: 'Istok Web', monospace;}
 	
 
 	.blog{
-color:transparent;
-  background-clip: text;
- -webkit-background-clip:text;
-  background-image: linear-gradient(#4098DB,#ECF3FC,#C1EBFB,#A9E0F8,#5FD2FA,#4CB0ED);
- 
-  text-shadow: none;  
-
+color:#FFD700;
+  
 	}
   .icon-bar {
  
 }
   .image{
-	  color:transparent;
-  background-clip: text;
- -webkit-background-clip:text;
-  background-image: linear-gradient(#4098DB,#ECF3FC,#C1EBFB,#A9E0F8,#5FD2FA,#4CB0ED);
- 
-  text-shadow: none;
+	 
   }
 
   figcaption
@@ -132,14 +122,14 @@ color:transparent;
 	color:transparent;
   background-clip: text;
  -webkit-background-clip:text;
-  background-image: linear-gradient(#4098DB,#ECF3FC,#C1EBFB,#A9E0F8,#5FD2FA,#4CB0ED);
+  background-image: linear-gradient(yellow,yellowgreen,greenyellow,lightyellow,lightgoldenrodyellow);
  
   text-shadow: none;
 
   }
 	h2{color: blue;text-align: center;  font-size:1000%; font-family: 'Istok Web', monospace;}
 	.topnav {
-  background-color: #855988;
+  background-color: green;
    
   overflow: hidden;
   top: 0;
@@ -157,7 +147,7 @@ color:transparent;
    top: 10px;
  
   background-clip: text;
-	color:#4098DB;
+	color:yellow;
   text-align: center;
   text-decoration: none;
   font-family: 'Istok Web', monospace;;
