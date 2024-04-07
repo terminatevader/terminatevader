@@ -10,7 +10,7 @@ iframe{
   height:100vh;
 }
 .icon-bar{
-  background-color:mediumspringgreen;
+  background-color:#26262e;
 }
 
 
@@ -93,13 +93,10 @@ font-family: 'Istok Web', monospace;
   background-image: linear-gradient(yellow,yellowgreen,greenyellow,lightyellow,lightgoldenrodyellow);
  
   text-shadow: none; background-color:; text-align: center; font-family: 'Istok Web', monospace;}
-	p{  color:transparent;
-  background-clip: text;
- -webkit-background-clip:text;
-  background-image: linear-gradient(#4098DB,#ECF3FC,#C1EBFB,#A9E0F8,#5FD2FA,#4CB0ED);
+	p{  color:#d9d8d0}
  
   text-shadow: none; text-align: center;  font-family: 'Istok Web', monospace;}
-	body{background-image: linear-gradient(green, greenyellow,seagreen,darkgreen,lawngreen,limegreen, palegreen,lightgreen,forestgreen,springgreen,yellowgreen,darkseagreen,lightseagreen,darkolivegreen,mediumseagreen,mediumspringgreen); /*background-image: url("https://i.pinimg.com/originals/02/97/98/0297985cded03ced73ff8e5232469223.jpg");background-repeat: no-repeat; background-attachment: fixed; background-size:cover; background-position: center center;*/  padding-top:10vh; padding-bottom:10vh;}
+	body{background-color: #26272f/*background-image: url("https://i.pinimg.com/originals/02/97/98/0297985cded03ced73ff8e5232469223.jpg");background-repeat: no-repeat; background-attachment: fixed; background-size:cover; background-position: center center;*/  padding-top:10vh; padding-bottom:10vh;}
 	a:link {text-decoration: none; font-family: 'Istok Web', monospace;}
 	a:visited {text-decoration: none; font-family: 'Istok Web', monospace;}
 	a:hover {text-decoration: none;  font-family: 'Istok Web', monospace;}
@@ -107,7 +104,7 @@ font-family: 'Istok Web', monospace;
 	
 
 	.blog{
-color:#FFD700;
+color:#d9d8d0;
   
 	}
   .icon-bar {
@@ -119,17 +116,13 @@ color:#FFD700;
 
   figcaption
   {
-	color:transparent;
-  background-clip: text;
- -webkit-background-clip:text;
-  background-image: linear-gradient(yellow,yellowgreen,greenyellow,lightyellow,lightgoldenrodyellow);
- 
-  text-shadow: none;
+	color:#d9d8d0
+  
 
   }
-	h2{color: blue;text-align: center;  font-size:1000%; font-family: 'Istok Web', monospace;}
+	h2{color: #d9d8d0;text-align: center;  font-size:1000%; font-family: 'Istok Web', monospace;}
 	.topnav {
-  background-color: green;
+  background-color: #1c1d22;
    
   overflow: hidden;
   top: 0;
@@ -146,8 +139,7 @@ color:#FFD700;
   
    top: 10px;
  
-  background-clip: text;
-	color:yellow;
+	color:#e3e2dd;
   text-align: center;
   text-decoration: none;
   font-family: 'Istok Web', monospace;;
