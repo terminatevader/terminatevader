@@ -41,7 +41,7 @@ if ("serviceWorker" in navigator) {
         plusDivs(1)
     }
 	else if(event.keyCode == 36){
-		location.href = "https://www.terminatevader.com/";
+		location.href = "https://legacy.terminatevader.com/";
 	}
 
 
